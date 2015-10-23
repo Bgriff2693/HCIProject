@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Bootstrap Core CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Angular.js scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.7/angular.min.js"></script>
+</head>
+
+<body ng-app="myApp">
+    <div class="container" ng-controller="ClassController">
+        <table class="table">
+            <tr>
+                <th>Name</th>
+                <th>Course Number</th>
+            </tr>
+            <tr ng-repeat="class in classes">
+                <td>
+                    <a href="{{ class.link }}">
+                        {{ class.name }}
+                    </a>
+                </td>
+                <td>
+                    {{ class.code }}
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+<footer>
+    <!-- jQuery -->
+    <script src="assets/js/jquery.js"></script>
+
+    <!-- Modules -->
+    <script src="app/app.js"></script>
+
+    <!-- Controllers -->
+    <script src="app/controllers/ClassController.js"></script>
+</footer>
+
+</html>
