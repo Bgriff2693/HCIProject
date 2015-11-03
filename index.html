@@ -6,27 +6,12 @@
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Angular.js scripts -->
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.7/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
 </head>
 
-<body ng-app="myApp">
-    <div class="container" ng-controller="ClassController">
-        <table class="table">
-            <tr>
-                <th>Name</th>
-                <th>Course Number</th>
-            </tr>
-            <tr ng-repeat="class in classes">
-                <td>
-                    <a href="{{ class.link }}">
-                        {{ class.name }}
-                    </a>
-                </td>
-                <td>
-                    {{ class.code }}
-                </td>
-            </tr>
-        </table>
+<body ng-app="app" ng-controller="MainController as main">
+    <div class="container" ng-controller="MenuController as menu">
+
     </div>
 </body>
 
