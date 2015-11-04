@@ -211,9 +211,32 @@
                         obj['subject'] = info.courses[0][x].subject;
                         console.log(obj);
                         schedule.push(obj);
+                        var recurringDate = new Date(start_date);
+                        while(new Date(recurringDate) < new Date(last_day)){
+                            console.log("Recurring date: " + recurringDate);
+                            console.log("Last date: " + last_day);
+                            var new_new_obj = {};
+                            recurringDate.setDate(recurringDate.getDate()+7);
+                            recurringDate = recurringDate.getFullYear() + "-" + parseInt(recurringDate.getMonth() + 1) + "-" + parseInt(recurringDate.getDate());
+                            console.log("Recurring date: " + recurringDate);
+                            start_date = recurringDate;
+                            start_date += " " + start_time;
+                            end_date = recurringDate;
+                            end_date += " " + end_time;
+
+                            new_new_obj['start_date'] = start_date;
+                            new_new_obj['end_date'] = end_date;
+                            new_new_obj['text'] = info.courses[0][x].CID + " - " + meeting_times.type;
+                            new_new_obj['subject'] = info.courses[0][x].subject;
+                            recurringDate = new Date(recurringDate);
+//                            console.log(new_new_obj);
+                            if(new Date(recurringDate) <= new Date(last_day)) {
+                                schedule.push(new_new_obj);
+                            }
+                        }
 
                         if(meeting_times.days == "TR" || meeting_times.days == "MWF") {
-                            var new_obj = {}
+                            var new_obj = {};
                             var date = new Date(date_range[0]);
                             if(meeting_times.days == "MW" || meeting_times.days == "MWF"){
                                 date.setDate(date.getDate()+1);
@@ -229,7 +252,84 @@
                             new_obj['subject'] = info.courses[0][x].subject;
                             console.log(new_obj);
                             schedule.push(new_obj);
+
+                            console.log(new Date(last_day));
+
+
                         }
+                        recurringDate = new Date(start_date);
+
+                        while(new Date(recurringDate) < new Date(last_day)){
+                            console.log("Recurring date: " + recurringDate);
+                            console.log("Last date: " + last_day);
+                            var new_new_obj = {};
+                            recurringDate.setDate(recurringDate.getDate()+7);
+                            recurringDate = recurringDate.getFullYear() + "-" + parseInt(recurringDate.getMonth() + 1) + "-" + parseInt(recurringDate.getDate());
+                            console.log("Recurring date: " + recurringDate);
+                            start_date = recurringDate;
+                            start_date += " " + start_time;
+                            end_date = recurringDate;
+                            end_date += " " + end_time;
+
+                            new_new_obj['start_date'] = start_date;
+                            new_new_obj['end_date'] = end_date;
+                            new_new_obj['text'] = info.courses[0][x].CID + " - " + meeting_times.type;
+                            new_new_obj['subject'] = info.courses[0][x].subject;
+                            recurringDate = new Date(recurringDate);
+//                            console.log(new_new_obj);
+                            if(new Date(recurringDate) <= new Date(last_day)) {
+                                schedule.push(new_new_obj);
+                            }
+                        }
+
+                        if(meeting_times.days == "MW" || meeting_times.days == "MWF") {
+                            var new_obj = {};
+                            var date = new Date(date_range[0]);
+
+                            date = new Date('january 25, 2016 03:24:00');
+
+                            console.log("Date: " + date);
+                            start_date = date.getFullYear() + "-" + parseInt(date.getMonth() + 1) + "-" + parseInt(date.getDate());
+                            end_date = start_date + " " + end_time;
+                            start_date += " " + start_time;
+
+                            new_obj['start_date'] = start_date;
+                            new_obj['end_date'] = end_date;
+                            new_obj['text'] = info.courses[0][x].CID + " - " + meeting_times.type;
+                            new_obj['subject'] = info.courses[0][x].subject;
+                            console.log(new_obj);
+                            schedule.push(new_obj);
+
+                            console.log(new Date(last_day));
+
+
+                        }
+                        recurringDate = new Date(start_date);
+
+                        while(new Date(recurringDate) < new Date(last_day)){
+                            console.log("Recurring date: " + recurringDate);
+                            console.log("Last date: " + last_day);
+                            var new_new_obj = {};
+                            recurringDate.setDate(recurringDate.getDate()+7);
+                            recurringDate = recurringDate.getFullYear() + "-" + parseInt(recurringDate.getMonth() + 1) + "-" + parseInt(recurringDate.getDate());
+                            console.log("Recurring date: " + recurringDate);
+                            start_date = recurringDate;
+                            start_date += " " + start_time;
+                            end_date = recurringDate;
+                            end_date += " " + end_time;
+
+                            new_new_obj['start_date'] = start_date;
+                            new_new_obj['end_date'] = end_date;
+                            new_new_obj['text'] = info.courses[0][x].CID + " - " + meeting_times.type;
+                            new_new_obj['subject'] = info.courses[0][x].subject;
+                            recurringDate = new Date(recurringDate);
+//                            console.log(new_new_obj);
+                            if(new Date(recurringDate) <= new Date(last_day)) {
+                                schedule.push(new_new_obj);
+                            }
+                        }
+                        console.log("Recurring date: " + recurringDate);
+                        console.log("Last date: " + last_day);
                     }
 
                 }
