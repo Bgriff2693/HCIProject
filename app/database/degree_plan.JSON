@@ -605,12 +605,12 @@
         "CID": "CSCE 222",
         "track": "core",
         "prequisite": "",
-        "professor": "Hyunyoung  Lee",
+        "professor": "Hyunyoung Lee",
         "avgGPA": "",
         "credits": "3.000",
         "meeting_times": [
           {
-            "professor": "Hyunyoung   Lee",
+            "professor": "Hyunyoung Lee",
             "days": "MWF",
             "schedule_type": "Lecture",
             "date_range": "Jan 19, 2016 - May 10, 2016",
