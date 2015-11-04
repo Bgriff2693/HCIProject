@@ -1,29 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="en" ng-app="app" class="no-js"> <!--<![endif]-->
 <head>
-    <!-- Bootstrap Core CSS -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>HCI Registration App</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <base href="/">
 
-    <!-- Angular.js scripts -->
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
-</head>
+    <link rel="stylesheet" href="bower_components/html5-boilerplate/dist/css/normalize.css">
+    <link rel="stylesheet" href="bower_components/html5-boilerplate/dist/css/main.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <script src="bower_components/html5-boilerplate/dist/js/vendor/modernizr-2.8.3.min.js"></script>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
 
-<body ng-app="app" ng-controller="MainController as main">
-    <div class="container" ng-controller="MenuController as menu">
-
-    </div>
-</body>
-
-<footer>
     <!-- jQuery -->
     <script src="assets/js/jquery.js"></script>
 
-    <!-- Modules -->
-    <script src="app/app.js"></script>
-
     <!-- Controllers -->
-    <script src="app/controllers/ClassController.js"></script>
+    <script src="app/controllers/appControllers.js"></script>
+
+    <!-- Modules -->
+    <script src="app/home/home.js"></script>
+
+    <!-- App -->
+    <script src="app/app.js"></script>
+</head>
+<body>
+
+    <div ng-view></div>
+
+  </div>
+</body>
+
+<footer>
+    <!-- In production use:
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/x.x.x/angular.min.js"></script>
+    -->
+
 </footer>
 
 </html>

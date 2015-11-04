@@ -1,0 +1,62 @@
+<div  ng-controller="degreeController">
+    <div class="btn-group" role ="group" aria-label="..." ng-repeat="track in tracks">
+        <div id="testPanel" class="panel panel-default">
+            <div class="panel-heading" role="button" ng-click="open = !open">{{ track.name }}</div>
+            <div class="panel-body" ng-show="open">
+                <div class="button-group" ng-repeat="course in courses | filter: { track: track.name }">
+                    <div class="panel-body">
+                        {{ course[0].CID }} : {{ course[0].name }}
+                    </div>
+                    <!-- <div class="panel-body" role="button" onclick="sections(this.parentNode)">
+                        Register
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </div>
+
+    <script src="../../assets/js/jquery.min.js"></script>
+    <script src="../../assets/js/bootstrap.min.js"></script>
+
+    <script>
+        function seeClass(panelId) {
+            var html = '';
+            html += '<div class="panel-heading" role="button" onclick="collapse(this.parentNode)">DummyData</div>';
+            html += '<div class ="button-group">'
+            html += '<div class="panel-body">'
+            html += 'Difficulty'
+            html += '</div>'
+            html += '<div class="panel-body">'
+            html += 'Prerequisites'
+            html += '</div>'
+            html += '<div class="panel-body">'
+            html += 'Average GPA'
+            html += '</div>'
+            html += '<div class="panel-body">'
+            html += 'Required Books'
+            html += '</div>'
+            html += '<div class="panel-body" role="button" onclick="sections(this.parentNode)">'
+            html += 'Register'
+            html += '</div>'
+            html += '</div>';
+            panelId.innerHTML = html;
+        }
+        function sections(panelId) {
+            var html = '';
+            html += '<div class="panel-heading" role="button" onclick="seeClass(this.parentNode)">DummyData</div>';
+            html += '<div class="panel-body" role="button" onclick="register(this.parentNode)">'
+            html += '501'
+            html += '</div>'
+            html += '<div class="panel-body" role="button" onclick="register(this.parentNode)">'
+            html += '502'
+            html += '</div>'
+            html += '<div class="panel-body" role="button" onclick="register(this.parentNode)">'
+            html += '503'
+            html += '</div>'
+            html += '</div>';
+            panelId.innerHTML = html;
+        }
+        function register(panelId) {
+            console.log(panelId);
+        }
+    </script>
