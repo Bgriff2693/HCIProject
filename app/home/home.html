@@ -1,9 +1,9 @@
 <div  ng-controller="degreeController">
-    <div class="btn-group" role ="group" aria-label="..." ng-repeat="track in tracks">
-        <div id="testPanel" class="panel panel-default">
+    <div class="btn-group" role ="group" aria-label="...">
+        <div id="testPanel" class="panel panel-default" ng-repeat="track in tracks">
             <div class="panel-heading" role="button" ng-click="open = !open">{{ track.name }}</div>
             <div class="panel-body" ng-show="open">
-                <div class="button-group" ng-repeat="course in courses | filter: { track: track.name }">
+                <div class="button-group" ng-repeat="course in courses | filter: { track: track.name } : true">
                     <div class="panel-body">
                         {{ course[0].CID }} : {{ course[0].name }}
                     </div>
