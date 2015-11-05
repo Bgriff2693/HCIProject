@@ -6,7 +6,8 @@ angular.module('appControllers', [])
         $http.get('app/database/degree_plan.JSON')
             .success(function(data) {
                 $scope.courses = data.courses;
-                console.log("Courses: " + data);
+                console.log("Courses:");
+                console.log(data);
             })
             .error(function (data, status, headers, config) {
                 console.log("ERROR: Could not get courses");
@@ -19,10 +20,28 @@ angular.module('appControllers', [])
         {
             // This function is sort of private constructor for controller
             // You can pass the CID to this through ng-init and use it in the controller
-            $scope.cid = cid;
+            $scope.sections = sections;
+            console.log(sections)
         };
 
     }])
     .controller('MenuController', [function() {
 
-    }]);
+    }])
+
+    .filter('unique', function() {
+        return function(collection, keyname) {
+            var output = [],
+            keys = [];
+
+            angular.forEach(collection, function(item) {
+                var key = item[keyname];
+                if(keys.indexOf(key) === -1) {
+                    keys.push(key);
+                    output.push(item);
+                }
+            });
+
+            return output;
+        };
+    });
