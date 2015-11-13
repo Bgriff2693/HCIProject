@@ -1,7 +1,7 @@
 .{
 	position: relative;
 }
-.panel{
-	margin-left: 10px;
+#core{
+	margin-left: 100px;
 	background-color: red;
 }
