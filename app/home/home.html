@@ -1,8 +1,7 @@
 <div ng-controller="degreeController">
     <div class="btn-group" role ="group" aria-label="...">
         <div id="testPanel" class="panel panel-default" ng-repeat="track in tracks">
-            <div class="panel-heading" id = track.name role="button" ng-click="open = !open" padding = "5px">{{ track.name }}
-
+            <div class="panel-heading" role="button" id = '{{track.name}}' ng-click="open = !open" padding = "5px">{{ track.name }}
 
             </div>
             <div class="panel-body" ng-show="open">
