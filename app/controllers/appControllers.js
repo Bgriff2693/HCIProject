@@ -29,11 +29,11 @@ angular.module('appControllers', [])
     .controller('userController', ['$scope', function($scope) {
 
         $scope.user =  {
-            name: 'Jeremy Moorman',
+            name: 'Matt Mullenweg',
             hours: 258,
-            gpa: 4.1,
+            gpa: 1.6,
             classification: 'U4',
-            email: 'jsmoorman@tamu.edu'
+            email: 'm@mullenweg.com'
         }
     }])
 

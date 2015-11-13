@@ -3,7 +3,7 @@
     <div class = "row">
         <div class = "col-sm-2" ng-repeat="track in tracks">
         <div id="testPanel" class="panel panel-default" > <!----ng-repeat="track in tracks">----->
-            <div class="panel-heading" role="button" id = '{{track.name}}' ng-click="open = !open" padding = "5px">{{ track.name }}
+            <div class="panel-heading" role="button" id = '{{track.name}}' ng-click="open = !open" padding = "5px"><h5>{{ track.name }}</h5>
 
             </div>
             <div class="panel-body" ng-show="open">
