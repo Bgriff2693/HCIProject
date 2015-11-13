@@ -11,21 +11,7 @@
     <link rel="stylesheet" href="bower_components/html5-boilerplate/dist/css/normalize.css">
     <link rel="stylesheet" href="bower_components/html5-boilerplate/dist/css/main.css">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <script src="bower_components/html5-boilerplate/dist/js/vendor/modernizr-2.8.3.min.js"></script>
-    <script src="bower_components/angular/angular.js"></script>
-    <script src="bower_components/angular-route/angular-route.js"></script>
 
-    <!-- jQuery -->
-    <script src="assets/js/jquery.js"></script>
-
-    <!-- Controllers -->
-    <script src="app/controllers/appControllers.js"></script>
-
-    <!-- Modules -->
-    <script src="app/home/home.js"></script>
-
-    <!-- App -->
-    <script src="app/app.js"></script>
 </head>
 <body>
     <header>
@@ -37,6 +23,25 @@
         </div>
     </header>
 
+    <!-- User information at top of page -->
+    <div ng-controller="userController">
+        <div class="row-fluid">
+            <div class="pull-left">
+                <img gravatar-src="user.email" gravatar-size="100">
+            </div>
+            <div class="text-right" style="text-align:left">
+                <h3>Welcome, {{ user.name }}!</h3>
+                Completed Hours: {{ user.hours }}
+                <br/>
+                Overall GPA: {{ user.gpa }}
+                <br/>
+                Classification: {{ user.classification }}
+            </div>
+        </div>
+    </div>
+
+    <br/>
+
     <div ng-view></div>
 
   </div>
@@ -46,6 +51,29 @@
     <!-- In production use:
     <script src="//ajax.googleapis.com/ajax/libs/angularjs/x.x.x/angular.min.js"></script>
     -->
+    <script src="bower_components/html5-boilerplate/dist/js/vendor/modernizr-2.8.3.min.js"></script>
+
+    <!-- Angular -->
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+
+    <!-- jQuery -->
+    <script src="assets/js/jquery.min.js"></script>
+
+    <!-- Bootstrap -->
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <!-- Controllers -->
+    <script src="app/controllers/appControllers.js"></script>
+
+    <!-- Modules -->
+    <script src="app/home/home.js"></script>
+
+    <!-- App -->
+    <script src="app/app.js"></script>
+
+    <!-- Gravatar -->
+    <script src="assets/js/angular-gravatar.min.js"></script>
 
 </footer>
 
