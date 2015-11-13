@@ -1,7 +1,8 @@
 angular.module("app", [
     'appControllers',
     'ngRoute',
-    'app.home'
+    'app.home',
+    'ui.gravatar' // For loading gravatar image with email
 ])
 
 .config(['$routeProvider', '$locationProvider', '$httpProvider', function($routeProvider,

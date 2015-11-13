@@ -25,8 +25,16 @@ angular.module('appControllers', [])
         };
 
     }])
-    .controller('MenuController', [function() {
 
+    .controller('userController', ['$scope', function($scope) {
+
+        $scope.user =  {
+            name: 'Jeremy Moorman',
+            hours: 258,
+            gpa: 4.1,
+            classification: 'U4',
+            email: 'jsmoorman@tamu.edu'
+        }
     }])
 
     .filter('unique', function() {
