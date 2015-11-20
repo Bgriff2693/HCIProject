@@ -1,10 +1,9 @@
 {
   "courses": [
-    [
       {
         "name": "ENGINEERING MATH II",
         "CID": "MATH 152",
-        "track": "core",
+        "track": "Core",
         "prequisite": "",
         "section": [
           {
@@ -2286,13 +2285,11 @@
         "avgGPA": "",
         "credits": "4.000",
         "taken": false
-      }
-    ],
-    [
+      },
       {
         "name": "INTRO TO COMPUTING",
         "CID": "CSCE 181",
-        "track": "core",
+        "track": "Core",
         "prequisite": "",
         "section": [
           {
@@ -2316,13 +2313,11 @@
         "avgGPA": "",
         "credits": "1.000",
         "taken": false
-      }
-    ],
-    [
+      },
       {
         "name": "INTRO PGM DESIGN CONCEPT",
         "CID": "CSCE 121",
-        "track": "core",
+        "track": "Core",
         "prequisite": "",
         "section": [
           {
@@ -2745,13 +2740,11 @@
         "avgGPA": "",
         "credits": "4.000",
         "taken": false
-      }
-    ],
-    [
+      },
       {
         "name": "DISCRETE STRUC COMPUTING",
         "CID": "CSCE 222",
-        "track": "core",
+        "track": "Core",
         "prequisite": "",
         "section": [
           {
@@ -2826,13 +2819,11 @@
         "avgGPA": "",
         "credits": "3.000",
         "taken": false
-      }
-    ],
-    [
+      },
       {
         "name": "DATA STRUC & ALGORITHM",
         "CID": "CSCE 221",
-        "track": "core",
+        "track": "Core",
         "prequisite": "",
         "section": [
           {
@@ -3255,13 +3246,11 @@
         "avgGPA": "",
         "credits": "4.000",
         "taken": false
-      }
-    ],
-    [
+      },
       {
         "name": "COMPUTER ORGANIZATION",
         "CID": "CSCE 312",
-        "track": "core",
+        "track": "Core",
         "prequisite": "",
         "section": [
           {
@@ -3346,18 +3335,16 @@
         "avgGPA": "",
         "credits": "4.000",
         "taken": false
-      }
-    ],
-    [
+      },
       {
-        "name": "PROGRAMMING\\n                LANGUAGES",
+        "name": "PROGRAMMING                LANGUAGES",
         "CID": "CSCE 314",
-        "track": "core",
+        "track": "Core",
         "prequisite": "",
         "section": [
           {
             "honors": false,
-            "professor": "Jaakko\n                    Jarvi",
+            "professor": "Jaakko                    Jarvi",
             "CRN": "12481",
             "section_number": "500",
             "meeting_times": [
@@ -3374,7 +3361,7 @@
           },
           {
             "honors": false,
-            "professor": "Jaakko\n                    Jarvi",
+            "professor": "Jaakko                    Jarvi",
             "CRN": "26308",
             "section_number": "501",
             "meeting_times": [
@@ -3393,13 +3380,11 @@
         "avgGPA": "",
         "credits": "3.000",
         "taken": false
-      }
-    ],
-    [
+      },
       {
-        "name": "PROGRAMMING\\n                STUDIO",
+        "name": "PROGRAMMING                STUDIO",
         "CID": "CSCE 315",
-        "track": "core",
+        "track": "Core",
         "prequisite": "",
         "section": [
           {
@@ -3482,7 +3467,7 @@
           },
           {
             "section_number": "504",
-            "professor": "Philip Carson\n                    Ritchey",
+            "professor": "Philip Carson                    Ritchey",
             "CRN": "18008",
             "meeting_times": [
               {
@@ -3508,7 +3493,7 @@
           },
           {
             "section_number": "505",
-            "professor": "Philip Carson\n                    Ritchey",
+            "professor": "Philip Carson                    Ritchey",
             "CRN": "21946",
             "meeting_times": [
               {
@@ -3534,7 +3519,7 @@
           },
           {
             "section_number": "506",
-            "professor": "Philip Carson\n                    Ritchey",
+            "professor": "Philip Carson                    Ritchey",
             "CRN": "21948",
             "meeting_times": [
               {
@@ -3560,7 +3545,7 @@
           },
           {
             "section_number": "507",
-            "professor": "Philip Carson\n                    Ritchey",
+            "professor": "Philip Carson                    Ritchey",
             "CRN": "26309",
             "meeting_times": [
               {
@@ -3586,7 +3571,7 @@
           },
           {
             "section_number": "508",
-            "professor": "Philip Carson\n                    Ritchey",
+            "professor": "Philip Carson                    Ritchey",
             "CRN": "26310",
             "meeting_times": [
               {
@@ -3612,7 +3597,7 @@
           },
           {
             "section_number": "509",
-            "professor": "Philip Carson\n                    Ritchey",
+            "professor": "Philip Carson                    Ritchey",
             "CRN": "26323",
             "meeting_times": [
               {
@@ -3640,13 +3625,11 @@
         "avgGPA": "",
         "credits": "3.000",
         "taken": false
-      }
-    ],
-    [
+      },
       {
-        "name": "INTRO\\n                TO COMPUTER SYSTEM",
+        "name": "INTRO                TO COMPUTER SYSTEM",
         "CID": "CSCE 313",
-        "track": "core",
+        "track": "Core",
         "prequisite": "",
         "section": [
           {
@@ -3676,7 +3659,7 @@
             "section_number": "200"
           },
           {
-            "professor": "Aakash\n                    Tyagi",
+            "professor": "Aakash                    Tyagi",
             "meeting_times": [
               {
                 "professor": "Aakash Tyagi",
@@ -3702,7 +3685,7 @@
             "section_number": "501"
           },
           {
-            "professor": "Aakash\n                    Tyagi",
+            "professor": "Aakash                    Tyagi",
             "meeting_times": [
               {
                 "professor": "Aakash Tyagi",
@@ -3728,7 +3711,7 @@
             "section_number": "502"
           },
           {
-            "professor": "Aakash\n                    Tyagi",
+            "professor": "Aakash                    Tyagi",
             "meeting_times": [
               {
                 "professor": "Aakash Tyagi",
@@ -3754,7 +3737,7 @@
             "section_number": "503"
           },
           {
-            "professor": "Aakash\n                    Tyagi",
+            "professor": "Aakash                    Tyagi",
             "meeting_times": [
               {
                 "professor": "Aakash Tyagi",
@@ -3780,7 +3763,7 @@
             "section_number": "504"
           },
           {
-            "professor": "Aakash\n                    Tyagi",
+            "professor": "Aakash                    Tyagi",
             "meeting_times": [
               {
                 "professor": "[<abbr title=\"To Be Announced\">TBA</abbr>]",
@@ -3806,7 +3789,7 @@
             "section_number": "505"
           },
           {
-            "professor": "Aakash\n                    Tyagi",
+            "professor": "Aakash                    Tyagi",
             "meeting_times": [
               {
                 "professor": "[<abbr title=\"To Be Announced\">TBA</abbr>]",
@@ -3991,18 +3974,16 @@
         "avgGPA": "",
         "credits": "4.000",
         "taken": false
-      }
-    ],
-    [
+      },
       {
-        "name": "SEMINAR\\n               ",
+        "name": "SEMINAR               ",
         "CID": "CSCE 481",
-        "track": "core",
+        "track": "Core",
         "prequisite": "",
         "section": [
           {
             "honors": false,
-            "professor": "Aakash\n                    Tyagi",
+            "professor": "Aakash                    Tyagi",
             "CRN": "18381",
             "section_number": "900",
             "meeting_times": []
@@ -4011,18 +3992,16 @@
         "avgGPA": "",
         "credits": "1.000",
         "taken": false
-      }
-    ],
-    [
+      },
       {
-        "name": "SR\\n                CAPSTONE DESIGN",
+        "name": "SR                CAPSTONE DESIGN",
         "CID": "CSCE 482",
-        "track": "core",
+        "track": "Core",
         "prequisite": "",
         "section": [
           {
             "section_number": "501",
-            "professor": "Tracy\n                    Hammond",
+            "professor": "Tracy                    Hammond",
             "CRN": "15601",
             "meeting_times": [
               {
@@ -4048,7 +4027,7 @@
           },
           {
             "section_number": "502",
-            "professor": "Tracy\n                    Hammond",
+            "professor": "Tracy                    Hammond",
             "CRN": "15603",
             "meeting_times": [
               {
@@ -4128,17 +4107,15 @@
         "avgGPA": "",
         "credits": "3.000",
         "taken": false
-      }
-    ],
-    [
+      },
       {
-        "name": "DESIGN\\n                ANALY ALGORITHMS",
+        "name": "DESIGN                ANALY ALGORITHMS",
         "CID": "CSCE 411",
         "track": "Algorithms and Theory",
         "prequisite": "",
         "section": [
           {
-            "professor": "Andreas\n                    Klappenecker",
+            "professor": "Andreas                    Klappenecker",
             "meeting_times": [
               {
                 "professor": "Andreas Klappenecker",
@@ -4155,7 +4132,7 @@
             "section_number": "200"
           },
           {
-            "professor": "Anxiao\n                    Jiang",
+            "professor": "Anxiao                    Jiang",
             "meeting_times": [
               {
                 "professor": "Anxiao Jiang",
@@ -4172,7 +4149,7 @@
             "section_number": "500"
           },
           {
-            "professor": "Anxiao\n                    Jiang",
+            "professor": "Anxiao                    Jiang",
             "meeting_times": [
               {
                 "professor": "[<abbr title=\"To Be Announced\">TBA</abbr>]",
@@ -4192,18 +4169,16 @@
         "avgGPA": "",
         "credits": "3.000",
         "taken": false
-      }
-    ],
-    [
+      },
       {
-        "name": "FORMAL\\n                LANGUAGES AUTOM",
+        "name": "FORMAL                LANGUAGES AUTOM",
         "CID": "CSCE 433",
         "track": "Algorithms and Theory",
         "prequisite": "",
         "section": [
           {
             "honors": false,
-            "professor": "Tiffani\n                    Williams",
+            "professor": "Tiffani                    Williams",
             "CRN": "15604",
             "section_number": "500",
             "meeting_times": [
@@ -4222,18 +4197,15 @@
         "avgGPA": "",
         "credits": "3.000",
         "taken": false
-      }
-    ],
-    [],
-    [
+      },
       {
-        "name": "SCIENTIFIC\\n                PROGRAMMING",
+        "name": "SCIENTIFIC                PROGRAMMING",
         "CID": "CSCE 442",
         "track": "Algorithms and Theory",
         "prequisite": "",
         "section": [
           {
-            "professor": "Jinxiang\n                    Chai",
+            "professor": "Jinxiang                    Chai",
             "meeting_times": [
               {
                 "professor": "[<abbr title=\"To Be Announced\">TBA</abbr>]",
@@ -4253,13 +4225,9 @@
         "avgGPA": "",
         "credits": "3.000",
         "taken": false
-      }
-    ],
-    [],
-    [],
-    [
+      },
       {
-        "name": "MICROCOMPUTER\\n                SYSTEMS",
+        "name": "MICROCOMPUTER                SYSTEMS",
         "CID": "CSCE 462",
         "track": "Systems",
         "prequisite": "",
@@ -4346,11 +4314,9 @@
         "avgGPA": "",
         "credits": "3.000",
         "taken": false
-      }
-    ],
-    [
+      },
       {
-        "name": "NETWORKS\\n                & DIST PROC",
+        "name": "NETWORKS                & DIST PROC",
         "CID": "CSCE 463",
         "track": "Systems",
         "prequisite": "",
@@ -4376,13 +4342,9 @@
         "avgGPA": "",
         "credits": "3.000",
         "taken": false
-      }
-    ],
-    [],
-    [],
-    [
+      },
       {
-        "name": "COMP\\n                & NET SECURITY",
+        "name": "COMP                & NET SECURITY",
         "CID": "CSCE 465",
         "track": "Systems",
         "prequisite": "",
@@ -4408,18 +4370,15 @@
         "avgGPA": "",
         "credits": "3.000",
         "taken": false
-      }
-    ],
-    [],
-    [
+      },
       {
-        "name": "SOFTWARE\\n                ENGINEERING",
+        "name": "SOFTWARE                ENGINEERING",
         "CID": "CSCE 431",
         "track": "Software",
         "prequisite": "",
         "section": [
           {
-            "professor": "Duncan\n                    Walker",
+            "professor": "Duncan                    Walker",
             "meeting_times": [
               {
                 "professor": "Duncan Walker",
@@ -4445,7 +4404,7 @@
             "section_number": "501"
           },
           {
-            "professor": "Duncan\n                    Walker",
+            "professor": "Duncan                    Walker",
             "meeting_times": [
               {
                 "professor": "Duncan Walker",
@@ -4471,7 +4430,7 @@
             "section_number": "502"
           },
           {
-            "professor": "Duncan\n                    Walker",
+            "professor": "Duncan                    Walker",
             "meeting_times": [
               {
                 "professor": "Duncan Walker",
@@ -4500,19 +4459,15 @@
         "avgGPA": "",
         "credits": "3.000",
         "taken": false
-      }
-    ],
-    [],
-    [],
-    [
+      },
       {
-        "name": "DIST\\n                OBJECTS PROGRAMMING",
+        "name": "DIST                OBJECTS PROGRAMMING",
         "CID": "CSCE 438",
         "track": "Software",
         "prequisite": "",
         "section": [
           {
-            "professor": "John Michael\n                    Moore",
+            "professor": "John Michael                    Moore",
             "meeting_times": [
               {
                 "professor": "John Michael Moore",
@@ -4532,19 +4487,16 @@
         "avgGPA": "",
         "credits": "3.000",
         "taken": false
-      }
-    ],
-    [],
-    [
+      },
       {
-        "name": "ARTIFICIAL\\n                INTELLIGENCE",
+        "name": "ARTIFICIAL                INTELLIGENCE",
         "CID": "CSCE 420",
         "track": "Information and intelligent Systems",
         "prequisite": "",
         "section": [
           {
             "section_number": "200",
-            "professor": "Dylan A\n                    Shell",
+            "professor": "Dylan A                    Shell",
             "CRN": "23720",
             "meeting_times": [
               {
@@ -4561,7 +4513,7 @@
           },
           {
             "section_number": "500",
-            "professor": "Ronald\n                    Ward",
+            "professor": "Ronald                    Ward",
             "CRN": "12490",
             "meeting_times": [
               {
@@ -4580,19 +4532,16 @@
         "avgGPA": "",
         "credits": "3.000",
         "taken": false
-      }
-    ],
-    [],
-    [
+      },
       {
-        "name": "COMPUTER\\n                GRAPHICS",
+        "name": "COMPUTER                GRAPHICS",
         "CID": "CSCE 441",
         "track": "Information and intelligent Systems",
         "prequisite": "",
         "section": [
           {
             "honors": false,
-            "professor": "Jinxiang\n                    Chai",
+            "professor": "Jinxiang                    Chai",
             "CRN": "12493",
             "section_number": "500",
             "meeting_times": [
@@ -4611,18 +4560,16 @@
         "avgGPA": "",
         "credits": "3.000",
         "taken": false
-      }
-    ],
-    [
+      },
       {
-        "name": "GAME\\n                DEVELOPMENT",
+        "name": "GAME                DEVELOPMENT",
         "CID": "CSCE 443",
         "track": "Information and intelligent Systems",
         "prequisite": "",
         "section": [
           {
             "section_number": "500",
-            "professor": "Andre\n                    Thomas",
+            "professor": "Andre                    Thomas",
             "CRN": "20642",
             "meeting_times": [
               {
@@ -4650,12 +4597,9 @@
         "avgGPA": "",
         "credits": "3.000",
         "taken": false
-      }
-    ],
-    [],
-    [
+      },
       {
-        "name": "COMPUTERS\\n                AND NEW MEDIA",
+        "name": "COMPUTERS                AND NEW MEDIA",
         "CID": "CSCE 445",
         "track": "Information and intelligent Systems",
         "prequisite": "",
@@ -4681,11 +4625,9 @@
         "avgGPA": "",
         "credits": "3.000",
         "taken": false
-      }
-    ],
-    [
+      },
       {
-        "name": "ROBOTICS\\n                & SPATL INTEL",
+        "name": "ROBOTICS                & SPATL INTEL",
         "CID": "CSCE 452",
         "track": "Information and intelligent Systems",
         "prequisite": "",
@@ -4711,11 +4653,9 @@
         "avgGPA": "",
         "credits": "3.000",
         "taken": false
-      }
-    ],
-    [
+      },
       {
-        "name": "INFO\\n                STORAGE & RETRIEVAL",
+        "name": "INFO                STORAGE & RETRIEVAL",
         "CID": "CSCE 470",
         "track": "Information and intelligent Systems",
         "prequisite": "",
@@ -4742,6 +4682,5 @@
         "credits": "3.000",
         "taken": false
       }
-    ]
   ]
 }
