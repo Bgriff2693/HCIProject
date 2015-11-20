@@ -1,24 +1,29 @@
-<div ng-controller="degreeController">
+<div ng-controller="degreeController as vmDegree">
     <!---<div class="btn-group" role ="group" aria-label="..."> --->
     <div class = "row">
-        <div class = "col-sm-2" ng-repeat="track in tracks">
+        <div class = "col-sm-2" ng-repeat="track in tracks" ng-controller="trackController as vmTrack">
             <div id="testPanel" class="panel panel-default" > <!----ng-repeat="track in tracks">----->
-                <div class="panel-heading" role="button" id = '{{track.name}}' ng-click="open = !open" padding = "5px">{{ track.name }}
+                <div class="panel-heading" role="button" id = '{{track.name}}' ng-click="vmTrack.panelBodyOpen = !vmTrack.panelBodyOpen; vmTrack.panelTwoOpen = false" padding = "5px">{{ track.name }}
 
                 </div>
-                <div class="panel-body" ng-show="open">
-                    <div class="button-group" ng-repeat="course in courses | filter: { track: track.name } : true">
-                        <div class="panel-body" role="button" ng-click="cid = course[0].CID; showSection = !showSection">
+                <div class="panel-body" ng-show="vmTrack.panelBodyOpen && !vmTrack.panelTwoOpen">
+                    <div class="button-group" ng-repeat="course in vmDegree.courses | filter: { track: track.name } : true">
+                        <div class="panel-body" role="button" ng-click = "vmTrack.selectedCourse = course[0]; vmTrack.panelTwoOpen = true">
                             {{ course[0].CID }} : {{ course[0].name }}
-                            <div class="panel-body" ng-show="showSection">
+                            <!----<div class="panel-body" ng-show="showSection" >
                                 <div class="button-group" ng-repeat="section in course | unique:'professor'">
-                                    <div class="panel-body" role="button" ng-click="">
+                                    <div class="panel-body" role="button" ng-click = "vmTrack.panelBodyOpen = false; vmTrack.panelTwoOpen = true" >
                                         {{ section.professor }}
                                     </div>
                                 </div>
-                            </div>
+                            </div>----->
                         </div>
                     </div>
+                </div>
+                <div class="panel-body" ng-show="vmTrack.panelBodyOpen && vmTrack.panelTwoOpen">
+                        {{ vmTrack.selectedCourse.CID }} : {{ vmTrack.selectedCourse.name }}
+
+
                 </div>
             </div>
         </div>
