@@ -8,15 +8,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <base href="/">
 
-    <link rel="stylesheet" href="bower_components/html5-boilerplate/dist/css/normalize.css">
-    <link rel="stylesheet" href="bower_components/html5-boilerplate/dist/css/main.css">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <script src="bower_components/html5-boilerplate/dist/js/vendor/modernizr-2.8.3.min.js"></script>
-    <script src="bower_components/angular/angular.js"></script>
-    <script src="bower_components/angular-route/angular-route.js"></script>
+    <link rel="stylesheet" href="assets/css/app.css">
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc= sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ=="
+          crossorigin="anonymous">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.5/angular-route.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular-animate.js"></script>
 
     <!-- jQuery -->
     <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
 
     <!-- Controllers -->
     <script src="app/controllers/appControllers.js"></script>
@@ -27,7 +32,7 @@
     <!-- App -->
     <script src="app/app.js"></script>
 </head>
-<body>
+<body ng-controller="mainCtrl">
     <header>
         <div class="navbar navbar-inverse"  role="navigation">
             <a href="/" class="navbar-brand">
@@ -37,16 +42,16 @@
         </div>
     </header>
 
-    <div ng-view></div>
+    <div class="container-fluid" ng-view></div>
 
-  </div>
+    <footer>
+        <!-- In production use:
+        <script src="//ajax.googleapis.com/ajax/libs/angularjs/x.x.x/angular.min.js"></script>
+        -->
+
+    </footer>
 </body>
 
-<footer>
-    <!-- In production use:
-    <script src="//ajax.googleapis.com/ajax/libs/angularjs/x.x.x/angular.min.js"></script>
-    -->
 
-</footer>
 
 </html>
