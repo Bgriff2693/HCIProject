@@ -21,6 +21,7 @@ angular.module('appControllers', [])
         var vm = this;
         vm.panelBodyOpen = false;
         vm.panelTwoOpen = false;
+        vm.panelThreeOpen = false;
         vm.selectedCourse = null;
         // Gets the current courses in the json file and puts it in the scope
         
