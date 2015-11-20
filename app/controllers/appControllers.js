@@ -1,17 +1,29 @@
 angular.module('appControllers', [])
     .controller('degreeController', ['$http', '$scope', function($http, $scope) {
-        $scope.courses = null;
-
+        
+        var vm = this;
+        vm.panelBodyOpen = false;
+        
         // Gets the current courses in the json file and puts it in the scope
         $http.get('app/database/degree_plan.JSON')
             .success(function(data) {
-                $scope.courses = data.courses;
+                vm.courses = data.courses;
                 console.log("Courses:");
                 console.log(data);
             })
             .error(function (data, status, headers, config) {
                 console.log("ERROR: Could not get courses");
             });
+    }])
+
+    .controller('trackController', ['$http', '$scope', function($http, $scope) {
+        
+        var vm = this;
+        vm.panelBodyOpen = false;
+        vm.panelTwoOpen = false;
+        vm.selectedCourse = null;
+        // Gets the current courses in the json file and puts it in the scope
+        
     }])
 
     .controller('sectionController', ['$scope', function($scope) {
