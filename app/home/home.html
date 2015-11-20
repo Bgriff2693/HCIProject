@@ -39,9 +39,12 @@
                 </div>
                 <div class="panel-body" ng-show="vmTrack.panelBodyOpen && !vmTrack.panelTwoOpen && vmTrack.panelThreeOpen">
                     {{ vmTrack.selectedCourse.CID }} : {{ vmTrack.selectedCourse.name }}
-                    <div class="button-group" ng-repeat="section in vmTrack.selectedCourse | unique:'professor'">
+                    <div class="button-group" ng-repeat="section in vmTrack.selectedCourse.section">
                         <div class="panel-body">
-                            {{ section.professor }}
+                            {{ section.section_number}} : {{ section.professor }}
+                            <div class="panel-body" ng-repeat="times in section.meeting_times">
+                              {{times.days}} : {{times.time}}
+                            </div>
                         </div>
                     </div>
             </div>
