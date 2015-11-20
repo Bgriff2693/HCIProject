@@ -8,7 +8,7 @@
                 </div>
                 <div class="panel-body" ng-show="vmTrack.panelBodyOpen && !vmTrack.panelTwoOpen && !vmTrack.panelThreeOpen">
                     <div class="button-group" ng-repeat="course in vmDegree.courses | filter: { track: track.name } : true">
-                        <div class="panel-body" role="button" ng-click = "vmTrack.selectedCourse = course[0]; vmTrack.panelTwoOpen = true; vmTrack.panelThreeOpen = false">
+                        <div class="panel-body" role="button" ng-click = "vmTrack.selectedCourse = course; vmTrack.panelTwoOpen = true; vmTrack.panelThreeOpen = false">
                             {{ course.CID }} : {{ course.name }}
                             <!----<div class="panel-body" ng-show="showSection" >
                                 <div class="button-group" ng-repeat="section in course | unique:'professor'">
@@ -32,9 +32,12 @@
                 </div>
                 <div class="panel-body" ng-show="vmTrack.panelBodyOpen && !vmTrack.panelTwoOpen && vmTrack.panelThreeOpen">
                     {{ vmTrack.selectedCourse.CID }} : {{ vmTrack.selectedCourse.name }}
-                    <div class="button-group" ng-repeat="section in vmTrack.selectedCourse | unique:'professor'">
+                    <div class="button-group" ng-repeat="section in vmTrack.selectedCourse.section">
                         <div class="panel-body">
-                            {{ section.professor }}
+                            {{ section.section_number}} : {{ section.professor }}
+                            <div class="panel-body" ng-repeat="times in section.meeting_times">
+                              {{times.days}} : {{times.time}}
+                            </div>
                         </div>
                     </div>
             </div>
