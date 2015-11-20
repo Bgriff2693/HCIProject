@@ -29,8 +29,8 @@
                             <li>CSCE 121</li>
                         </ul>
                         <!-- TODO: pull from controller when we get actual data -->
-                        <!-- Make font different color based on average -->
-                        Average GPA: <font color="red">2.8</font>
+                        <!-- Make different color based on average: bg-success, bg-warning, bg-danger -->
+                        Average GPA: <text class="bg-danger">2.8</text>
                         </br>
                         <button role="button" class="btn-primary" ng-click="vmTrack.panelTwoOpen = false; vmTrack.panelThreeOpen = true">
                             Register
@@ -41,9 +41,12 @@
                     {{ vmTrack.selectedCourse.CID }} : {{ vmTrack.selectedCourse.name }}
                     <div class="button-group" ng-repeat="section in vmTrack.selectedCourse.section">
                         <div class="panel-body">
-                            {{ section.section_number}} : {{ section.professor }}
+                            {{ section.section_number }} : {{ section.professor }}
+                            <text class="text-danger" ng-show="section.honors">Honors Section</text>
                             <div class="panel-body" ng-repeat="times in section.meeting_times">
-                              {{times.days}} : {{times.time}}
+                              <text class="text-primary">{{ times.type }}</text>
+                              </br>
+                              {{ times.days }} @ {{ times.time }}
                             </div>
                         </div>
                     </div>

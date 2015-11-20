@@ -39,7 +39,7 @@
             "meeting_times": [
               {
                 "professor": "John   Keyser ",
-                "days": "&nbsp;",
+                "days": "TBA",
                 "schedule_type": "Lecture and Laboratory",
                 "date_range": "Jan 19, 2016 - May 10, 2016",
                 "location": "TBA",
@@ -48,7 +48,7 @@
               },
               {
                 "professor": "John   Keyser",
-                "days": "&nbsp;",
+                "days": "TBA",
                 "schedule_type": "Lecture and Laboratory",
                 "date_range": "Jan 19, 2016 - May 10, 2016",
                 "location": "TBA",
@@ -386,7 +386,7 @@
               },
               {
                 "professor": "[<abbr title=\"To Be Announced\">TBA</abbr>]",
-                "days": "&nbsp;",
+                "days": "TBA",
                 "schedule_type": "Lecture and Laboratory",
                 "date_range": "Jan 19, 2016 - May 10, 2016",
                 "location": "TBA",
@@ -403,7 +403,7 @@
             "meeting_times": [
               {
                 "professor": "[<abbr title=\"To Be Announced\">TBA</abbr>]",
-                "days": "&nbsp;",
+                "days": "TBA",
                 "schedule_type": "Lecture and Laboratory",
                 "date_range": "Jan 19, 2016 - May 10, 2016",
                 "location": "TBA",
@@ -412,7 +412,7 @@
               },
               {
                 "professor": "[<abbr title=\"To Be Announced\">TBA</abbr>]",
-                "days": "&nbsp;",
+                "days": "TBA",
                 "schedule_type": "Lecture and Laboratory",
                 "date_range": "Jan 19, 2016 - May 10, 2016",
                 "location": "TBA",
@@ -429,7 +429,7 @@
             "meeting_times": [
               {
                 "professor": "[<abbr title=\"To Be Announced\">TBA</abbr>]",
-                "days": "&nbsp;",
+                "days": "TBA",
                 "schedule_type": "Lecture and Laboratory",
                 "date_range": "Jan 19, 2016 - May 10, 2016",
                 "location": "TBA",
@@ -438,7 +438,7 @@
               },
               {
                 "professor": "[<abbr title=\"To Be Announced\">TBA</abbr>]",
-                "days": "&nbsp;",
+                "days": "TBA",
                 "schedule_type": "Lecture and Laboratory",
                 "date_range": "Jan 19, 2016 - May 10, 2016",
                 "location": "TBA",
@@ -1568,7 +1568,7 @@
               },
               {
                 "professor": "Dezhen Song",
-                "days": "&nbsp;",
+                "days": "TBA",
                 "schedule_type": "Lecture and Laboratory",
                 "date_range": "Jan 19, 2016 - May 10, 2016",
                 "location": "TBA",
@@ -1672,7 +1672,7 @@
               },
               {
                 "professor": "[<abbr title=\"To Be Announced\">TBA</abbr>]",
-                "days": "&nbsp;",
+                "days": "TBA",
                 "schedule_type": "Lecture and Laboratory",
                 "date_range": "Jan 19, 2016 - May 10, 2016",
                 "location": "TBA",
@@ -1772,7 +1772,7 @@
             "meeting_times": [
               {
                 "professor": "Ricardo Gutierrez-Osuna",
-                "days": "&nbsp;",
+                "days": "TBA",
                 "schedule_type": "Lecture and Laboratory",
                 "date_range": "Jan 19, 2016 - May 10, 2016",
                 "location": "TBA",
@@ -1781,7 +1781,7 @@
               },
               {
                 "professor": "Ricardo Gutierrez-Osuna",
-                "days": "&nbsp;",
+                "days": "TBA",
                 "schedule_type": "Lecture and Laboratory",
                 "date_range": "Jan 19, 2016 - May 10, 2016",
                 "location": "TBA",
@@ -1798,7 +1798,7 @@
             "meeting_times": [
               {
                 "professor": "Ricardo Gutierrez-Osuna",
-                "days": "&nbsp;",
+                "days": "TBA",
                 "schedule_type": "Lecture and Laboratory",
                 "date_range": "Jan 19, 2016 - May 10, 2016",
                 "location": "TBA",
@@ -1807,7 +1807,7 @@
               },
               {
                 "professor": "Ricardo Gutierrez-Osuna",
-                "days": "&nbsp;",
+                "days": "TBA",
                 "schedule_type": "Lecture and Laboratory",
                 "date_range": "Jan 19, 2016 - May 10, 2016",
                 "location": "TBA",
@@ -1923,7 +1923,7 @@
             "meeting_times": [
               {
                 "professor": "[<abbr title=\"To Be Announced\">TBA</abbr>]",
-                "days": "&nbsp;",
+                "days": "TBA",
                 "schedule_type": "Lecture",
                 "date_range": "Jan 19, 2016 - May 10, 2016",
                 "location": "TBA",
@@ -2157,7 +2157,7 @@
               },
               {
                 "professor": "Duncan Walker",
-                "days": "&nbsp;",
+                "days": "TBA",
                 "schedule_type": "Lecture",
                 "date_range": "Jan 19, 2016 - May 10, 2016",
                 "location": "TBA",
@@ -2185,7 +2185,7 @@
             "meeting_times": [
               {
                 "professor": "John Michael Moore",
-                "days": "&nbsp;",
+                "days": "TBA",
                 "schedule_type": "Lecture",
                 "date_range": "Jan 19, 2016 - May 10, 2016",
                 "location": "TBA",
