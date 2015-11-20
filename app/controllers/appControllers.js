@@ -22,24 +22,17 @@ angular.module('appControllers', [])
     var vm = this;
 
     vm.items = ['starbux', '2%', 'dericious'];
-    vm.newitems = ['shit', 'moreshit', 'dubleshit'];
+    vm.newitems = ['shit', 'moreshit', 'dubleshit', 'triplshit'];
     vm.coffee = 'starbux';
     vm.milk = '2%';
     vm.tea = 'dericious';
 
-    vm.bool = true;
-
-    vm.fade = function(){
-      setInterval(function(){
-        vm.bool = !vm.bool;
-      }, 1000)
-    };
-
     vm.updateMenu = function(item){
       console.log(item);
-      for(var i = 0; i < vm.items.length; ++i){
-        vm.items[i] = vm.newitems[i];
+      switch(item){
+        case:
       }
+      vm.items = vm.newitems;
     }
   }])
 

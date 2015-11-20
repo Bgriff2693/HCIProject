@@ -1,5 +1,4 @@
-<ul ng-controller="testCtrl as test" style="list-style-type:disc" >
-    <div class="coremenu" ng-if="test.bool">
-        <li ng-click="test.fade()" ng-repeat='item in test.items'>{{ item }}</li>
-    </div>
+
+<ul id ='coreList' ng-controller="testCtrl as test" style="list-style-type:disc" >
+    <li ng-repeat='item in test.items' ng-click='test.updateMenu(item); '>{{ item }}</li>
 </ul>
