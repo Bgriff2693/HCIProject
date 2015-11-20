@@ -3,12 +3,12 @@
     <div class = "row">
         <div class = "col-sm-2" ng-repeat="track in tracks" ng-controller="trackController as vmTrack">
             <div id="testPanel" class="panel panel-default" > <!----ng-repeat="track in tracks">----->
-                <div class="panel-heading" role="button" id = '{{track.name}}' ng-click="vmTrack.panelBodyOpen = !vmTrack.panelBodyOpen; vmTrack.panelTwoOpen = false" padding = "5px">{{ track.name }}
+                <div class="panel-heading" role="button" id = '{{track.name}}' ng-click="vmTrack.panelBodyOpen = !vmTrack.panelBodyOpen; vmTrack.panelTwoOpen = false; vmTrack.panelThreeOpen = false" padding = "5px">{{ track.name }}
 
                 </div>
-                <div class="panel-body" ng-show="vmTrack.panelBodyOpen && !vmTrack.panelTwoOpen">
+                <div class="panel-body" ng-show="vmTrack.panelBodyOpen && !vmTrack.panelTwoOpen && !vmTrack.panelThreeOpen">
                     <div class="button-group" ng-repeat="course in vmDegree.courses | filter: { track: track.name } : true">
-                        <div class="panel-body" role="button" ng-click = "vmTrack.selectedCourse = course[0]; vmTrack.panelTwoOpen = true">
+                        <div class="panel-body" role="button" ng-click = "vmTrack.selectedCourse = course[0]; vmTrack.panelTwoOpen = true; vmTrack.panelThreeOpen = false">
                             {{ course[0].CID }} : {{ course[0].name }}
                             <!----<div class="panel-body" ng-show="showSection" >
                                 <div class="button-group" ng-repeat="section in course | unique:'professor'">
@@ -20,10 +20,23 @@
                         </div>
                     </div>
                 </div>
-                <div class="panel-body" ng-show="vmTrack.panelBodyOpen && vmTrack.panelTwoOpen">
-                        {{ vmTrack.selectedCourse.CID }} : {{ vmTrack.selectedCourse.name }}
-
-
+                <div class="panel-body" ng-show="vmTrack.panelBodyOpen && vmTrack.panelTwoOpen && !vmTrack.panelThreeOpen">
+                    {{ vmTrack.selectedCourse.CID }} : {{ vmTrack.selectedCourse.name }}
+                    <div class="panel-body">
+                        Prerequisites: CSCE 121
+                        Average GPA: 2.8/4.0
+                        <div role = "button" ng-click="vmTrack.panelTwoOpen = false; vmTrack.panelThreeOpen = true">
+                            Register
+                        </div>
+                    </div>
+                </div>
+                <div class="panel-body" ng-show="vmTrack.panelBodyOpen && !vmTrack.panelTwoOpen && vmTrack.panelThreeOpen">
+                    {{ vmTrack.selectedCourse.CID }} : {{ vmTrack.selectedCourse.name }}
+                    <div class="button-group" ng-repeat="section in vmTrack.selectedCourse | unique:'professor'">
+                        <div class="panel-body">
+                            {{ section.professor }}
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
