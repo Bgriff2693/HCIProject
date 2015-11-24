@@ -1,0 +1,6 @@
+<div zf-modal id="animatedModal" animation-in="slideInDown" animation-out="hingeOutFromMiddleY">
+  <a zf-close class="close-button">&times;</a>
+  <p><em>Slide to the left</em></p>
+  <p class="text-right"><em>Slide to the right</em></p>
+  <p class="text-center"><em>Hinge from the center</em></p>
+</div>

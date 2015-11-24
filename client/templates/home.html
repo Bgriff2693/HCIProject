@@ -1,0 +1,203 @@
+---
+name: home
+url: /
+---
+<script>
+    $(document).foundation();
+</script>
+<style>
+.hover:hover {
+    background-color: grey;
+}
+</style>
+<div class="grid-container">
+  <h1>Welcome User!</h1>
+  <p class="lead"></p>
+
+<!-- CSCE 181 -->
+ <hljs>
+	<div zf-modal id="csce_181_desc" animation-in="slideInUp" animation-out="hingeOutFromMiddleY">
+	  <a zf-close class="close-button">&times;</a>
+	  	<p><strong>CSCE 181 Introduction to Computing</strong><p>
+		<p><strong>Credit 1. 1 Lecture Hour.</strong></p>
+		<p>
+		Introduction to the broad field of computing; presentations from industry and academia about how computer science concepts are used in research and end products; includes a major writing component.
+		</p>
+	</div>
+</hljs>
+<hljs language="html">
+	<div zf-panel id="csce_181_panel" position="right">
+	  <a zf-close class="close-button">&times;</a>
+	  <br></br>
+	  <br></br>
+	  <p><Strong>Instructors:</Strong><a href="http://faculty.cs.tamu.edu/schaefer/"> Scott Schaefer</a></p>
+	  <table border="2" cellpadding="10" cellspacing="20">
+		  <thead>
+		  <tr>
+		  	<th width="150">Type</th>
+		  	<th width="150">Time</th>
+		  	<th width="150">Days</th>
+		  	<th width="150">Where</th>
+		  </tr>
+			</thead>
+			<tbody>
+		  <tr>
+			<td >Lecture</td>
+			<td>3:55 pm - 5:10 pm</td>
+			<td>TR</td>
+			<td>Architecture Center, Bldg C 105</td>
+
+	  </tr>
+	</tbody>
+	</table>
+	<a class="button" href="#" title="Registration Successful" content="Successfully Registered for CSCE 181" color="success" autoclose="3000" zf-notify="main-notifications">Register</a>
+	</div>
+</hljs>
+
+<!-- CSCE 121 -->
+ <hljs>
+	<div zf-modal id="csce_121_desc" animation-in="slideInUp" animation-out="hingeOutFromMiddleY">
+	  <a zf-close class="close-button">&times;</a>
+	  	<p><strong>CSCE 121 Introduction to Program Design and Concepts</strong><p>
+		<p><strong>Credits 4. 3 Lecture Hours. 2 Lab Hours.</strong></p>
+		<p>
+		Computation to enhance problem solving abilities; computational thinking; understanding how people communicate with computers, how computing affects society; design and implementation of algorithms; data types, program control, iteration, functions, classes, and exceptions; understanding abstraction, modularity, code reuse, debugging, maintenance, and other aspects of software development; development and execution of programs.
+		<strong>Prerequisite:</strong> Programming course (high school or college).
+		</p>
+	</div>
+</hljs>
+<hljs language="html">
+	<div zf-panel id="csce_121_panel" position="right">
+	  <a zf-close class="close-button">&times;</a>
+	  <br></br>
+	  <br></br>
+	  <p><Strong>Instructors:</Strong> <a href="https://parasol.tamu.edu/~welch/"> Jennifer Welch</a></p>
+	  <p><Strong>Attributes:</Strong> Honors</p>
+	  <table border="2" cellpadding="10" cellspacing="20">
+		  <thead>
+		  <tr>
+		  	<th width="150">Type</th>
+		  	<th width="150">Time</th>
+		  	<th width="150">Days</th>
+		  	<th width="150">Where</th>
+		  </tr>
+			</thead>
+			<tbody>
+		  <tr>
+			<td >Lecture</td>
+			<td>10:20 am - 11:10 am</td>
+			<td>MWF</td>
+			<td>Reed McDonald Building 111H</td>
+
+	  		</tr>
+			  <tr>
+			<td >Lab</td>
+			<td>11:30 am - 12:20 pm</td>
+			<td>MW</td>
+			<td>H. R. Bright Building 126</td>
+
+	  		</tr>
+		</tbody>
+		</table>
+	<a class="button" href="#" title="Registration Successful" content="Successfully Registered for CSCE 121" color="success" autoclose="3000" zf-notify="main-notifications">Register</a>
+	<p><Strong>Instructors:</Strong> <a href="https://engineering.tamu.edu/cse/people/wdaugherity">Walter Daugherity</a></p>
+	<p><Strong>Attributes:</Strong> Honors</p>
+	  <table border="2" cellpadding="10" cellspacing="20">
+		  <thead>
+		  <tr>
+		  	<th width="150">Type</th>
+		  	<th width="150">Time</th>
+		  	<th width="150">Days</th>
+		  	<th width="150">Where</th>
+		  </tr>
+			</thead>
+			<tbody>
+		  <tr>
+			<td >Lab</td>
+			<td>9:35 am - 10:25 am</td>
+			<td>TR</td>
+			<td>Reed McDonald Building 111A</td>
+
+	  		</tr>
+			  <tr>
+			<td >Lecture</td>
+			<td>11:10 am - 12:25 pm</td>
+			<td>TR</td>
+			<td>Emerging Technologies Building 2005</td>
+
+	  		</tr>
+		</tbody>
+		</table>
+	<a class="button" href="#" title="Registration Successful" content="Successfully Registered for CSCE 121" color="success" autoclose="3000" zf-notify="main-notifications">Register</a>
+	</div>
+</hljs>
+
+<zf-notification-set id="main-notifications" position="top-left"></zf-notification-set>
+<zf-accordion auto-open="false" collapsible="true" multi-open="true">
+	</zf-accordion-item>
+	  <div class="grid-block large-up-3">
+			<div id="sidebar" class="medium-4 grid-block">
+
+				<zf-accordion-item title="Computer Science">
+					<div zf-action-sheet="">
+					<div zf-as-button="button" title="CSCE 181"></div>
+					<div zf-as-content="" position="bottom">
+					<ul>
+					<li><a zf-open="csce_181_desc">Description</a>
+					</li>
+					<li><a zf-toggle="csce_181_panel">Registration times</a></li>
+					</ul>
+					</div>
+					</div>
+					<p>
+						<div zf-action-sheet="">
+						<div zf-as-button="button" title="CSCE 121"></div>
+						<div zf-as-content="" position="bottom">
+						<ul>
+						<li><a zf-open="csce_121_desc">Description</a>
+						</li>
+						<li><a zf-toggle="csce_121_panel">Registration times</a></li>
+						</ul>
+						</div>
+						</div>
+					</p>
+					<p>CSCE 222</p>
+					<p>CSCE 221</p>
+					<p>CSCE 312</p>
+					<p>CSCE 314</p>
+					<p>CSCE 313</p>
+					<p>CSCE 315</p>
+					<p>CSCE 481</p>
+					<p>CSCE 482</p>
+				</zf-accordion-item>
+			</div>
+		<div id="sidebar" class="medium-4 grid-block">	
+			<zf-accordion-item title="Math and Statistics">
+				<p>MATH 151</p>
+				<p>MATH 152</p>
+				<p>MATH 304</p>
+				<p>MATH 251</p>
+			</zf-accordion-item>
+		</div>
+	</zf-accordion-item>
+		<div id="sidebar" class="medium-4 grid-block">	
+			<zf-accordion-item title="Systems">
+				<p>CSCE 441</p>
+				<p>CSCE 443</p>
+			</zf-accordion-item>
+		</div>
+				<div id="sidebar" class="medium-4 grid-block">
+			<zf-accordion-item title="Science">
+				<p>GEOL 101</p>
+				<p>GEOL 106</p>
+			</zf-accordion-item>
+		</div>
+							<div id="sidebar" class="medium-4 grid-block">
+			<zf-accordion-item title="Political Science">
+				<p>POLS 206</p>
+				<p>POLS 207</p>
+			</zf-accordion-item>
+		</div>
+</zf-accordion>
+
+</div>
