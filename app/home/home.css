@@ -1,0 +1,10 @@
+.panel{
+	margin-left: 100px;
+}
+.panel-default > .panel-heading{
+	/*background-color: red;*/
+}
+
+#Core{
+	/*background-color: blue;*/
+}
