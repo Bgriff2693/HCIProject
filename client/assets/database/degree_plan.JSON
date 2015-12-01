@@ -1,0 +1,2915 @@
+{
+  "courses": [
+    [
+      {
+        "term": " Spring 2016 - College Station'",
+        "name": "INTRO TO COMPUTING",
+        "CID": "CSCE 181",
+        "track": "core",
+        "prequisite": "",
+        "professor": "Scott  Schaefer",
+        "avgGPA": "",
+        "credits": "1.000",
+        "meeting_times": [
+          {
+            "professor": "Scott   Schaefer",
+            "days": "TR",
+            "schedule_type": "Lecture",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "H. R. Bright Building 124",
+            "time": "3:55 pm - 5:10 pm",
+            "type": "Lecture"
+          }
+        ],
+        "taken": false,
+        "CRN": "19856",
+        "section": "500",
+        "subject": "CSCE"
+      }
+    ],
+    [
+      {
+        "term": " Spring 2016 - College Station'",
+        "name": "HNR-INTRO PGM DESIGN CONCEPT",
+        "CID": "CSCE 121",
+        "track": "core",
+        "prequisite": "",
+        "professor": "John  Keyser",
+        "avgGPA": "",
+        "credits": "4.000",
+        "meeting_times": [
+          {
+            "professor": "John   Keyser ",
+            "days": "&nbsp;",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "TBA",
+            "time": "TBA",
+            "type": "Laboratory"
+          },
+          {
+            "professor": "John   Keyser",
+            "days": "&nbsp;",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "TBA",
+            "time": "TBA",
+            "type": "Lecture"
+          }
+        ],
+        "taken": false,
+        "CRN": "21928",
+        "section": "200",
+        "subject": "CSCE"
+      },
+      {
+        "term": " Spring 2016 - College Station'",
+        "name": "INTRO PGM DESIGN CONCEPT",
+        "CID": "CSCE 121",
+        "track": "core",
+        "prequisite": "",
+        "professor": "Walter  Daugherity",
+        "avgGPA": "",
+        "credits": "4.000",
+        "meeting_times": [
+          {
+            "professor": "Walter   Daugherity ",
+            "days": "MW",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "Reed McDonald Building 111A",
+            "time": "12:40 pm - 1:30 pm",
+            "type": "Laboratory"
+          },
+          {
+            "professor": "Walter   Daugherity",
+            "days": "TR",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "H. R. Bright Building 124",
+            "time": "11:10 am - 12:25 pm",
+            "type": "Lecture"
+          }
+        ],
+        "taken": false,
+        "CRN": "12442",
+        "section": "501",
+        "subject": "CSCE"
+      },
+      {
+        "term": " Spring 2016 - College Station'",
+        "name": "INTRO PGM DESIGN CONCEPT",
+        "CID": "CSCE 121",
+        "track": "core",
+        "prequisite": "",
+        "professor": "Walter  Daugherity",
+        "avgGPA": "",
+        "credits": "4.000",
+        "meeting_times": [
+          {
+            "professor": "Walter   Daugherity ",
+            "days": "MW",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "Reed McDonald Building 111H",
+            "time": "10:20 am - 11:10 am",
+            "type": "Laboratory"
+          },
+          {
+            "professor": "Walter   Daugherity",
+            "days": "TR",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "H. R. Bright Building 124",
+            "time": "11:10 am - 12:25 pm",
+            "type": "Lecture"
+          }
+        ],
+        "taken": false,
+        "CRN": "12445",
+        "section": "502",
+        "subject": "CSCE"
+      },
+      {
+        "term": " Spring 2016 - College Station'",
+        "name": "INTRO PGM DESIGN CONCEPT",
+        "CID": "CSCE 121",
+        "track": "core",
+        "prequisite": "",
+        "professor": "Walter  Daugherity",
+        "avgGPA": "",
+        "credits": "4.000",
+        "meeting_times": [
+          {
+            "professor": "Walter   Daugherity ",
+            "days": "MW",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "Reed McDonald Building 111A",
+            "time": "1:50 pm - 2:40 pm",
+            "type": "Laboratory"
+          },
+          {
+            "professor": "Walter   Daugherity",
+            "days": "TR",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "H. R. Bright Building 124",
+            "time": "11:10 am - 12:25 pm",
+            "type": "Lecture"
+          }
+        ],
+        "taken": false,
+        "CRN": "12447",
+        "section": "503",
+        "subject": "CSCE"
+      },
+      {
+        "term": " Spring 2016 - College Station'",
+        "name": "INTRO PGM DESIGN CONCEPT",
+        "CID": "CSCE 121",
+        "track": "core",
+        "prequisite": "",
+        "professor": "Walter  Daugherity",
+        "avgGPA": "",
+        "credits": "4.000",
+        "meeting_times": [
+          {
+            "professor": "Walter   Daugherity ",
+            "days": "MW",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "Reed McDonald Building 111A",
+            "time": "9:10 am - 10:00 am",
+            "type": "Laboratory"
+          },
+          {
+            "professor": "Walter   Daugherity",
+            "days": "TR",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "H. R. Bright Building 124",
+            "time": "11:10 am - 12:25 pm",
+            "type": "Lecture"
+          }
+        ],
+        "taken": false,
+        "CRN": "12449",
+        "section": "504",
+        "subject": "CSCE"
+      },
+      {
+        "term": " Spring 2016 - College Station'",
+        "name": "INTRO PGM DESIGN CONCEPT",
+        "CID": "CSCE 121",
+        "track": "core",
+        "prequisite": "",
+        "professor": "Walter  Daugherity",
+        "avgGPA": "",
+        "credits": "4.000",
+        "meeting_times": [
+          {
+            "professor": "Walter   Daugherity ",
+            "days": "MW",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "Reed McDonald Building 111H",
+            "time": "7:20 pm - 8:10 pm",
+            "type": "Laboratory"
+          },
+          {
+            "professor": "Walter   Daugherity",
+            "days": "TR",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "H. R. Bright Building 124",
+            "time": "5:30 pm - 6:45 pm",
+            "type": "Lecture"
+          }
+        ],
+        "taken": false,
+        "CRN": "13971",
+        "section": "505",
+        "subject": "CSCE"
+      },
+      {
+        "term": " Spring 2016 - College Station'",
+        "name": "INTRO PGM DESIGN CONCEPT",
+        "CID": "CSCE 121",
+        "track": "core",
+        "prequisite": "",
+        "professor": "Walter  Daugherity",
+        "avgGPA": "",
+        "credits": "4.000",
+        "meeting_times": [
+          {
+            "professor": "Walter   Daugherity ",
+            "days": "MW",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "Reed McDonald Building 111H",
+            "time": "4:10 pm - 5:00 pm",
+            "type": "Laboratory"
+          },
+          {
+            "professor": "Walter   Daugherity",
+            "days": "TR",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "H. R. Bright Building 124",
+            "time": "5:30 pm - 6:45 pm",
+            "type": "Lecture"
+          }
+        ],
+        "taken": false,
+        "CRN": "14155",
+        "section": "506",
+        "subject": "CSCE"
+      },
+      {
+        "term": " Spring 2016 - College Station'",
+        "name": "INTRO PGM DESIGN CONCEPT",
+        "CID": "CSCE 121",
+        "track": "core",
+        "prequisite": "",
+        "professor": "Walter  Daugherity",
+        "avgGPA": "",
+        "credits": "4.000",
+        "meeting_times": [
+          {
+            "professor": "Walter   Daugherity ",
+            "days": "MW",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "Reed McDonald Building 111A",
+            "time": "3:00 pm - 3:50 pm",
+            "type": "Laboratory"
+          },
+          {
+            "professor": "Walter   Daugherity",
+            "days": "TR",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "H. R. Bright Building 124",
+            "time": "5:30 pm - 6:45 pm",
+            "type": "Lecture"
+          }
+        ],
+        "taken": false,
+        "CRN": "15277",
+        "section": "507",
+        "subject": "CSCE"
+      },
+      {
+        "term": " Spring 2016 - College Station'",
+        "name": "INTRO PGM DESIGN CONCEPT",
+        "CID": "CSCE 121",
+        "track": "core",
+        "prequisite": "",
+        "professor": "Walter  Daugherity",
+        "avgGPA": "",
+        "credits": "4.000",
+        "meeting_times": [
+          {
+            "professor": "Walter   Daugherity ",
+            "days": "MW",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "Reed McDonald Building 111A",
+            "time": "11:30 am - 12:20 pm",
+            "type": "Laboratory"
+          },
+          {
+            "professor": "Walter   Daugherity",
+            "days": "TR",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "H. R. Bright Building 124",
+            "time": "5:30 pm - 6:45 pm",
+            "type": "Lecture"
+          }
+        ],
+        "taken": false,
+        "CRN": "15278",
+        "section": "508",
+        "subject": "CSCE"
+      },
+      {
+        "term": " Spring 2016 - College Station'",
+        "name": "INTRO PGM DESIGN CONCEPT",
+        "CID": "CSCE 121",
+        "track": "core",
+        "prequisite": "",
+        "professor": "John Michael Moore",
+        "avgGPA": "",
+        "credits": "4.000",
+        "meeting_times": [
+          {
+            "professor": "John Michael  Moore",
+            "days": "MWF",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "[u\"JAMES J. CAIN '51 BUILDING 216\"]",
+            "time": "9:10 am - 10:00 am",
+            "type": "Lecture"
+          },
+          {
+            "professor": "John Michael  Moore ",
+            "days": "TR",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "TBA",
+            "time": "12:45 pm - 1:35 pm",
+            "type": "Laboratory"
+          }
+        ],
+        "taken": false,
+        "CRN": "16093",
+        "section": "509",
+        "subject": "CSCE"
+      },
+      {
+        "term": " Spring 2016 - College Station'",
+        "name": "INTRO PGM DESIGN CONCEPT",
+        "CID": "CSCE 121",
+        "track": "core",
+        "prequisite": "",
+        "professor": "John Michael Moore",
+        "avgGPA": "",
+        "credits": "4.000",
+        "meeting_times": [
+          {
+            "professor": "John Michael  Moore",
+            "days": "MWF",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "TBA",
+            "time": "9:10 am - 10:00 am",
+            "type": "Lecture"
+          },
+          {
+            "professor": "John Michael  Moore ",
+            "days": "TR",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "TBA",
+            "time": "9:35 am - 10:25 am",
+            "type": "Laboratory"
+          }
+        ],
+        "taken": false,
+        "CRN": "18007",
+        "section": "510",
+        "subject": "CSCE"
+      },
+      {
+        "term": " Spring 2016 - College Station'",
+        "name": "INTRO PGM DESIGN CONCEPT",
+        "CID": "CSCE 121",
+        "track": "core",
+        "prequisite": "",
+        "professor": "John Michael Moore",
+        "avgGPA": "",
+        "credits": "4.000",
+        "meeting_times": [
+          {
+            "professor": "John Michael  Moore",
+            "days": "MWF",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "TBA",
+            "time": "9:10 am - 10:00 am",
+            "type": "Lecture"
+          },
+          {
+            "professor": "John Michael  Moore ",
+            "days": "TR",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "TBA",
+            "time": "5:30 pm - 6:20 pm",
+            "type": "Laboratory"
+          }
+        ],
+        "taken": false,
+        "CRN": "21929",
+        "section": "511",
+        "subject": "CSCE"
+      },
+      {
+        "term": " Spring 2016 - College Station'",
+        "name": "INTRO PGM DESIGN CONCEPT",
+        "CID": "CSCE 121",
+        "track": "core",
+        "prequisite": "",
+        "professor": "John Michael Moore",
+        "avgGPA": "",
+        "credits": "4.000",
+        "meeting_times": [
+          {
+            "professor": "John Michael  Moore",
+            "days": "MWF",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "TBA",
+            "time": "9:10 am - 10:00 am",
+            "type": "Lecture"
+          },
+          {
+            "professor": "John Michael  Moore ",
+            "days": "TR",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "TBA",
+            "time": "5:30 pm - 6:20 pm",
+            "type": "Laboratory"
+          }
+        ],
+        "taken": false,
+        "CRN": "21930",
+        "section": "512",
+        "subject": "CSCE"
+      },
+      {
+        "term": " Spring 2016 - College Station'",
+        "name": "INTRO PGM DESIGN CONCEPT",
+        "CID": "CSCE 121",
+        "track": "core",
+        "prequisite": "",
+        "professor": "John Michael Moore",
+        "avgGPA": "",
+        "credits": "4.000",
+        "meeting_times": [
+          {
+            "professor": "[<abbr title=\"To Be Announced\">TBA</abbr>]",
+            "days": "MWF",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "TBA",
+            "time": "10:20 am - 11:10 am",
+            "type": "Lecture"
+          },
+          {
+            "professor": "[<abbr title=\"To Be Announced\">TBA</abbr>]",
+            "days": "&nbsp;",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "TBA",
+            "time": "TBA",
+            "type": "Laboratory"
+          }
+        ],
+        "taken": false,
+        "CRN": "26300",
+        "section": "513",
+        "subject": "CSCE"
+      },
+      {
+        "term": " Spring 2016 - College Station'",
+        "name": "INTRO PGM DESIGN CONCEPT",
+        "CID": "CSCE 121",
+        "track": "core",
+        "prequisite": "",
+        "professor": "John Michael Moore",
+        "avgGPA": "",
+        "credits": "4.000",
+        "meeting_times": [
+          {
+            "professor": "[<abbr title=\"To Be Announced\">TBA</abbr>]",
+            "days": "&nbsp;",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "TBA",
+            "time": "TBA",
+            "type": "Laboratory"
+          },
+          {
+            "professor": "[<abbr title=\"To Be Announced\">TBA</abbr>]",
+            "days": "&nbsp;",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "TBA",
+            "time": "TBA",
+            "type": "Lecture"
+          }
+        ],
+        "taken": false,
+        "CRN": "26301",
+        "section": "514",
+        "subject": "CSCE"
+      },
+      {
+        "term": " Spring 2016 - College Station'",
+        "name": "INTRO PGM DESIGN CONCEPT",
+        "CID": "CSCE 121",
+        "track": "core",
+        "prequisite": "",
+        "professor": "John Michael Moore",
+        "avgGPA": "",
+        "credits": "4.000",
+        "meeting_times": [
+          {
+            "professor": "[<abbr title=\"To Be Announced\">TBA</abbr>]",
+            "days": "&nbsp;",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "TBA",
+            "time": "TBA",
+            "type": "Laboratory"
+          },
+          {
+            "professor": "[<abbr title=\"To Be Announced\">TBA</abbr>]",
+            "days": "&nbsp;",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "TBA",
+            "time": "TBA",
+            "type": "Lecture"
+          }
+        ],
+        "taken": false,
+        "CRN": "26302",
+        "section": "515",
+        "subject": "CSCE"
+      }
+    ],
+    [
+      {
+        "term": " Spring 2016 - College Station'",
+        "name": "HNR-DISCRETE STRUC COMPUTING",
+        "CID": "CSCE 222",
+        "track": "core",
+        "prequisite": "",
+        "professor": "Jennifer  Welch",
+        "avgGPA": "",
+        "credits": "3.000",
+        "meeting_times": [
+          {
+            "professor": "Jennifer   Welch",
+            "days": "MWF",
+            "schedule_type": "Lecture",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "H. R. Bright Building 126",
+            "time": "10:20 am - 11:10 am",
+            "type": "Lecture"
+          }
+        ],
+        "taken": false,
+        "CRN": "21931",
+        "section": "200",
+        "subject": "CSCE"
+      },
+      {
+        "term": " Spring 2016 - College Station'",
+        "name": "DISCRETE STRUC COMPUTING",
+        "CID": "CSCE 222",
+        "track": "core",
+        "prequisite": "",
+        "professor": "Hyunyoung Lee",
+        "avgGPA": "",
+        "credits": "3.000",
+        "meeting_times": [
+          {
+            "professor": "Hyunyoung Lee",
+            "days": "MWF",
+            "schedule_type": "Lecture",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "H. R. Bright Building 124",
+            "time": "10:20 am - 11:10 am",
+            "type": "Lecture"
+          }
+        ],
+        "taken": false,
+        "CRN": "15596",
+        "section": "501",
+        "subject": "CSCE"
+      },
+      {
+        "term": " Spring 2016 - College Station'",
+        "name": "DISCRETE STRUC COMPUTING",
+        "CID": "CSCE 222",
+        "track": "core",
+        "prequisite": "",
+        "professor": "Hyunyoung  Lee",
+        "avgGPA": "",
+        "credits": "3.000",
+        "meeting_times": [
+          {
+            "professor": "Hyunyoung   Lee",
+            "days": "MWF",
+            "schedule_type": "Lecture",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "H. R. Bright Building 124",
+            "time": "1:50 pm - 2:40 pm",
+            "type": "Lecture"
+          }
+        ],
+        "taken": false,
+        "CRN": "15602",
+        "section": "502",
+        "subject": "CSCE"
+      },
+      {
+        "term": " Spring 2016 - College Station'",
+        "name": "DISCRETE STRUC COMPUTING",
+        "CID": "CSCE 222",
+        "track": "core",
+        "prequisite": "",
+        "professor": "Philip Carson Ritchey",
+        "avgGPA": "",
+        "credits": "3.000",
+        "meeting_times": [
+          {
+            "professor": "Philip Carson  Ritchey",
+            "days": "MWF",
+            "schedule_type": "Lecture",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "Richardson Petroleum Engr Bldg 114",
+            "time": "8:00 am - 8:50 am",
+            "type": "Lecture"
+          }
+        ],
+        "taken": false,
+        "CRN": "21933",
+        "section": "503",
+        "subject": "CSCE"
+      }
+    ],
+    [
+      {
+        "term": " Spring 2016 - College Station'",
+        "name": "HNR-DATA STRUC & ALGORITHM",
+        "CID": "CSCE 221",
+        "track": "core",
+        "prequisite": "",
+        "professor": "Scott  Schaefer",
+        "avgGPA": "",
+        "credits": "4.000",
+        "meeting_times": [
+          {
+            "professor": "Scott   Schaefer",
+            "days": "MWF",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "H. R. Bright Building 126",
+            "time": "TBA",
+            "type": "Lecture"
+          },
+          {
+            "professor": "Scott   Schaefer ",
+            "days": "MW",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "Reed McDonald Building 111H",
+            "time": "3:00 pm - 3:50 pm",
+            "type": "Laboratory"
+          }
+        ],
+        "taken": false,
+        "CRN": "12461",
+        "section": "200",
+        "subject": "CSCE"
+      },
+      {
+        "term": " Spring 2016 - College Station'",
+        "name": "DATA STRUC & ALGORITHM",
+        "CID": "CSCE 221",
+        "track": "core",
+        "prequisite": "",
+        "professor": "Teresa  Leyk",
+        "avgGPA": "",
+        "credits": "4.000",
+        "meeting_times": [
+          {
+            "professor": "Teresa   Leyk",
+            "days": "TR",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "Emerging Technologies Building 2005",
+            "time": "8:00 am - 9:15 am",
+            "type": "Lecture"
+          },
+          {
+            "professor": "Teresa   Leyk ",
+            "days": "TR",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "Reed McDonald Building 111H",
+            "time": "9:35 am - 10:25 am",
+            "type": "Laboratory"
+          }
+        ],
+        "taken": false,
+        "CRN": "12462",
+        "section": "501",
+        "subject": "CSCE"
+      },
+      {
+        "term": " Spring 2016 - College Station'",
+        "name": "DATA STRUC & ALGORITHM",
+        "CID": "CSCE 221",
+        "track": "core",
+        "prequisite": "",
+        "professor": "Teresa  Leyk",
+        "avgGPA": "",
+        "credits": "4.000",
+        "meeting_times": [
+          {
+            "professor": "Teresa   Leyk",
+            "days": "TR",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "Emerging Technologies Building 2005",
+            "time": "8:00 am - 9:15 am",
+            "type": "Lecture"
+          },
+          {
+            "professor": "Teresa   Leyk ",
+            "days": "TR",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "Reed McDonald Building 111A",
+            "time": "9:35 am - 10:25 am",
+            "type": "Laboratory"
+          }
+        ],
+        "taken": false,
+        "CRN": "12463",
+        "section": "502",
+        "subject": "CSCE"
+      },
+      {
+        "term": " Spring 2016 - College Station'",
+        "name": "DATA STRUC & ALGORITHM",
+        "CID": "CSCE 221",
+        "track": "core",
+        "prequisite": "",
+        "professor": "Teresa  Leyk",
+        "avgGPA": "",
+        "credits": "4.000",
+        "meeting_times": [
+          {
+            "professor": "Teresa   Leyk ",
+            "days": "MW",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "Reed McDonald Building 111A",
+            "time": "10:20 am - 11:10 am",
+            "type": "Laboratory"
+          },
+          {
+            "professor": "Teresa   Leyk",
+            "days": "TR",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "Emerging Technologies Building 2005",
+            "time": "8:00 am - 9:15 am",
+            "type": "Lecture"
+          }
+        ],
+        "taken": false,
+        "CRN": "12466",
+        "section": "503",
+        "subject": "CSCE"
+      },
+      {
+        "term": " Spring 2016 - College Station'",
+        "name": "DATA STRUC & ALGORITHM",
+        "CID": "CSCE 221",
+        "track": "core",
+        "prequisite": "",
+        "professor": "Teresa  Leyk",
+        "avgGPA": "",
+        "credits": "4.000",
+        "meeting_times": [
+          {
+            "professor": "Teresa   Leyk ",
+            "days": "MW",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "Reed McDonald Building 111H",
+            "time": "8:00 am - 8:50 am",
+            "type": "Laboratory"
+          },
+          {
+            "professor": "Teresa   Leyk",
+            "days": "TR",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "Emerging Technologies Building 2005",
+            "time": "8:00 am - 9:15 am",
+            "type": "Lecture"
+          }
+        ],
+        "taken": false,
+        "CRN": "12468",
+        "section": "504",
+        "subject": "CSCE"
+      },
+      {
+        "term": " Spring 2016 - College Station'",
+        "name": "DATA STRUC & ALGORITHM",
+        "CID": "CSCE 221",
+        "track": "core",
+        "prequisite": "",
+        "professor": "John Michael Moore",
+        "avgGPA": "",
+        "credits": "4.000",
+        "meeting_times": [
+          {
+            "professor": "John Michael  Moore ",
+            "days": "TR",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "Reed McDonald Building 111H",
+            "time": "8:25 am - 9:15 am",
+            "type": "Laboratory"
+          },
+          {
+            "professor": "John Michael  Moore",
+            "days": "TR",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "Emerging Technologies Building 2005",
+            "time": "9:35 am - 10:50 am",
+            "type": "Lecture"
+          }
+        ],
+        "taken": false,
+        "CRN": "12469",
+        "section": "505",
+        "subject": "CSCE"
+      },
+      {
+        "term": " Spring 2016 - College Station'",
+        "name": "DATA STRUC & ALGORITHM",
+        "CID": "CSCE 221",
+        "track": "core",
+        "prequisite": "",
+        "professor": "John Michael Moore",
+        "avgGPA": "",
+        "credits": "4.000",
+        "meeting_times": [
+          {
+            "professor": "John Michael  Moore ",
+            "days": "TR",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "Reed McDonald Building 111A",
+            "time": "8:25 am - 9:15 am",
+            "type": "Laboratory"
+          },
+          {
+            "professor": "John Michael  Moore",
+            "days": "TR",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "Emerging Technologies Building 2005",
+            "time": "9:35 am - 10:50 am",
+            "type": "Lecture"
+          }
+        ],
+        "taken": false,
+        "CRN": "12471",
+        "section": "506",
+        "subject": "CSCE"
+      },
+      {
+        "term": " Spring 2016 - College Station'",
+        "name": "DATA STRUC & ALGORITHM",
+        "CID": "CSCE 221",
+        "track": "core",
+        "prequisite": "",
+        "professor": "John Michael Moore",
+        "avgGPA": "",
+        "credits": "4.000",
+        "meeting_times": [
+          {
+            "professor": "John Michael  Moore",
+            "days": "TR",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "Emerging Technologies Building 2005",
+            "time": "9:35 am - 10:50 am",
+            "type": "Lecture"
+          },
+          {
+            "professor": "John Michael  Moore ",
+            "days": "TR",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "Reed McDonald Building 111A",
+            "time": "11:10 am - 12:00 pm",
+            "type": "Laboratory"
+          }
+        ],
+        "taken": false,
+        "CRN": "16591",
+        "section": "507",
+        "subject": "CSCE"
+      },
+      {
+        "term": " Spring 2016 - College Station'",
+        "name": "DATA STRUC & ALGORITHM",
+        "CID": "CSCE 221",
+        "track": "core",
+        "prequisite": "",
+        "professor": "John Michael Moore",
+        "avgGPA": "",
+        "credits": "4.000",
+        "meeting_times": [
+          {
+            "professor": "John Michael  Moore ",
+            "days": "MW",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "Reed McDonald Building 111H",
+            "time": "9:10 am - 10:00 am",
+            "type": "Laboratory"
+          },
+          {
+            "professor": "John Michael  Moore",
+            "days": "TR",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "Emerging Technologies Building 2005",
+            "time": "9:35 am - 10:50 am",
+            "type": "Lecture"
+          }
+        ],
+        "taken": false,
+        "CRN": "24063",
+        "section": "508",
+        "subject": "CSCE"
+      },
+      {
+        "term": " Spring 2016 - College Station'",
+        "name": "DATA STRUC & ALGORITHM",
+        "CID": "CSCE 221",
+        "track": "core",
+        "prequisite": "",
+        "professor": "Teresa  Leyk",
+        "avgGPA": "",
+        "credits": "4.000",
+        "meeting_times": [
+          {
+            "professor": "Teresa   Leyk",
+            "days": "TR",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "Emerging Technologies Building 2005",
+            "time": "12:45 pm - 2:00 pm",
+            "type": "Lecture"
+          },
+          {
+            "professor": "Teresa   Leyk ",
+            "days": "TR",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "Reed McDonald Building 111H",
+            "time": "2:20 pm - 3:10 pm",
+            "type": "Laboratory"
+          }
+        ],
+        "taken": false,
+        "CRN": "17411",
+        "section": "509",
+        "subject": "CSCE"
+      },
+      {
+        "term": " Spring 2016 - College Station'",
+        "name": "DATA STRUC & ALGORITHM",
+        "CID": "CSCE 221",
+        "track": "core",
+        "prequisite": "",
+        "professor": "Teresa  Leyk",
+        "avgGPA": "",
+        "credits": "4.000",
+        "meeting_times": [
+          {
+            "professor": "Teresa   Leyk",
+            "days": "TR",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "Emerging Technologies Building 2005",
+            "time": "12:45 pm - 2:00 pm",
+            "type": "Lecture"
+          },
+          {
+            "professor": "Teresa   Leyk ",
+            "days": "TR",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "Reed McDonald Building 111A",
+            "time": "2:20 pm - 3:10 pm",
+            "type": "Laboratory"
+          }
+        ],
+        "taken": false,
+        "CRN": "15105",
+        "section": "510",
+        "subject": "CSCE"
+      },
+      {
+        "term": " Spring 2016 - College Station'",
+        "name": "DATA STRUC & ALGORITHM",
+        "CID": "CSCE 221",
+        "track": "core",
+        "prequisite": "",
+        "professor": "Teresa  Leyk",
+        "avgGPA": "",
+        "credits": "4.000",
+        "meeting_times": [
+          {
+            "professor": "Teresa   Leyk ",
+            "days": "MW",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "Reed McDonald Building 111H",
+            "time": "11:30 am - 12:20 pm",
+            "type": "Laboratory"
+          },
+          {
+            "professor": "Teresa   Leyk",
+            "days": "TR",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "Emerging Technologies Building 2005",
+            "time": "12:45 pm - 2:00 pm",
+            "type": "Lecture"
+          }
+        ],
+        "taken": false,
+        "CRN": "17408",
+        "section": "511",
+        "subject": "CSCE"
+      },
+      {
+        "term": " Spring 2016 - College Station'",
+        "name": "DATA STRUC & ALGORITHM",
+        "CID": "CSCE 221",
+        "track": "core",
+        "prequisite": "",
+        "professor": "Teresa  Leyk",
+        "avgGPA": "",
+        "credits": "4.000",
+        "meeting_times": [
+          {
+            "professor": "Teresa   Leyk",
+            "days": "MW",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "Reed McDonald Building 111A",
+            "time": "12:40 pm - 1:30 pm",
+            "type": "Laboratory"
+          },
+          {
+            "professor": "Teresa   Leyk",
+            "days": "TR",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "Emerging Technologies Building 2005",
+            "time": "12:45 pm - 2:00 pm",
+            "type": "Lecture"
+          }
+        ],
+        "taken": false,
+        "CRN": "24064",
+        "section": "512",
+        "subject": "CSCE"
+      },
+      {
+        "term": " Spring 2016 - College Station'",
+        "name": "DATA STRUC & ALGORITHM",
+        "CID": "CSCE 221",
+        "track": "core",
+        "prequisite": "",
+        "professor": "Teresa  Leyk",
+        "avgGPA": "",
+        "credits": "4.000",
+        "meeting_times": [
+          {
+            "professor": "[<abbr title=\"To Be Announced\">TBA</abbr>]",
+            "days": "MWF",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "Jack E. Brown Chem Engn Bldg 102",
+            "time": "3:00 pm - 3:50 pm",
+            "type": "Lecture"
+          },
+          {
+            "professor": "[<abbr title=\"To Be Announced\">TBA</abbr>]",
+            "days": "MW",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "Reed McDonald Building 111H",
+            "time": "1:50 pm - 2:40 pm",
+            "type": "Laboratory"
+          }
+        ],
+        "taken": false,
+        "CRN": "26303",
+        "section": "513",
+        "subject": "CSCE"
+      },
+      {
+        "term": " Spring 2016 - College Station'",
+        "name": "DATA STRUC & ALGORITHM",
+        "CID": "CSCE 221",
+        "track": "core",
+        "prequisite": "",
+        "professor": "Teresa  Leyk",
+        "avgGPA": "",
+        "credits": "4.000",
+        "meeting_times": [
+          {
+            "professor": "[<abbr title=\"To Be Announced\">TBA</abbr>]",
+            "days": "MWF",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "TBA",
+            "time": "3:00 pm - 3:50 pm",
+            "type": "Lecture"
+          },
+          {
+            "professor": "[<abbr title=\"To Be Announced\">TBA</abbr>]",
+            "days": "MW",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "Reed McDonald Building 111H",
+            "time": "5:45 pm - 6:35 pm",
+            "type": "Laboratory"
+          }
+        ],
+        "taken": false,
+        "CRN": "26304",
+        "section": "514",
+        "subject": "CSCE"
+      },
+      {
+        "term": " Spring 2016 - College Station'",
+        "name": "DATA STRUC & ALGORITHM",
+        "CID": "CSCE 221",
+        "track": "core",
+        "prequisite": "",
+        "professor": "Teresa  Leyk",
+        "avgGPA": "",
+        "credits": "4.000",
+        "meeting_times": [
+          {
+            "professor": "[<abbr title=\"To Be Announced\">TBA</abbr>]",
+            "days": "MWF",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "TBA",
+            "time": "3:00 pm - 3:50 pm",
+            "type": "Lecture"
+          },
+          {
+            "professor": "[<abbr title=\"To Be Announced\">TBA</abbr>]",
+            "days": "TR",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "Reed McDonald Building 111H",
+            "time": "11:10 am - 12:00 pm",
+            "type": "Laboratory"
+          }
+        ],
+        "taken": false,
+        "CRN": "26305",
+        "section": "515",
+        "subject": "CSCE"
+      }
+    ],
+    [
+      {
+        "term": " Spring 2016 - College Station'",
+        "name": "COMPUTER ORGANIZATION",
+        "CID": "CSCE 312",
+        "track": "core",
+        "prequisite": "",
+        "professor": "Eun  Kim",
+        "avgGPA": "",
+        "credits": "4.000",
+        "meeting_times": [
+          {
+            "professor": "Eun   Kim",
+            "days": "MWF",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "H. R. Bright Building 124",
+            "time": "3:00 pm - 3:50 pm",
+            "type": "Lecture"
+          },
+          {
+            "professor": "Eun   Kim ",
+            "days": "M",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "Reed McDonald Building 111C",
+            "time": "4:10 pm - 5:50 pm",
+            "type": "Laboratory"
+          }
+        ],
+        "taken": false,
+        "CRN": "12474",
+        "section": "501",
+        "subject": "CSCE"
+      },
+      {
+        "term": " Spring 2016 - College Station'",
+        "name": "COMPUTER ORGANIZATION",
+        "CID": "CSCE 312",
+        "track": "core",
+        "prequisite": "",
+        "professor": "Eun  Kim",
+        "avgGPA": "",
+        "credits": "4.000",
+        "meeting_times": [
+          {
+            "professor": "Eun   Kim",
+            "days": "MWF",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "H. R. Bright Building 124",
+            "time": "3:00 pm - 3:50 pm",
+            "type": "Lecture"
+          },
+          {
+            "professor": "Eun   Kim ",
+            "days": "W",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "Reed McDonald Building 111C",
+            "time": "4:10 pm - 5:50 pm",
+            "type": "Laboratory"
+          }
+        ],
+        "taken": false,
+        "CRN": "12476",
+        "section": "502",
+        "subject": "CSCE"
+      },
+      {
+        "term": " Spring 2016 - College Station'",
+        "name": "COMPUTER ORGANIZATION",
+        "CID": "CSCE 312",
+        "track": "core",
+        "prequisite": "",
+        "professor": "Eun  Kim",
+        "avgGPA": "",
+        "credits": "4.000",
+        "meeting_times": [
+          {
+            "professor": "Eun   Kim",
+            "days": "MWF",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "H. R. Bright Building 124",
+            "time": "3:00 pm - 3:50 pm",
+            "type": "Lecture"
+          },
+          {
+            "professor": "Eun   Kim ",
+            "days": "F",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "Reed McDonald Building 111C",
+            "time": "12:40 pm - 2:20 pm",
+            "type": "Laboratory"
+          }
+        ],
+        "taken": false,
+        "CRN": "16592",
+        "section": "503",
+        "subject": "CSCE"
+      }
+    ],
+    [
+      {
+        "term": " Spring 2016 - College Station'",
+        "name": "HNR-INTRO TO COMPUTER SYSTEM",
+        "CID": "CSCE 313",
+        "track": "core",
+        "prequisite": "",
+        "professor": "Guofei  Gu",
+        "avgGPA": "",
+        "credits": "4.000",
+        "meeting_times": [
+          {
+            "professor": "Guofei   Gu",
+            "days": "TR",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "H. R. Bright Building 126",
+            "time": "2:20 pm - 3:35 pm",
+            "type": "Lecture"
+          },
+          {
+            "professor": "Guofei   Gu ",
+            "days": "F",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "Reed McDonald Building 111H",
+            "time": "10:20 am - 12:00 pm",
+            "type": "Laboratory"
+          }
+        ],
+        "taken": false,
+        "CRN": "17414",
+        "section": "200",
+        "subject": "CSCE"
+      },
+      {
+        "term": " Spring 2016 - College Station'",
+        "name": "INTRO TO COMPUTER SYSTEM",
+        "CID": "CSCE 313",
+        "track": "core",
+        "prequisite": "",
+        "professor": "Aakash  Tyagi",
+        "avgGPA": "",
+        "credits": "4.000",
+        "meeting_times": [
+          {
+            "professor": "Aakash   Tyagi ",
+            "days": "M",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "Reed McDonald Building 111C",
+            "time": "9:10 am - 10:50 am",
+            "type": "Laboratory"
+          },
+          {
+            "professor": "Aakash   Tyagi",
+            "days": "TR",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "H. R. Bright Building 124",
+            "time": "8:00 am - 9:15 am",
+            "type": "Lecture"
+          }
+        ],
+        "taken": false,
+        "CRN": "12478",
+        "section": "501",
+        "subject": "CSCE"
+      },
+      {
+        "term": " Spring 2016 - College Station'",
+        "name": "INTRO TO COMPUTER SYSTEM",
+        "CID": "CSCE 313",
+        "track": "core",
+        "prequisite": "",
+        "professor": "Aakash  Tyagi",
+        "avgGPA": "",
+        "credits": "4.000",
+        "meeting_times": [
+          {
+            "professor": "Aakash   Tyagi",
+            "days": "TR",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "H. R. Bright Building 124",
+            "time": "8:00 am - 9:15 am",
+            "type": "Lecture"
+          },
+          {
+            "professor": "Aakash   Tyagi ",
+            "days": "W",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "Reed McDonald Building 111C",
+            "time": "12:40 pm - 2:20 pm",
+            "type": "Laboratory"
+          }
+        ],
+        "taken": false,
+        "CRN": "12479",
+        "section": "502",
+        "subject": "CSCE"
+      },
+      {
+        "term": " Spring 2016 - College Station'",
+        "name": "INTRO TO COMPUTER SYSTEM",
+        "CID": "CSCE 313",
+        "track": "core",
+        "prequisite": "",
+        "professor": "Aakash  Tyagi",
+        "avgGPA": "",
+        "credits": "4.000",
+        "meeting_times": [
+          {
+            "professor": "Aakash   Tyagi",
+            "days": "TR",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "H. R. Bright Building 124",
+            "time": "8:00 am - 9:15 am",
+            "type": "Lecture"
+          },
+          {
+            "professor": "Aakash   Tyagi ",
+            "days": "F",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "Reed McDonald Building 111H",
+            "time": "8:20 am - 10:00 am",
+            "type": "Laboratory"
+          }
+        ],
+        "taken": false,
+        "CRN": "12480",
+        "section": "503",
+        "subject": "CSCE"
+      },
+      {
+        "term": " Spring 2016 - College Station'",
+        "name": "INTRO TO COMPUTER SYSTEM",
+        "CID": "CSCE 313",
+        "track": "core",
+        "prequisite": "",
+        "professor": "Aakash  Tyagi",
+        "avgGPA": "",
+        "credits": "4.000",
+        "meeting_times": [
+          {
+            "professor": "Aakash   Tyagi",
+            "days": "TR",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "H. R. Bright Building 124",
+            "time": "8:00 am - 9:15 am",
+            "type": "Lecture"
+          },
+          {
+            "professor": "Aakash   Tyagi ",
+            "days": "F",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "TBA",
+            "time": "TBA",
+            "type": "Laboratory"
+          }
+        ],
+        "taken": false,
+        "CRN": "12751",
+        "section": "504",
+        "subject": "CSCE"
+      },
+      {
+        "term": " Spring 2016 - College Station'",
+        "name": "INTRO TO COMPUTER SYSTEM",
+        "CID": "CSCE 313",
+        "track": "core",
+        "prequisite": "",
+        "professor": "Aakash  Tyagi",
+        "avgGPA": "",
+        "credits": "4.000",
+        "meeting_times": [
+          {
+            "professor": "[<abbr title=\"To Be Announced\">TBA</abbr>]",
+            "days": "TR",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "Emerging Technologies Building 2005",
+            "time": "2:20 pm - 3:35 pm",
+            "type": "Lecture"
+          },
+          {
+            "professor": "[<abbr title=\"To Be Announced\">TBA</abbr>]",
+            "days": "W",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "Reed McDonald Building 111C",
+            "time": "9:10 am - 10:50 am",
+            "type": "Laboratory"
+          }
+        ],
+        "taken": false,
+        "CRN": "21934",
+        "section": "505",
+        "subject": "CSCE"
+      },
+      {
+        "term": " Spring 2016 - College Station'",
+        "name": "INTRO TO COMPUTER SYSTEM",
+        "CID": "CSCE 313",
+        "track": "core",
+        "prequisite": "",
+        "professor": "Aakash  Tyagi",
+        "avgGPA": "",
+        "credits": "4.000",
+        "meeting_times": [
+          {
+            "professor": "[<abbr title=\"To Be Announced\">TBA</abbr>]",
+            "days": "M",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "Reed McDonald Building 111C",
+            "time": "12:40 pm - 2:20 pm",
+            "type": "Laboratory"
+          },
+          {
+            "professor": "[<abbr title=\"To Be Announced\">TBA</abbr>]",
+            "days": "TR",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "Emerging Technologies Building 2005",
+            "time": "2:20 pm - 3:35 pm",
+            "type": "Lecture"
+          }
+        ],
+        "taken": false,
+        "CRN": "21936",
+        "section": "506",
+        "subject": "CSCE"
+      },
+      {
+        "term": " Spring 2016 - College Station'",
+        "name": "INTRO TO COMPUTER SYSTEM",
+        "CID": "CSCE 313",
+        "track": "core",
+        "prequisite": "",
+        "professor": "Dezhen  Song",
+        "avgGPA": "",
+        "credits": "4.000",
+        "meeting_times": [
+          {
+            "professor": "Dezhen   Song",
+            "days": "TR",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "Emerging Technologies Building 2005",
+            "time": "2:20 pm - 3:35 pm",
+            "type": "Lecture"
+          },
+          {
+            "professor": "Dezhen   Song ",
+            "days": "F",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "Reed McDonald Building 111C",
+            "time": "10:20 am - 12:00 pm",
+            "type": "Laboratory"
+          }
+        ],
+        "taken": false,
+        "CRN": "21938",
+        "section": "507",
+        "subject": "CSCE"
+      },
+      {
+        "term": " Spring 2016 - College Station'",
+        "name": "INTRO TO COMPUTER SYSTEM",
+        "CID": "CSCE 313",
+        "track": "core",
+        "prequisite": "",
+        "professor": "Dezhen  Song",
+        "avgGPA": "",
+        "credits": "4.000",
+        "meeting_times": [
+          {
+            "professor": "Dezhen   Song",
+            "days": "TR",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "Emerging Technologies Building 2005",
+            "time": "2:20 pm - 3:35 pm",
+            "type": "Lecture"
+          },
+          {
+            "professor": "Dezhen   Song ",
+            "days": "&nbsp;",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "TBA",
+            "time": "TBA",
+            "type": "Laboratory"
+          }
+        ],
+        "taken": false,
+        "CRN": "21940",
+        "section": "508",
+        "subject": "CSCE"
+      },
+      {
+        "term": " Spring 2016 - College Station'",
+        "name": "INTRO TO COMPUTER SYSTEM",
+        "CID": "CSCE 313",
+        "track": "core",
+        "prequisite": "",
+        "professor": "Dezhen  Song",
+        "avgGPA": "",
+        "credits": "4.000",
+        "meeting_times": [
+          {
+            "professor": "Dezhen   Song",
+            "days": "TR",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "Emerging Technologies Building 2005",
+            "time": "11:10 am - 12:25 pm",
+            "type": "Lecture"
+          },
+          {
+            "professor": "Dezhen   Song ",
+            "days": "T",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "Reed McDonald Building 111C",
+            "time": "9:10 am - 10:50 am",
+            "type": "Laboratory"
+          }
+        ],
+        "taken": false,
+        "CRN": "21942",
+        "section": "509",
+        "subject": "CSCE"
+      },
+      {
+        "term": " Spring 2016 - College Station'",
+        "name": "INTRO TO COMPUTER SYSTEM",
+        "CID": "CSCE 313",
+        "track": "core",
+        "prequisite": "",
+        "professor": "Dezhen  Song",
+        "avgGPA": "",
+        "credits": "4.000",
+        "meeting_times": [
+          {
+            "professor": "Dezhen   Song",
+            "days": "TR",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "Emerging Technologies Building 2005",
+            "time": "11:10 am - 12:25 pm",
+            "type": "Lecture"
+          },
+          {
+            "professor": "Dezhen   Song ",
+            "days": "R",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "Reed McDonald Building 111C",
+            "time": "9:10 am - 10:50 am",
+            "type": "Laboratory"
+          }
+        ],
+        "taken": false,
+        "CRN": "21943",
+        "section": "510",
+        "subject": "CSCE"
+      },
+      {
+        "term": " Spring 2016 - College Station'",
+        "name": "INTRO TO COMPUTER SYSTEM",
+        "CID": "CSCE 313",
+        "track": "core",
+        "prequisite": "",
+        "professor": "Dezhen  Song",
+        "avgGPA": "",
+        "credits": "4.000",
+        "meeting_times": [
+          {
+            "professor": "[<abbr title=\"To Be Announced\">TBA</abbr>]",
+            "days": "TR",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "Emerging Technologies Building 2005",
+            "time": "11:10 am - 12:25 pm",
+            "type": "Lecture"
+          },
+          {
+            "professor": "[<abbr title=\"To Be Announced\">TBA</abbr>]",
+            "days": "F",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "Reed McDonald Building 111C",
+            "time": "3:00 pm - 4:40 pm",
+            "type": "Laboratory"
+          }
+        ],
+        "taken": false,
+        "CRN": "26306",
+        "section": "511",
+        "subject": "CSCE"
+      },
+      {
+        "term": " Spring 2016 - College Station'",
+        "name": "INTRO TO COMPUTER SYSTEM",
+        "CID": "CSCE 313",
+        "track": "core",
+        "prequisite": "",
+        "professor": "Dezhen  Song",
+        "avgGPA": "",
+        "credits": "4.000",
+        "meeting_times": [
+          {
+            "professor": "[<abbr title=\"To Be Announced\">TBA</abbr>]",
+            "days": "TR",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "Emerging Technologies Building 2005",
+            "time": "11:10 am - 12:25 pm",
+            "type": "Lecture"
+          },
+          {
+            "professor": "[<abbr title=\"To Be Announced\">TBA</abbr>]",
+            "days": "&nbsp;",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "TBA",
+            "time": "TBA",
+            "type": "Laboratory"
+          }
+        ],
+        "taken": false,
+        "CRN": "26307",
+        "section": "512",
+        "subject": "CSCE"
+      }
+    ],
+    [
+      {
+        "term": " Spring 2016 - College Station'",
+        "name": "PROGRAMMING LANGUAGES",
+        "CID": "CSCE 314",
+        "track": "core",
+        "prequisite": "",
+        "professor": "Jaakko  Jarvi",
+        "avgGPA": "",
+        "credits": "3.000",
+        "meeting_times": [
+          {
+            "professor": "Jaakko   Jarvi",
+            "days": "MWF",
+            "schedule_type": "Lecture",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "Jack E. Brown Chem Engn Bldg 104",
+            "time": "9:10 am - 10:00 am",
+            "type": "Lecture"
+          }
+        ],
+        "taken": false,
+        "CRN": "12481",
+        "section": "500",
+        "subject": "CSCE"
+      },
+      {
+        "term": " Spring 2016 - College Station'",
+        "name": "PROGRAMMING LANGUAGES",
+        "CID": "CSCE 314",
+        "track": "core",
+        "prequisite": "",
+        "professor": "Jaakko  Jarvi",
+        "avgGPA": "",
+        "credits": "3.000",
+        "meeting_times": [
+          {
+            "professor": "[<abbr title=\"To Be Announced\">TBA</abbr>]",
+            "days": "TR",
+            "schedule_type": "Lecture",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "H. R. Bright Building 124",
+            "time": "9:35 am - 10:50 am",
+            "type": "Lecture"
+          }
+        ],
+        "taken": false,
+        "CRN": "26308",
+        "section": "501",
+        "subject": "CSCE"
+      }
+    ],
+    [
+      {
+        "term": " Spring 2016 - College Station'",
+        "name": "PROGRAMMING STUDIO",
+        "CID": "CSCE 315",
+        "track": "core",
+        "prequisite": "",
+        "professor": "Walter  Daugherity",
+        "avgGPA": "",
+        "credits": "3.000",
+        "meeting_times": [
+          {
+            "professor": "Walter   Daugherity",
+            "days": "TR",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "Engineering Academic Bldg A 108",
+            "time": "9:35 am - 10:50 am",
+            "type": "Lecture"
+          },
+          {
+            "professor": "Walter   Daugherity ",
+            "days": "TR",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "Reed McDonald Building 111C",
+            "time": "11:10 am - 12:00 pm",
+            "type": "Laboratory"
+          }
+        ],
+        "taken": false,
+        "CRN": "12482",
+        "section": "501",
+        "subject": "CSCE"
+      },
+      {
+        "term": " Spring 2016 - College Station'",
+        "name": "PROGRAMMING STUDIO",
+        "CID": "CSCE 315",
+        "track": "core",
+        "prequisite": "",
+        "professor": "Walter  Daugherity",
+        "avgGPA": "",
+        "credits": "3.000",
+        "meeting_times": [
+          {
+            "professor": "Walter   Daugherity",
+            "days": "TR",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "Engineering Academic Bldg A 108",
+            "time": "9:35 am - 10:50 am",
+            "type": "Lecture"
+          },
+          {
+            "professor": "Walter   Daugherity ",
+            "days": "TR",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "Reed McDonald Building 111C",
+            "time": "12:45 pm - 1:35 pm",
+            "type": "Laboratory"
+          }
+        ],
+        "taken": false,
+        "CRN": "12627",
+        "section": "502",
+        "subject": "CSCE"
+      },
+      {
+        "term": " Spring 2016 - College Station'",
+        "name": "PROGRAMMING STUDIO",
+        "CID": "CSCE 315",
+        "track": "core",
+        "prequisite": "",
+        "professor": "Walter  Daugherity",
+        "avgGPA": "",
+        "credits": "3.000",
+        "meeting_times": [
+          {
+            "professor": "Walter   Daugherity ",
+            "days": "MW",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "Reed McDonald Building 111C",
+            "time": "11:30 am - 12:20 pm",
+            "type": "Laboratory"
+          },
+          {
+            "professor": "Walter   Daugherity",
+            "days": "TR",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "Engineering Academic Bldg A 108",
+            "time": "9:35 am - 10:50 am",
+            "type": "Lecture"
+          }
+        ],
+        "taken": false,
+        "CRN": "15327",
+        "section": "503",
+        "subject": "CSCE"
+      },
+      {
+        "term": " Spring 2016 - College Station'",
+        "name": "PROGRAMMING STUDIO",
+        "CID": "CSCE 315",
+        "track": "core",
+        "prequisite": "",
+        "professor": "Philip Carson Ritchey",
+        "avgGPA": "",
+        "credits": "3.000",
+        "meeting_times": [
+          {
+            "professor": "Philip Carson  Ritchey",
+            "days": "TR",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "H. R. Bright Building 124",
+            "time": "12:45 pm - 2:00 pm",
+            "type": "Lecture"
+          },
+          {
+            "professor": "Philip Carson  Ritchey ",
+            "days": "TR",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "Reed McDonald Building 111C",
+            "time": "2:20 pm - 3:10 pm",
+            "type": "Laboratory"
+          }
+        ],
+        "taken": false,
+        "CRN": "18008",
+        "section": "504",
+        "subject": "CSCE"
+      },
+      {
+        "term": " Spring 2016 - College Station'",
+        "name": "PROGRAMMING STUDIO",
+        "CID": "CSCE 315",
+        "track": "core",
+        "prequisite": "",
+        "professor": "Philip Carson Ritchey",
+        "avgGPA": "",
+        "credits": "3.000",
+        "meeting_times": [
+          {
+            "professor": "Philip Carson  Ritchey",
+            "days": "TR",
+            "schedule_type": "Lecture",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "H. R. Bright Building 124",
+            "time": "12:45 pm - 2:00 pm",
+            "type": "Lecture"
+          },
+          {
+            "professor": "Philip Carson  Ritchey ",
+            "days": "TR",
+            "schedule_type": "Lecture",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "Reed McDonald Building 111C",
+            "time": "3:55 pm - 4:45 pm",
+            "type": "Laboratory"
+          }
+        ],
+        "taken": false,
+        "CRN": "21946",
+        "section": "505",
+        "subject": "CSCE"
+      },
+      {
+        "term": " Spring 2016 - College Station'",
+        "name": "PROGRAMMING STUDIO",
+        "CID": "CSCE 315",
+        "track": "core",
+        "prequisite": "",
+        "professor": "Philip Carson Ritchey",
+        "avgGPA": "",
+        "credits": "3.000",
+        "meeting_times": [
+          {
+            "professor": "Philip Carson  Ritchey ",
+            "days": "MW",
+            "schedule_type": "Lecture",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "Reed McDonald Building 111C",
+            "time": "8:00 am - 8:50 am",
+            "type": "Laboratory"
+          },
+          {
+            "professor": "Lecture",
+            "days": "12:45 pm - 2:00 pm",
+            "schedule_type": "Jan 19, 2016 - May 10, 2016",
+            "date_range": "H. R. Bright Building 124",
+            "location": "TR",
+            "time": "Lecture",
+            "type": "Philip Carson  Ritchey "
+          }
+        ],
+        "taken": false,
+        "CRN": "21948",
+        "section": "506",
+        "subject": "CSCE"
+      },
+      {
+        "term": " Spring 2016 - College Station'",
+        "name": "PROGRAMMING STUDIO",
+        "CID": "CSCE 315",
+        "track": "core",
+        "prequisite": "",
+        "professor": "Philip Carson Ritchey",
+        "avgGPA": "",
+        "credits": "3.000",
+        "meeting_times": [
+          {
+            "professor": "[<abbr title=\"To Be Announced\">TBA</abbr>]",
+            "days": "MWF",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "H. R. Bright Building 204",
+            "time": "1:50 pm - 2:40 pm",
+            "type": "Lecture"
+          },
+          {
+            "professor": "[<abbr title=\"To Be Announced\">TBA</abbr>]",
+            "days": "TR",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "Reed McDonald Building 111J",
+            "time": "12:45 pm - 1:35 pm",
+            "type": "Laboratory"
+          }
+        ],
+        "taken": false,
+        "CRN": "26309",
+        "section": "507",
+        "subject": "CSCE"
+      },
+      {
+        "term": " Spring 2016 - College Station'",
+        "name": "PROGRAMMING STUDIO",
+        "CID": "CSCE 315",
+        "track": "core",
+        "prequisite": "",
+        "professor": "Philip Carson Ritchey",
+        "avgGPA": "",
+        "credits": "3.000",
+        "meeting_times": [
+          {
+            "professor": "[<abbr title=\"To Be Announced\">TBA</abbr>]",
+            "days": "MWF",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "TBA",
+            "time": "1:50 pm - 2:40 pm",
+            "type": "Lecture"
+          },
+          {
+            "professor": "[<abbr title=\"To Be Announced\">TBA</abbr>]",
+            "days": "TR",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "Reed McDonald Building 111J",
+            "time": "8:25 am - 9:15 am",
+            "type": "Laboratory"
+          }
+        ],
+        "taken": false,
+        "CRN": "26310",
+        "section": "508",
+        "subject": "CSCE"
+      },
+      {
+        "term": " Spring 2016 - College Station'",
+        "name": "PROGRAMMING STUDIO",
+        "CID": "CSCE 315",
+        "track": "core",
+        "prequisite": "",
+        "professor": "Philip Carson Ritchey",
+        "avgGPA": "",
+        "credits": "3.000",
+        "meeting_times": [
+          {
+            "professor": "[<abbr title=\"To Be Announced\">TBA</abbr>]",
+            "days": "MWF",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "TBA",
+            "time": "1:50 pm - 2:40 pm",
+            "type": "Lecture"
+          },
+          {
+            "professor": "[<abbr title=\"To Be Announced\">TBA</abbr>]",
+            "days": "TR",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "Reed McDonald Building 111J",
+            "time": "11:10 am - 12:00 pm",
+            "type": "Laboratory"
+          }
+        ],
+        "taken": false,
+        "CRN": "26323",
+        "section": "509",
+        "subject": "CSCE"
+      }
+    ],
+    [
+      {
+        "term": " Spring 2016 - College Station'",
+        "name": "SEMINAR",
+        "CID": "CSCE 481",
+        "track": "core",
+        "prequisite": "",
+        "professor": "Aakash  Tyagi",
+        "avgGPA": "",
+        "credits": "1.000",
+        "meeting_times": [],
+        "taken": false,
+        "CRN": "18381",
+        "section": "900",
+        "subject": "CSCE"
+      }
+    ],
+    [
+      {
+        "term": " Spring 2016 - College Station'",
+        "name": "SR CAPSTONE DESIGN",
+        "CID": "CSCE 482",
+        "track": "core",
+        "prequisite": "",
+        "professor": "Tracy  Hammond",
+        "avgGPA": "",
+        "credits": "3.000",
+        "meeting_times": [
+          {
+            "professor": "Tracy   Hammond",
+            "days": "MW",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "H. R. Bright Building 113",
+            "time": "4:10 pm - 4:35 pm",
+            "type": "Lecture"
+          },
+          {
+            "professor": "Tracy   Hammond ",
+            "days": "MW",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "H. R. Bright Building 203",
+            "time": "4:40 pm - 7:10 pm",
+            "type": "Laboratory"
+          }
+        ],
+        "taken": false,
+        "CRN": "15601",
+        "section": "501",
+        "subject": "CSCE"
+      },
+      {
+        "term": " Spring 2016 - College Station'",
+        "name": "SR CAPSTONE DESIGN",
+        "CID": "CSCE 482",
+        "track": "core",
+        "prequisite": "",
+        "professor": "Tracy  Hammond",
+        "avgGPA": "",
+        "credits": "3.000",
+        "meeting_times": [
+          {
+            "professor": "Tracy   Hammond",
+            "days": "TR",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "TBA",
+            "time": "3:55 pm - 4:20 pm",
+            "type": "Lecture"
+          },
+          {
+            "professor": "Tracy   Hammond ",
+            "days": "TR",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "H. R. Bright Building 229",
+            "time": "4:25 pm - 6:55 pm",
+            "type": "Laboratory"
+          }
+        ],
+        "taken": false,
+        "CRN": "15603",
+        "section": "502",
+        "subject": "CSCE"
+      },
+      {
+        "term": " Spring 2016 - College Station'",
+        "name": "SR CAPSTONE DESIGN",
+        "CID": "CSCE 482",
+        "track": "core",
+        "prequisite": "",
+        "professor": "Ricardo  Gutierrez-Osuna",
+        "avgGPA": "",
+        "credits": "3.000",
+        "meeting_times": [
+          {
+            "professor": "Ricardo   Gutierrez-Osuna ",
+            "days": "&nbsp;",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "TBA",
+            "time": "TBA",
+            "type": "Laboratory"
+          },
+          {
+            "professor": "Ricardo   Gutierrez-Osuna",
+            "days": "&nbsp;",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "TBA",
+            "time": "TBA",
+            "type": "Lecture"
+          }
+        ],
+        "taken": false,
+        "CRN": "18009",
+        "section": "503",
+        "subject": "CSCE"
+      },
+      {
+        "term": " Spring 2016 - College Station'",
+        "name": "SR CAPSTONE DESIGN",
+        "CID": "CSCE 482",
+        "track": "core",
+        "prequisite": "",
+        "professor": "Ricardo  Gutierrez-Osuna",
+        "avgGPA": "",
+        "credits": "3.000",
+        "meeting_times": [
+          {
+            "professor": "Ricardo   Gutierrez-Osuna ",
+            "days": "&nbsp;",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "TBA",
+            "time": "TBA",
+            "type": "Laboratory"
+          },
+          {
+            "professor": "Ricardo   Gutierrez-Osuna",
+            "days": "&nbsp;",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "TBA",
+            "time": "TBA",
+            "type": "Lecture"
+          }
+        ],
+        "taken": false,
+        "CRN": "18010",
+        "section": "504",
+        "subject": "CSCE"
+      }
+    ],
+    [
+      {
+        "term": " Spring 2016 - College Station'",
+        "name": "HNR-DESIGN ANALY ALGORITHMS",
+        "CID": "CSCE 411",
+        "track": "Algorithms and Theory",
+        "prequisite": "",
+        "professor": "Andreas  Klappenecker",
+        "avgGPA": "",
+        "credits": "3.000",
+        "meeting_times": [
+          {
+            "professor": "Andreas   Klappenecker",
+            "days": "MW",
+            "schedule_type": "Lecture",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "H. R. Bright Building 126",
+            "time": "4:10 pm - 5:25 pm",
+            "type": "Lecture"
+          }
+        ],
+        "taken": false,
+        "CRN": "18297",
+        "section": "200",
+        "subject": "CSCE"
+      },
+      {
+        "term": " Spring 2016 - College Station'",
+        "name": "DESIGN ANALY ALGORITHMS",
+        "CID": "CSCE 411",
+        "track": "Algorithms and Theory",
+        "prequisite": "",
+        "professor": "Anxiao  Jiang",
+        "avgGPA": "",
+        "credits": "3.000",
+        "meeting_times": [
+          {
+            "professor": "Anxiao   Jiang",
+            "days": "TR",
+            "schedule_type": "Lecture",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "H. R. Bright Building 113",
+            "time": "7:05 pm - 8:20 pm",
+            "type": "Lecture"
+          }
+        ],
+        "taken": false,
+        "CRN": "12489",
+        "section": "500",
+        "subject": "CSCE"
+      },
+      {
+        "term": " Spring 2016 - College Station'",
+        "name": "DESIGN ANALY ALGORITHMS",
+        "CID": "CSCE 411",
+        "track": "Algorithms and Theory",
+        "prequisite": "",
+        "professor": "Anxiao  Jiang",
+        "avgGPA": "",
+        "credits": "3.000",
+        "meeting_times": [
+          {
+            "professor": "[<abbr title=\"To Be Announced\">TBA</abbr>]",
+            "days": "TR",
+            "schedule_type": "Lecture",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "H. R. Bright Building 113",
+            "time": "3:55 pm - 5:10 pm",
+            "type": "Lecture"
+          }
+        ],
+        "taken": false,
+        "CRN": "26324",
+        "section": "501",
+        "subject": "CSCE"
+      }
+    ],
+    [
+      {
+        "term": " Spring 2016 - College Station'",
+        "name": "FORMAL LANGUAGES AUTOM",
+        "CID": "CSCE 433",
+        "track": "Algorithms and Theory",
+        "prequisite": "",
+        "professor": "Tiffani  Williams",
+        "avgGPA": "",
+        "credits": "3.000",
+        "meeting_times": [
+          {
+            "professor": "Tiffani   Williams",
+            "days": "TR",
+            "schedule_type": "Lecture",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "H. R. Bright Building 113",
+            "time": "8:00 am - 9:15 am",
+            "type": "Lecture"
+          }
+        ],
+        "taken": false,
+        "CRN": "15604",
+        "section": "500",
+        "subject": "CSCE"
+      }
+    ],
+    [],
+    [
+      {
+        "term": " Spring 2016 - College Station'",
+        "name": "SCIENTIFIC PROGRAMMING",
+        "CID": "CSCE 442",
+        "track": "Algorithms and Theory",
+        "prequisite": "",
+        "professor": "Jinxiang  Chai",
+        "avgGPA": "",
+        "credits": "3.000",
+        "meeting_times": [
+          {
+            "professor": "[<abbr title=\"To Be Announced\">TBA</abbr>]",
+            "days": "&nbsp;",
+            "schedule_type": "Lecture",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "TBA",
+            "time": "TBA",
+            "type": "Lecture"
+          }
+        ],
+        "taken": false,
+        "CRN": "21953",
+        "section": "500",
+        "subject": "CSCE"
+      }
+    ],
+    [],
+    [],
+    [
+      {
+        "term": " Spring 2016 - College Station'",
+        "name": "MICROCOMPUTER SYSTEMS",
+        "CID": "CSCE 462",
+        "track": "Systems",
+        "prequisite": "",
+        "professor": "Jyh  Liu",
+        "avgGPA": "",
+        "credits": "3.000",
+        "meeting_times": [
+          {
+            "professor": "Jyh   Liu",
+            "days": "MWF",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "H. R. Bright Building 113",
+            "time": "11:30 am - 12:20 pm",
+            "type": "Lecture"
+          },
+          {
+            "professor": "Jyh   Liu ",
+            "days": "M",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "H. R. Bright Building 217",
+            "time": "12:40 pm - 2:20 pm",
+            "type": "Laboratory"
+          }
+        ],
+        "taken": false,
+        "CRN": "12494",
+        "section": "501",
+        "subject": "CSCE"
+      },
+      {
+        "term": " Spring 2016 - College Station'",
+        "name": "MICROCOMPUTER SYSTEMS",
+        "CID": "CSCE 462",
+        "track": "Systems",
+        "prequisite": "",
+        "professor": "Jyh  Liu",
+        "avgGPA": "",
+        "credits": "3.000",
+        "meeting_times": [
+          {
+            "professor": "Jyh   Liu",
+            "days": "MWF",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "H. R. Bright Building 113",
+            "time": "11:30 am - 12:20 pm",
+            "type": "Lecture"
+          },
+          {
+            "professor": "Jyh   Liu ",
+            "days": "W",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "H. R. Bright Building 217",
+            "time": "1:50 pm - 3:30 pm",
+            "type": "Laboratory"
+          }
+        ],
+        "taken": false,
+        "CRN": "12495",
+        "section": "502",
+        "subject": "CSCE"
+      },
+      {
+        "term": " Spring 2016 - College Station'",
+        "name": "MICROCOMPUTER SYSTEMS",
+        "CID": "CSCE 462",
+        "track": "Systems",
+        "prequisite": "",
+        "professor": "Jyh  Liu",
+        "avgGPA": "",
+        "credits": "3.000",
+        "meeting_times": [
+          {
+            "professor": "Jyh   Liu",
+            "days": "MWF",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "H. R. Bright Building 113",
+            "time": "11:30 am - 12:20 pm",
+            "type": "Lecture"
+          },
+          {
+            "professor": "Jyh   Liu ",
+            "days": "F",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "H. R. Bright Building 217",
+            "time": "9:30 am - 11:10 am",
+            "type": "Laboratory"
+          }
+        ],
+        "taken": false,
+        "CRN": "18033",
+        "section": "503",
+        "subject": "CSCE"
+      }
+    ],
+    [
+      {
+        "term": " Spring 2016 - College Station'",
+        "name": "NETWORKS & DIST PROC",
+        "CID": "CSCE 463",
+        "track": "Systems",
+        "prequisite": "",
+        "professor": "Dmitri  Loguinov",
+        "avgGPA": "",
+        "credits": "3.000",
+        "meeting_times": [
+          {
+            "professor": "Dmitri   Loguinov",
+            "days": "TR",
+            "schedule_type": "Lecture",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "H. R. Bright Building 113",
+            "time": "5:30 pm - 6:45 pm",
+            "type": "Lecture"
+          }
+        ],
+        "taken": false,
+        "CRN": "21954",
+        "section": "500",
+        "subject": "CSCE"
+      }
+    ],
+    [],
+    [
+      {
+        "term": " Spring 2016 - College Station'",
+        "name": "COMP & NET SECURITY",
+        "CID": "CSCE 465",
+        "track": "Systems",
+        "prequisite": "",
+        "professor": "Guofei  Gu",
+        "avgGPA": "",
+        "credits": "3.000",
+        "meeting_times": [
+          {
+            "professor": "Guofei   Gu",
+            "days": "MWF",
+            "schedule_type": "Lecture",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "H. R. Bright Building 113",
+            "time": "10:20 am - 11:10 am",
+            "type": "Lecture"
+          }
+        ],
+        "taken": false,
+        "CRN": "14350",
+        "section": "500",
+        "subject": "CSCE"
+      }
+    ],
+    [],
+    [
+      {
+        "term": " Spring 2016 - College Station'",
+        "name": "SOFTWARE ENGINEERING",
+        "CID": "CSCE 431",
+        "track": "Software",
+        "prequisite": "",
+        "professor": "Duncan  Walker",
+        "avgGPA": "",
+        "credits": "3.000",
+        "meeting_times": [
+          {
+            "professor": "Duncan   Walker",
+            "days": "MW",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "Reed McDonald Building 111J",
+            "time": "3:00 pm - 3:50 pm",
+            "type": "Laboratory"
+          },
+          {
+            "professor": "Duncan   Walker",
+            "days": "MW",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "Emerging Technologies Building 1020",
+            "time": "4:10 pm - 5:25 pm",
+            "type": "Lecture"
+          }
+        ],
+        "taken": false,
+        "CRN": "12491",
+        "section": "501",
+        "subject": "CSCE"
+      },
+      {
+        "term": " Spring 2016 - College Station'",
+        "name": "SOFTWARE ENGINEERING",
+        "CID": "CSCE 431",
+        "track": "Software",
+        "prequisite": "",
+        "professor": "Duncan  Walker",
+        "avgGPA": "",
+        "credits": "3.000",
+        "meeting_times": [
+          {
+            "professor": "Duncan   Walker",
+            "days": "MW",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "Emerging Technologies Building 1020",
+            "time": "4:10 pm - 5:25 pm",
+            "type": "Lecture"
+          },
+          {
+            "professor": "Duncan   Walker ",
+            "days": "MW",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "Reed McDonald Building 111J",
+            "time": "5:45 pm - 6:35 pm",
+            "type": "Laboratory"
+          }
+        ],
+        "taken": false,
+        "CRN": "12492",
+        "section": "502",
+        "subject": "CSCE"
+      },
+      {
+        "term": " Spring 2016 - College Station'",
+        "name": "SOFTWARE ENGINEERING",
+        "CID": "CSCE 431",
+        "track": "Software",
+        "prequisite": "",
+        "professor": "Duncan  Walker",
+        "avgGPA": "",
+        "credits": "3.000",
+        "meeting_times": [
+          {
+            "professor": "Duncan   Walker",
+            "days": "MW",
+            "schedule_type": "Lecture",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "Emerging Technologies Building 1020",
+            "time": "4:10 pm - 5:25 pm",
+            "type": "Lecture"
+          },
+          {
+            "professor": "Duncan   Walker ",
+            "days": "&nbsp;",
+            "schedule_type": "Lecture",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "TBA",
+            "time": "TBA",
+            "type": "Laboratory"
+          }
+        ],
+        "taken": false,
+        "CRN": "21952",
+        "section": "503",
+        "subject": "CSCE"
+      }
+    ],
+    [],
+    [],
+    [],
+    [
+      {
+        "term": " Spring 2016 - College Station'",
+        "name": "DIST OBJECTS PROGRAMMING",
+        "CID": "CSCE 438",
+        "track": "Software",
+        "prequisite": "",
+        "professor": "John Michael Moore",
+        "avgGPA": "",
+        "credits": "3.000",
+        "meeting_times": [
+          {
+            "professor": "John Michael  Moore",
+            "days": "&nbsp;",
+            "schedule_type": "Lecture",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "TBA",
+            "time": "TBA",
+            "type": "Lecture"
+          }
+        ],
+        "taken": false,
+        "CRN": "17415",
+        "section": "500",
+        "subject": "CSCE"
+      }
+    ],
+    [],
+    [
+      {
+        "term": " Spring 2016 - College Station'",
+        "name": "ARTIFICIAL INTELLIGENCE",
+        "CID": "CSCE 420",
+        "track": "Information and intelligent Systems",
+        "prequisite": "",
+        "professor": "Dylan A Shell",
+        "avgGPA": "",
+        "credits": "3.000",
+        "meeting_times": [
+          {
+            "professor": "Dylan A  Shell",
+            "days": "TR",
+            "schedule_type": "Lecture",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "H. R. Bright Building 113",
+            "time": "2:20 pm - 3:35 pm",
+            "type": "Lecture"
+          }
+        ],
+        "taken": false,
+        "CRN": "23720",
+        "section": "200",
+        "subject": "CSCE"
+      },
+      {
+        "term": " Spring 2016 - College Station'",
+        "name": "ARTIFICIAL INTELLIGENCE",
+        "CID": "CSCE 420",
+        "track": "Information and intelligent Systems",
+        "prequisite": "",
+        "professor": "Ronald  Ward",
+        "avgGPA": "",
+        "credits": "3.000",
+        "meeting_times": [
+          {
+            "professor": "Ronald   Ward",
+            "days": "TR",
+            "schedule_type": "Lecture",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "H. R. Bright Building 113",
+            "time": "2:20 pm - 3:35 pm",
+            "type": "Lecture"
+          }
+        ],
+        "taken": false,
+        "CRN": "12490",
+        "section": "500",
+        "subject": "CSCE"
+      }
+    ],
+    [],
+    [
+      {
+        "term": " Spring 2016 - College Station'",
+        "name": "COMPUTER GRAPHICS",
+        "CID": "CSCE 441",
+        "track": "Information and intelligent Systems",
+        "prequisite": "",
+        "professor": "Jinxiang  Chai",
+        "avgGPA": "",
+        "credits": "3.000",
+        "meeting_times": [
+          {
+            "professor": "Jinxiang   Chai",
+            "days": "MWF",
+            "schedule_type": "Lecture",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "H. R. Bright Building 113",
+            "time": "3:00 pm - 3:50 pm",
+            "type": "Lecture"
+          }
+        ],
+        "taken": false,
+        "CRN": "12493",
+        "section": "500",
+        "subject": "CSCE"
+      }
+    ],
+    [
+      {
+        "term": " Spring 2016 - College Station'",
+        "name": "GAME DEVELOPMENT",
+        "CID": "CSCE 443",
+        "track": "Information and intelligent Systems",
+        "prequisite": "",
+        "professor": "Andre  Thomas",
+        "avgGPA": "",
+        "credits": "3.000",
+        "meeting_times": [
+          {
+            "professor": "Andre   Thomas",
+            "days": "T",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "Emerging Technologies Building 2005",
+            "time": "3:55 pm - 5:35 pm",
+            "type": "Lecture"
+          },
+          {
+            "professor": "Andre   Thomas ",
+            "days": "R",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "Emerging Technologies Building 2005",
+            "time": "3:55 pm - 5:35 pm",
+            "type": "Laboratory"
+          }
+        ],
+        "taken": false,
+        "CRN": "20642",
+        "section": "500",
+        "subject": "CSCE"
+      }
+    ],
+    [],
+    [
+      {
+        "term": " Spring 2016 - College Station'",
+        "name": "COMPUTERS AND NEW MEDIA",
+        "CID": "CSCE 445",
+        "track": "Information and intelligent Systems",
+        "prequisite": "",
+        "professor": "Frank  Shipman",
+        "avgGPA": "",
+        "credits": "3.000",
+        "meeting_times": [
+          {
+            "professor": "Frank   Shipman",
+            "days": "MWF",
+            "schedule_type": "Lecture",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "H. R. Bright Building 113",
+            "time": "9:10 am - 10:00 am",
+            "type": "Lecture"
+          }
+        ],
+        "taken": false,
+        "CRN": "19858",
+        "section": "500",
+        "subject": "CSCE"
+      }
+    ],
+    [
+      {
+        "term": " Spring 2016 - College Station'",
+        "name": "ROBOTICS & SPATL INTEL",
+        "CID": "CSCE 452",
+        "track": "Information and intelligent Systems",
+        "prequisite": "",
+        "professor": "Dezhen  Song",
+        "avgGPA": "",
+        "credits": "3.000",
+        "meeting_times": [
+          {
+            "professor": "Dezhen   Song",
+            "days": "MWF",
+            "schedule_type": "Lecture",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "H. R. Bright Building 113",
+            "time": "1:50 pm - 2:40 pm",
+            "type": "Lecture"
+          }
+        ],
+        "taken": false,
+        "CRN": "17416",
+        "section": "500",
+        "subject": "CSCE"
+      }
+    ],
+    [
+      {
+        "term": " Spring 2016 - College Station'",
+        "name": "INFO STORAGE & RETRIEVAL",
+        "CID": "CSCE 470",
+        "track": "Information and intelligent Systems",
+        "prequisite": "",
+        "professor": "Guofei  Gu",
+        "avgGPA": "",
+        "credits": "3.000",
+        "meeting_times": [
+          {
+            "professor": "[<abbr title=\"To Be Announced\">TBA</abbr>]",
+            "days": "MWF",
+            "schedule_type": "Lecture",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "Jack E. Brown Chem Engn Bldg 108",
+            "time": "10:20 am - 11:10 am",
+            "type": "Lecture"
+          }
+        ],
+        "taken": false,
+        "CRN": "26325",
+        "section": "500",
+        "subject": "CSCE"
+      }
+    ]
+  ]
+}
