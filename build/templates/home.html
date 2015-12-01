@@ -5,28 +5,31 @@
 .hover:hover {
     background-color: grey;
 }
+
+.box{
+    display: none;
+    width: 100%;
+}
+
+a:hover + .box,.box:hover{
+    display: block;
+    position: relative;
+    z-index: 100;
+}
 </style>
 <div class="grid-container">
   <h1>Welcome User!</h1>
   <p class="lead"></p>
 
 <!-- CSCE 181 -->
- <hljs>
-	<div zf-modal id="csce_181_desc" animation-in="slideInUp" animation-out="hingeOutFromMiddleY">
-	  <a zf-close class="close-button">&times;</a>
-	  	<p><strong>CSCE 181 Introduction to Computing</strong><p>
-		<p><strong>Credit 1. 1 Lecture Hour.</strong></p>
-		<p>
-		Introduction to the broad field of computing; presentations from industry and academia about how computer science concepts are used in research and end products; includes a major writing component.
-		</p>
-	</div>
-</hljs>
+<div ng-include="'Partials/modals.html'"></div>
 <hljs language="html">
 	<div zf-panel id="csce_181_panel" position="right">
 	  <a zf-close class="close-button">&times;</a>
 	  <br></br>
 	  <br></br>
-	  <p><Strong>Instructors:</Strong><a href="http://faculty.cs.tamu.edu/schaefer/"> Scott Schaefer</a></p>
+	  	<Strong>Instructors: </Strong><a href="http://faculty.cs.tamu.edu/schaefer/">Scott Schaefer</a><div class="box"><iframe src="http://faculty.cs.tamu.edu/schaefer/" width = "600px" height = "500px"></iframe></div>
+	  <!-- <p><Strong>Instructors:</Strong><a href="http://faculty.cs.tamu.edu/schaefer/"> Scott Schaefer</a></p> -->
 	  <table border="2" cellpadding="10" cellspacing="20">
 		  <thead>
 		  <tr>
@@ -47,7 +50,11 @@
 	</tbody>
 	</table>
 	<a class="button" href="#" title="Registration Successful" content="Successfully Registered for CSCE 181" color="success" autoclose="3000" zf-notify="main-notifications">Register</a>
+
+
 	</div>
+
+
 </hljs>
 
 <!-- CSCE 121 -->
@@ -67,7 +74,8 @@
 	  <a zf-close class="close-button">&times;</a>
 	  <br></br>
 	  <br></br>
-	  <p><Strong>Instructors:</Strong> <a href="https://parasol.tamu.edu/~welch/"> Jennifer Welch</a></p>
+	  <!-- <p><Strong>Instructors:</Strong> <a href="https://parasol.tamu.edu/~welch/"> Jennifer Welch</a></p> -->
+  	  	<Strong>Instructors: </Strong><a href="https://parasol.tamu.edu/~welch/">Jennifer Welch</a><div class="box"><iframe src="https://parasol.tamu.edu/~welch/" width = "600px" height = "500px"></iframe></div>
 	  <p><Strong>Attributes:</Strong> Honors</p>
 	  <table border="2" cellpadding="10" cellspacing="20">
 		  <thead>
@@ -96,7 +104,9 @@
 		</tbody>
 		</table>
 	<a class="button" href="#" title="Registration Successful" content="Successfully Registered for CSCE 121" color="success" autoclose="3000" zf-notify="main-notifications">Register</a>
-	<p><Strong>Instructors:</Strong> <a href="https://engineering.tamu.edu/cse/people/wdaugherity">Walter Daugherity</a></p>
+	<!-- <p><Strong>Instructors:</Strong> <a href="https://engineering.tamu.edu/cse/people/wdaugherity">Walter Daugherity</a></p> -->
+	<br/>
+	<Strong>Instructors: </Strong><a href="https://engineering.tamu.edu/cse/people/wdaugherity">Walter Daugherity</a><div class="box"><iframe src="https://engineering.tamu.edu/cse/people/wdaugherity" width = "600px" height = "500px"></iframe></div>
 	<p><Strong>Attributes:</Strong> Honors</p>
 	  <table border="2" cellpadding="10" cellspacing="20">
 		  <thead>

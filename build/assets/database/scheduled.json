@@ -1,0 +1,86 @@
+{
+  "courses": [
+    [
+      {
+        "term": " Spring 2016 - College Station'",
+        "name": "INTRO TO COMPUTING",
+        "CID": "CSCE 181",
+        "track": "core",
+        "prequisite": "",
+        "professor": "Scott  Schaefer",
+        "avgGPA": "",
+        "credits": "1.000",
+        "meeting_times": [
+          {
+            "professor": "Scott   Schaefer",
+            "days": "TR",
+            "schedule_type": "Lecture",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "H. R. Bright Building 124",
+            "time": "3:55 pm - 5:10 pm",
+            "type": "Lecture"
+          }
+        ],
+        "taken": false,
+        "CRN": "19856",
+        "section": "500",
+        "subject": "CSCE"
+      },
+      {
+        "term": " Spring 2016 - College Station'",
+        "name": "DISCRETE STRUC COMPUTING",
+        "CID": "CSCE 222",
+        "track": "core",
+        "prequisite": "",
+        "professor": "Hyunyoung Lee",
+        "avgGPA": "",
+        "credits": "3.000",
+        "meeting_times": [
+          {
+            "professor": "Hyunyoung Lee",
+            "days": "MWF",
+            "schedule_type": "Lecture",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "H. R. Bright Building 124",
+            "time": "10:20 am - 11:10 am",
+            "type": "Lecture"
+          }
+        ],
+        "taken": false,
+        "CRN": "15596",
+        "section": "501",
+        "subject": "CSCE"
+      },
+      {
+        "term": " Spring 2016 - College Station'",
+        "name": "ENGINEERING MATH I",
+        "CID": "MATH 151",
+        "track": "core",
+        "prequisite": "",
+        "professor": "Joung Dong Kim",
+        "avgGPA": "",
+        "credits": "4.000",
+        "meeting_times": [
+          {
+            "professor": "Joung Dong  Kim ",
+            "days": "M",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "Civil Engineering Building 134",
+            "time": "5:20 pm - 6:10 pm",
+            "type": "Laboratory"
+          },
+          {
+            "professor": "Joung Dong  Kim",
+            "days": "TR",
+            "schedule_type": "Lecture and Laboratory",
+            "date_range": "Jan 19, 2016 - May 10, 2016",
+            "location": "Heldenfels Hall 109",
+            "time": "2:20 pm - 3:35 pm",
+            "type": "Lecture"
+          }
+        ]
+      }
+    ]
+  ]
+}
