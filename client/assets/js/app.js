@@ -10,6 +10,16 @@
     'foundation.dynamicRouting',
     'foundation.dynamicRouting.animations'
   ])
+    .controller('mainController', ['$http', '$scope', function($http, $scope) {
+        $http.get('assets/json/degree_plan.json')
+            .success(function(data) {
+                $scope.courses = data.courses;
+                console.log($scope.courses);
+            })
+            .error(function(data, status, headers, config) {
+                console.log('Error');
+            });
+    }])
     .config(config)
     .run(run)
   ;

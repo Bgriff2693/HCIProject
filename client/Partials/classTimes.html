@@ -1,0 +1,31 @@
+<!-- CSCE 181 -->
+<div zf-panel id="{{course.CID}}_panel" position="right" ng-repeat="course in courses | filter: { track: 'Core' } : true">
+	  <a zf-close class="close-button">&times;</a>
+	  <div ng-repeat="section in course.section">
+		  <br></br>
+		  <br></br>
+		  <p><strong>Section:</strong> {{section.section_number}}</p>
+		  <p><Strong>Instructors:</Strong><a href="http://faculty.cs.tamu.edu/schaefer/"> {{section.professor}}</a></p>
+		  <p ng-if="section.honors"><Strong>Attributes:</Strong> Honors</p>
+		  <table border="2" cellpadding="10" cellspacing="20">
+			  <thead>
+			  <tr>
+			  	<th width="150">Type</th>
+			  	<th width="150">Time</th>
+			  	<th width="150">Days</th>
+			  	<th width="150">Where</th>
+			  </tr>
+				</thead>
+				<tbody>
+			  <tr ng-repeat="meeting in section.meeting_times">
+				<td>{{meeting.type}}</td>
+				<td>{{meeting.time}}</td>
+				<td>{{meeting.days}}</td>
+				<td>{{meeting.location}}</td>
+
+		  </tr>
+		</tbody>
+		</table>
+		<a class="button" href="#" title="Registration Successful" content="Successfully Registered for {{course.CID}}" color="success" autoclose="3000" zf-notify="main-notifications">Register</a>
+	</div>
+</div>
