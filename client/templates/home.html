@@ -1,86 +1,58 @@
 ---
 name: home
 url: /
-controller: mainController
+controller: coreController
 ---
 <script>
     $(document).foundation();
 </script>
 <style>
-.hover:hover {
-    background-color: grey;
-}
+    .hover:hover {
+        background-color: grey;
+    }
 
-.box{
-    display: none;
-    width: 100%;
-}
+    .box{
+        display: none;
+        width: 100%;
+    }
 
-a:hover + .box,.box:hover{
-    display: block;
-    position: relative;
-    z-index: 100;
-}
+    a:hover + .box,.box:hover{
+        display: block;
+        position: relative;
+        z-index: 100;
+    }
 </style>
 <div class="grid-container">
-  <h1>Welcome User!</h1>
-  <p class="lead"></p>
+    <h1>Welcome {{user.name}}!</h1>
+    <p class="lead"></p>
 
-<div ng-include src="'Partials/classDescriptions.html'"></div>
-<div ng-include src="'Partials/classTimes.html'"></div>
+    <!-- Modals -->
+    <div ng-include src="'Partials/classDescriptions.html'"></div>
+    <div ng-include src="'Partials/classTimes.html'"></div>
 
-<zf-notification-set id="main-notifications" position="top-left"></zf-notification-set>
-<zf-accordion auto-open="false" collapsible="true" multi-open="true">
-	</zf-accordion-item>
-	  <div class="grid-block large-up-3">
-			<div id="sidebar" class="medium-4 grid-block">
-                
-				<zf-accordion-item title="Computer Science">
-                    <!-- Core courses -->
-                        <section class ="block-list">
-					    <li class = "with-chevron" ng-repeat="course in courses | filter: { track: 'Core' } : true">
-                            <div zf-action-sheet="">
-						    <div zf-as-button = "button" title="{{ course.CID }}"></div>
-						    <div zf-as-content="" position="bottom">
-						    <ul>
-						    <li><a zf-open="{{course.CID}}_desc">Description</a>
-						    </li>
-						    <li><a zf-toggle="{{course.CID}}_panel">Registration times</a></li>
-						    </ul>
-						    </div>
-						    </div>
-                        </li>
-                        </section>
-				</zf-accordion-item>
-
-			</div>
-		<div id="sidebar" class="medium-4 grid-block">
-			<zf-accordion-item title="Math and Statistics">
-				<p>MATH 151</p>
-				<p>MATH 152</p>
-				<p>MATH 304</p>
-				<p>MATH 251</p>
-			</zf-accordion-item>
-		</div>
-	</zf-accordion-item>
-		<div id="sidebar" class="medium-4 grid-block">
-			<zf-accordion-item title="Systems">
-				<p>CSCE 441</p>
-				<p>CSCE 443</p>
-			</zf-accordion-item>
-		</div>
-				<div id="sidebar" class="medium-4 grid-block">
-			<zf-accordion-item title="Science">
-				<p>GEOL 101</p>
-				<p>GEOL 106</p>
-			</zf-accordion-item>
-		</div>
-							<div id="sidebar" class="medium-4 grid-block">
-			<zf-accordion-item title="Political Science">
-				<p>POLS 206</p>
-				<p>POLS 207</p>
-			</zf-accordion-item>
-		</div>
-</zf-accordion>
-
+    <zf-notification-set id="main-notifications" position="top-left"></zf-notification-set>
+    <zf-accordion auto-open="false" collapsible="true" multi-open="true">
+        <div class="grid-block large-up-3">
+            <!-- Repeats for each track -->
+    		<div id="sidebar" class="medium-4 grid-block" ng-repeat="track in coreTracks">
+    			<zf-accordion-item title="{{track.name}}">
+                   <section class ="block-list">
+                    <ul>
+    				<li class= "with-chevron" ng-repeat="course in courses | filter: { track: track.track } : true">
+    					<div zf-action-sheet="">
+        					<div zf-as-button="button" title="{{ course.CID }}"></div>
+        					<div zf-as-content="" position="bottom">
+        	                    <ul>
+        		                    <li><a zf-open="{{course.CID}}_desc">Description</a></li>
+        	                        <li><a zf-toggle="{{course.CID}}_panel">Registration times</a></li>
+                                </ul>
+        					</div>
+    					</div>
+    				</li>
+                    </ul>
+                   </section>
+    			</zf-accordion-item>
+    		</div>
+        </div>
+    </zf-accordion>
 </div>

@@ -1,6 +1,9 @@
-<!-- CSCE 181 -->
-<div zf-panel id="{{course.CID}}_panel" position="right" ng-repeat="course in courses | filter: { track: 'Core' } : true">
-	  <a zf-close class="close-button">&times;</a>
+
+<div class="panel" zf-panel id="{{course.CID}}_panel" position="right" ng-repeat="course in courses">
+	  <a href="#" zf-toggle="{{course.CID}}_panel" class="close-button">&times;</a>
+	  <h1><strong>{{course.CID}}</strong></h1>
+	  </br>
+	  <h2><strong>{{course.name}}</strong></h2>
 	  <div ng-repeat="section in course.section">
 		  <br></br>
 		  <br></br>

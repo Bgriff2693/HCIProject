@@ -1,40 +1,35 @@
 ---
 name: upper
 url: /upper
+controller: upperController
 ---
 <div class="grid-container">
-  <h1>Welcome User!</h1>
+  <h1>Welcome {{user.name}}!</h1>
   <p class="lead"></p>
 
-<zf-accordion auto-open="false" collapsible="true" multi-open="true">
-	</zf-accordion-item>
-	  <div class="grid-block large-up-3">
-			<div id="sidebar" class="medium-4 grid-block">
+  <!-- Modals -->
+  <div ng-include src="'Partials/classDescriptions.html'"></div>
+  <div ng-include src="'Partials/classTimes.html'"></div>
 
-				<zf-accordion-item title="Computffsdfsder Sciencedadsad">
-					<p>CSCE 441</p>
-					<p>CSCE 443</p>
-				</zf-accordion-item>
-			</div>
-		<div id="sidebar" class="medium-4 grid-block">	
-			<zf-accordion-item title="Software">
-				<p>CSCE 441</p>
-				<p>CSCE 443</p>
-			</zf-accordion-item>
-		</div>
-	</zf-accordion-item>
-		<div id="sidebar" class="medium-4 grid-block">	
-			<zf-accordion-item title="Systems">
-				<p>CSCE 441</p>
-				<p>CSCE 443</p>
-			</zf-accordion-item>
-		</div>
-				<div id="sidebar" class="medium-12 grid-block">
-			<zf-accordion-item title="Derps">
-				<p>CSCE 441</p>
-				<p>CSCE 443</p>
-			</zf-accordion-item>
-		</div>
-</zf-accordion>
+  <zf-accordion auto-open="false" collapsible="true" multi-open="true">
+      <div class="grid-block large-up-3">
+          <!-- Repeats for each track -->
+          <div id="sidebar" class="medium-4 grid-block" ng-repeat="track in upperTracks">
+              <zf-accordion-item title="{{track.name}}">
+                  <div ng-repeat="course in courses | filter: { track: track.track } : true">
+                      <div zf-action-sheet="">
+                          <div zf-as-button="button" title="{{ course.CID }}"></div>
+                          <div zf-as-content="" position="bottom">
+                              <ul>
+                                  <li><a zf-open="{{course.CID}}_desc">Description</a></li>
+                                  <li><a zf-toggle="{{course.CID}}_panel">Registration times</a></li>
+                              </ul>
+                          </div>
+                      </div>
+                  </div>
+              </zf-accordion-item>
+          </div>
+      </div>
+  </zf-accordion>
 
 </div>
