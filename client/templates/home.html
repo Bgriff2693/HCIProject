@@ -34,21 +34,23 @@ a:hover + .box,.box:hover{
 	</zf-accordion-item>
 	  <div class="grid-block large-up-3">
 			<div id="sidebar" class="medium-4 grid-block">
-
+                
 				<zf-accordion-item title="Computer Science">
                     <!-- Core courses -->
-					<div ng-repeat="course in courses | filter: { track: 'Core' } : true">
-						<div zf-action-sheet="">
-						<div zf-as-button="button" title="{{ course.CID }}"></div>
-						<div zf-as-content="" position="bottom">
-						<ul>
-						<li><a zf-open="{{course.CID}}_desc">Description</a>
-						</li>
-						<li><a zf-toggle="{{course.CID}}_panel">Registration times</a></li>
-						</ul>
-						</div>
-						</div>
-					</div>
+                        <section class ="block-list">
+					    <li class = "with-chevron" ng-repeat="course in courses | filter: { track: 'Core' } : true">
+                            <div zf-action-sheet="">
+						    <div zf-as-button = "button" title="{{ course.CID }}"></div>
+						    <div zf-as-content="" position="bottom">
+						    <ul>
+						    <li><a zf-open="{{course.CID}}_desc">Description</a>
+						    </li>
+						    <li><a zf-toggle="{{course.CID}}_panel">Registration times</a></li>
+						    </ul>
+						    </div>
+						    </div>
+                        </li>
+                        </section>
 				</zf-accordion-item>
 
 			</div>
