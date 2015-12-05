@@ -39,6 +39,11 @@
                 hours: 14
             },
             {
+                track: 'COMMUNICATION',
+                name: 'Communitcation',
+                hours: 6
+            },
+            {
                 track: 'GOVT/POLITICAL SCI',
                 name: 'Political Science',
                 hours: 6
@@ -52,28 +57,10 @@
                 track: 'SCIENCE',
                 name: 'Science',
                 hours: 16
-            },
-            {
-                track: 'AMERICAN HISTORY',
-                name: 'American History',
-                hours: 6
-            },
-            {
-                track: 'CREATIVE ARTS ELECTIVE',
-                name: 'Creative Arts',
-                hours: 3
-            },
-            {
-                track: 'SOC & BEHAV SCI ELECTIVE',
-                name: 'Social & Behavioral Science',
-                hours: 3
-            },
-            {
-                track: 'INTERNATIONAL AND CULTURAL DIVERSITY',
-                name: 'International & Cultural Diversity',
-                hours: 6
             }
         ]
+
+        $scope.completeTracks = ['General Elective', 'History']
 
     }])
     .controller('upperController', ['$scope', function($scope) {

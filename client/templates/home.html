@@ -53,6 +53,14 @@ controller: coreController
                    </section>
     			</zf-accordion-item>
     		</div>
+            <!-- "Completed" sections -->
+            <div id="sidebar" class="medium-4 grid-block" ng-repeat="track in completeTracks">
+    			<zf-accordion-item title="{{track}}">
+                   <section class ="block-list">
+    					<i>You've completed all required courses in this section</i>
+                   </section>
+    			</zf-accordion-item>
+    		</div>
         </div>
     </zf-accordion>
 </div>

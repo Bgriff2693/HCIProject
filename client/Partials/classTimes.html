@@ -8,9 +8,9 @@
 		  <br></br>
 		  <br></br>
 		  <p><strong>Section:</strong> {{section.section_number}}</p>
-		  <p><Strong>Instructors:</Strong><a href="http://faculty.cs.tamu.edu/schaefer/"> {{section.professor}}</a></p>
+		  <p><Strong>Instructors: </Strong><a href="{{section.website}}">{{section.professor}}</a></p>
 		  <p ng-if="section.honors"><Strong>Attributes:</Strong> Honors</p>
-		  <table border="2" cellpadding="10" cellspacing="20">
+		  <table class="table" border="2" cellpadding="10" cellspacing="20">
 			  <thead>
 			  <tr>
 			  	<th width="150">Type</th>
