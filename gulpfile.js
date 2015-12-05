@@ -15,6 +15,52 @@ var sequence = require('run-sequence');
 // Check for --production flag
 var isProduction = !!(argv.production);
 
+// For emails
+// - - - - - - - - - - - - - - -
+var express     = require('express');
+var app         = express();
+var nodemailer 	= require('nodemailer');
+//var routerzz = express.Router();
+var port = process.env.PORT || 9000;
+
+
+var transporter = nodemailer.createTransport({
+  service: 'Gmail',
+  auth: {
+    user: "hci436demo@gmail.com",
+    pass: "demopassword"
+  }
+});
+
+
+
+app.get('/email/:course', function(req, res) {
+  //res.json({ message: 'Welcome to the API for email!' });
+  var course = req.params.course;
+  if(!req.params.course) {
+    res.json({success: false, message: "You did not send an course name"});
+  }
+  var mailOptions = {
+    from: '< hci436demo@gmail.com >',
+    to: "gina.fargle@gmail.com",
+    subject: course+' is now available',
+    html: '<a>'+req.params.course+ ' is now available</a>'
+
+  };
+
+  transporter.sendMail(mailOptions, function(err, info) {
+    if(err) {
+      console.log(err);
+    } else {
+      console.log("message sent");
+
+    }
+  });
+  res.json({ message:  course+' is now available' });
+});
+
+app.listen(port);
+
 // 2. FILE PATHS
 // - - - - - - - - - - - - - - -
 
@@ -147,7 +193,7 @@ gulp.task('server', ['build'], function() {
     .pipe($.webserver({
       port: 8079,
       host: 'localhost',
-      fallback: 'index.html',
+      //fallback: 'index.html',
       livereload: true,
       open: true
     }))
