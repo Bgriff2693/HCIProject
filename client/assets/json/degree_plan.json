@@ -3,7 +3,7 @@
         {
             "name": "INTRO TO COMPUTING",
             "CID": "CSCE 181",
-            "track": "CORE",
+            "track": "CORE", "capacity": 35, "registered": 5,
             "prequisite": "",
             "section": [
                 {
@@ -32,7 +32,7 @@
         {
             "name": "INTRO PGM DESIGN CONCEPT",
             "CID": "CSCE 121",
-            "track": "CORE",
+            "track": "CORE", "capacity": 35, "registered": 5,
             "prequisite": "",
             "section": [
                 {
@@ -313,7 +313,7 @@
         {
             "name": "DISCRETE STRUC COMPUTING",
             "CID": "CSCE 222",
-            "track": "CORE",
+            "track": "CORE", "capacity": 35, "registered": 5,
             "prequisite": "",
             "section": [
                 {
@@ -396,7 +396,7 @@
         {
             "name": "DATA STRUC & ALGORITHM",
             "CID": "CSCE 221",
-            "track": "CORE",
+            "track": "CORE", "capacity": 35, "registered": 5,
             "prequisite": "",
             "section": [
                 {
@@ -839,7 +839,7 @@
         {
             "name": "COMPUTER ORGANIZATION",
             "CID": "CSCE 312",
-            "track": "CORE",
+            "track": "CORE", "capacity": 35, "registered": 5,
             "prequisite": "",
             "section": [
                 {
@@ -931,7 +931,7 @@
         {
             "name": "PROGRAMMING LANGUAGES",
             "CID": "CSCE 314",
-            "track": "CORE",
+            "track": "CORE", "capacity": 35, "registered": 5,
             "prequisite": "",
             "section": [
                 {
@@ -978,7 +978,7 @@
         {
             "name": "INTRO TO COMPUTER SYSTEM",
             "CID": "CSCE 313",
-            "track": "CORE",
+            "track": "CORE", "capacity": 35, "registered": 5,
             "prequisite": "",
             "section": [
                 {
@@ -1259,7 +1259,7 @@
         {
             "name": "PROGRAMMING STUDIO",
             "CID": "CSCE 315",
-            "track": "CORE",
+            "track": "CORE", "capacity": 35, "registered": 5,
             "prequisite": "",
             "section": [
                 {
@@ -1513,7 +1513,7 @@
         {
             "name": "SEMINAR",
             "CID": "CSCE 481",
-            "track": "CORE",
+            "track": "CORE", "capacity": 35, "registered": 5,
             "prequisite": "",
             "section": [
                 {
@@ -1532,7 +1532,7 @@
         {
             "name": "SR CAPSTONE DESIGN",
             "CID": "CSCE 482",
-            "track": "CORE",
+            "track": "CORE", "capacity": 35, "registered": 5,
             "prequisite": "",
             "section": [
                 {
@@ -1597,7 +1597,7 @@
         {
             "name": "DESIGN ANALY ALGORITHMS",
             "CID": "CSCE 411",
-            "track": "Algorithms and Theory",
+            "track": "Algorithms and Theory", "capacity": 35, "registered": 5,
             "prequisite": "",
             "section": [
                 {
@@ -1662,7 +1662,7 @@
         {
             "name": "FORMAL LANGUAGES AUTOM",
             "CID": "CSCE 433",
-            "track": "Algorithms and Theory",
+            "track": "Algorithms and Theory", "capacity": 35, "registered": 5,
             "prequisite": "",
             "section": [
                 {
@@ -1691,7 +1691,7 @@
         {
             "name": "MICROCOMPUTER SYSTEMS",
             "CID": "CSCE 462",
-            "track": "Systems",
+            "track": "SYSTEMS", "capacity": 35, "registered": 5,
             "prequisite": "",
             "section": [
                 {
@@ -1783,7 +1783,7 @@
         {
             "name": "NETWORKS & DIST PROC",
             "CID": "CSCE 463",
-            "track": "Systems",
+            "track": "SYSTEMS", "capacity": 35, "registered": 5,
             "prequisite": "",
             "section": [
                 {
@@ -1812,7 +1812,7 @@
         {
             "name": "COMP & NET SECURITY",
             "CID": "CSCE 465",
-            "track": "Systems",
+            "track": "SYSTEMS", "capacity": 35, "registered": 5,
             "prequisite": "",
             "section": [
                 {
@@ -1841,7 +1841,7 @@
         {
             "name": "SOFTWARE ENGINEERING",
             "CID": "CSCE 431",
-            "track": "Software",
+            "track": "Software", "capacity": 35, "registered": 5,
             "prequisite": "",
             "section": [
                 {
@@ -1906,7 +1906,7 @@
         {
             "name": "ARTIFICIAL INTELLIGENCE",
             "CID": "CSCE 420",
-            "track": "Information and intelligent Systems",
+            "track": "Information and intelligent Systems", "capacity": 35, "registered": 5,
             "prequisite": "",
             "section": [
                 {
@@ -1953,7 +1953,7 @@
         {
             "name": "COMPUTER GRAPHICS",
             "CID": "CSCE 441",
-            "track": "Information and intelligent Systems",
+            "track": "Information and intelligent Systems", "capacity": 35, "registered": 5,
             "prequisite": "",
             "section": [
                 {
@@ -1982,7 +1982,7 @@
         {
             "name": "GAME DEVELOPMENT",
             "CID": "CSCE 443",
-            "track": "Information and intelligent Systems",
+            "track": "Information and intelligent Systems", "capacity": 35, "registered": 5,
             "prequisite": "",
             "section": [
                 {
@@ -2020,7 +2020,7 @@
         {
             "name": "COMPUTERS AND NEW MEDIA",
             "CID": "CSCE 445",
-            "track": "Information and intelligent Systems",
+            "track": "Information and intelligent Systems", "capacity": 35, "registered": 5,
             "prequisite": "",
             "section": [
                 {
@@ -2049,7 +2049,7 @@
         {
             "name": "ROBOTICS & SPATL INTEL",
             "CID": "CSCE 452",
-            "track": "Information and intelligent Systems",
+            "track": "Information and intelligent Systems", "capacity": 35, "registered": 5,
             "prequisite": "",
             "section": [
                 {
@@ -2078,7 +2078,7 @@
         {
             "name": "INFO STORAGE & RETRIEVAL",
             "CID": "CSCE 470",
-            "track": "Information and intelligent Systems",
+            "track": "Information and intelligent Systems", "capacity": 35, "registered": 5,
             "prequisite": "",
             "section": [
                 {
@@ -2107,7 +2107,7 @@
         {
             "name": "ENGINEERING MATH I",
             "CID": "MATH 151",
-            "track": "MATH & STAT",
+            "track": "MATH & STAT", "capacity": 35, "registered": 5,
             "prequisite": "",
             "section": [
                 {
@@ -3198,7 +3198,7 @@
         {
             "name": "ENGINEERING MATH II",
             "CID": "MATH 152",
-            "track": "MATH & STAT",
+            "track": "MATH & STAT", "capacity": 35, "registered": 5,
             "prequisite": "",
             "section": [
                 {
@@ -5549,7 +5549,7 @@
         {
             "name": "LINEAR ALGEBRA",
             "CID": "MATH 304",
-            "track": "MATH & STAT",
+            "track": "MATH & STAT", "capacity": 35, "registered": 5,
             "prequisite": "",
             "section": [
                 {
@@ -5740,7 +5740,7 @@
         {
             "name": "ENGINEERING MATH III",
             "CID": "MATH 251",
-            "track": "MATH & STAT",
+            "track": "MATH & STAT", "capacity": 35, "registered": 5,
             "prequisite": "",
             "section": [
                 {
@@ -5895,7 +5895,7 @@
         {
             "name": "DISCRETE MATHEMATICS",
             "CID": "MATH 302",
-            "track": "MATH & STAT",
+            "track": "MATH & STAT", "capacity": 35, "registered": 5,
             "prequisite": "",
             "section": [
                 {
@@ -5942,7 +5942,7 @@
         {
             "name": "DIFFERENTIAL EQUATIONS",
             "CID": "MATH 308",
-            "track": "MATH & STAT",
+            "track": "MATH & STAT", "capacity": 35, "registered": 5,
             "prequisite": "",
             "section": [
                 {
@@ -6736,7 +6736,7 @@
         {
             "name": "COMPOSITION & RHETORIC",
             "CID": "ENGL 104",
-            "track": "COMMUNICATION",
+            "track": "COMMUNICATION", "capacity": 35, "registered": 5,
             "prequisite": "",
             "section": [
                 {
@@ -7179,7 +7179,7 @@
         {
             "name": "TECHNICAL BUSINESS WRTNG",
             "CID": "ENGL 210",
-            "track": "COMMUNICATION",
+            "track": "COMMUNICATION", "capacity": 35, "registered": 5,
             "prequisite": "",
             "section": [
                 {
@@ -7748,7 +7748,7 @@
         {
             "name": "FUND OF CHEMISTRY I",
             "CID": "CHEM 101",
-            "track": "SCIENCE",
+            "track": "SCIENCE", "capacity": 35, "registered": 5,
             "prequisite": "",
             "section": [
                 {
@@ -7813,7 +7813,7 @@
         {
             "name": "FUND OF CHEM LAB I",
             "CID": "CHEM 111",
-            "track": "SCIENCE",
+            "track": "SCIENCE", "capacity": 35, "registered": 5,
             "prequisite": "",
             "section": [
                 {
@@ -8364,7 +8364,7 @@
         {
             "name": "FUND OF CHEMISTRY II",
             "CID": "CHEM 102",
-            "track": "SCIENCE",
+            "track": "SCIENCE", "capacity": 35, "registered": 5,
             "prequisite": "",
             "section": [
                 {
@@ -8573,7 +8573,7 @@
         {
             "name": "FUND OF CHEM LAB II",
             "CID": "CHEM 112",
-            "track": "SCIENCE",
+            "track": "SCIENCE", "capacity": 35, "registered": 5,
             "prequisite": "",
             "section": [
                 {
@@ -10510,7 +10510,7 @@
         {
             "name": "INTRODUCTORY BIOLOGY I",
             "CID": "BIOL 111",
-            "track": "SCIENCE",
+            "track": "SCIENCE", "capacity": 35, "registered": 5,
             "prequisite": "",
             "section": [
                 {
@@ -11601,7 +11601,7 @@
         {
             "name": "INTRODUCTORY BIOLOGY II",
             "CID": "BIOL 112",
-            "track": "SCIENCE",
+            "track": "SCIENCE", "capacity": 35, "registered": 5,
             "prequisite": "",
             "section": [
                 {
@@ -13070,7 +13070,7 @@
         {
             "name": "PRINCIPLES OF GEOLOGY",
             "CID": "GEOL 101",
-            "track": "SCIENCE",
+            "track": "SCIENCE", "capacity": 35, "registered": 5,
             "prequisite": "",
             "section": [
                 {
@@ -14053,7 +14053,7 @@
         {
             "name": "HISTORICAL GEOLOGY",
             "CID": "GEOL 106",
-            "track": "SCIENCE",
+            "track": "SCIENCE", "capacity": 35, "registered": 5,
             "prequisite": "",
             "section": [
                 {
@@ -14307,7 +14307,7 @@
         {
             "name": "ETHICS AND ENGINEERING",
             "CID": "ENGR 482",
-            "track": "LANG, PHIL & CULT",
+            "track": "LANG, PHIL & CULT", "capacity": 35, "registered": 5,
             "prequisite": "",
             "section": [
                 {
@@ -15434,7 +15434,7 @@
         {
             "name": "AMER NATNL GOVT",
             "CID": "POLS 206",
-            "track": "GOVT/POLITICAL SCI",
+            "track": "GOVT/POLITICAL SCI", "capacity": 35, "registered": 5,
             "prequisite": "",
             "section": [
                 {
@@ -15607,7 +15607,7 @@
         {
             "name": "STATE & LOCAL GOVT",
             "CID": "POLS 207",
-            "track": "GOVT/POLITICAL SCI",
+            "track": "GOVT/POLITICAL SCI", "capacity": 35, "registered": 5,
             "prequisite": "",
             "section": [
                 {
@@ -15870,7 +15870,7 @@
         {
             "name": "PUBLIC SPEAKING",
             "CID": "COMM 203",
-            "track": "COMMUNICATION",
+            "track": "COMMUNICATION", "capacity": 35, "registered": 5,
             "prequisite": "",
             "section": [
                 {
@@ -16547,7 +16547,7 @@
         {
             "name": "COMM FOR TECH PROFESSION",
             "CID": "COMM 205",
-            "track": "COMMUNICATION",
+            "track": "COMMUNICATION", "capacity": 35, "registered": 5,
             "prequisite": "",
             "section": [
                 {

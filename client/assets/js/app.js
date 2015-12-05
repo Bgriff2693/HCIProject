@@ -24,6 +24,15 @@
             .error(function(data, status, headers, config) {
                 console.log('Error');
             });
+
+        $scope.register = function(course) {
+            //console.log(course);
+            ++course.registered;
+        }
+
+        $scope.full = function(registered, capacity) {
+            return registered >= capacity;
+        }
     }])
     .controller('coreController', ['$scope', function($scope) {
 
