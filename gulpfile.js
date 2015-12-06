@@ -74,8 +74,14 @@ app.get('/email/:course', function(req, res) {
 
 app.post('/save', function(req, res) {
   res.json({message: 'success'});
-  console.log('WHOOP THERE IT IS!');
+  console.log('WHOOOOOOOOOOOOOOOOOOOOOP THERE IT IS!?');
   jsonfile.writeFile('client/assets/json/degree_plan.json', req.body);
+});
+
+app.post('/save2', function(req, res) {
+  res.json({message: 'success'});
+  console.log('WHOP THERE IT IS!?');
+  jsonfile.writeFile('client/assets/database/scheduled.json', req.body);
 });
 
 app.listen(port);
@@ -213,7 +219,7 @@ gulp.task('server', ['build'], function() {
       port: 8079,
       host: 'localhost',
       //fallback: 'index.html',
-      livereload: true,
+      livereload: false,
       open: true
     }))
   ;
