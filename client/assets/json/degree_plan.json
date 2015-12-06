@@ -1891,7 +1891,7 @@
             "track": "Algorithms and Theory",
             "capacity": 35,
             "registered": 5,
-            "prequisite": "",
+            "prequisite": "CSCE 315 or approval of instructor",
             "corequisite": "",
             "section": [
                 {
@@ -1918,7 +1918,7 @@
             "avgGPA": "",
             "credits": "3.000",
             "taken": false,
-            "description": "",
+            "description": "Basic types of abstract languages and their acceptors; the Chomsky hierarchy; solvability and recursive function theory; application of theoretical results to practical problems.",
             "$$hashKey": "object:288"
         },
         {
@@ -1927,7 +1927,7 @@
             "track": "SYSTEMS",
             "capacity": 35,
             "registered": 5,
-            "prequisite": "",
+            "prequisite": "CSCE 313",
             "corequisite": "",
             "section": [
                 {
@@ -2024,7 +2024,7 @@
             "avgGPA": "",
             "credits": "3.000",
             "taken": false,
-            "description": "",
+            "description": "Microcomputers as components of systems; VLSI processor and coprocessor architectures, addressing and instruction sets; I/O interfaces and supervisory control; VLSI architectures for signal processing; integrating special purpose processors into a system.",
             "$$hashKey": "object:289"
         },
         {
@@ -2033,7 +2033,7 @@
             "track": "SYSTEMS",
             "capacity": 35,
             "registered": 5,
-            "prequisite": "",
+            "prequisite": "CSCE 315 or approval of instructor",
             "corequisite": "",
             "section": [
                 {
@@ -2060,7 +2060,7 @@
             "avgGPA": "",
             "credits": "3.000",
             "taken": false,
-            "description": "",
+            "description": "Basic hardware/software, architectural components for computer communications; computer networks, switching, routing, protocols and security; multiprocessing and distributed processing; interfacing operating systems and networks; case studies of existing networks and network architectures.",
             "$$hashKey": "object:290"
         },
         {
@@ -2069,7 +2069,7 @@
             "track": "SYSTEMS",
             "capacity": 35,
             "registered": 5,
-            "prequisite": "",
+            "prequisite": "CSCE 313 and CSCE 315; junior or senior classification; or approval of instructor",
             "corequisite": "",
             "section": [
                 {
@@ -2096,7 +2096,7 @@
             "avgGPA": "",
             "credits": "3.000",
             "taken": false,
-            "description": "",
+            "description": "Fundamental concepts and principles of computer security, operating system and network security, secret key and public key cryptographic algorithms, hash functions, authentication, firewalls and intrusion detection systems, IPSec and VPN, wireless and web security.",
             "$$hashKey": "object:291"
         },
         {
@@ -2105,7 +2105,7 @@
             "track": "Software",
             "capacity": 35,
             "registered": 5,
-            "prequisite": "",
+            "prequisite": "CSCE 315 or approval of instructor",
             "corequisite": "",
             "section": [
                 {
@@ -2172,7 +2172,7 @@
             "avgGPA": "",
             "credits": "3.000",
             "taken": false,
-            "description": "",
+            "description": "Application of engineering approach to computer software design and development; life cycle models, software requirements and specification; conceptual model design; detailed design; validation and verification; design quality assurance; software design/development environments and project management.",
             "$$hashKey": "object:292"
         },
         {
@@ -2181,7 +2181,7 @@
             "track": "Information and intelligent Systems",
             "capacity": 35,
             "registered": 5,
-            "prequisite": "",
+            "prequisite": "CSCE 315 or approval of instructor",
             "corequisite": "",
             "section": [
                 {
@@ -2228,7 +2228,7 @@
             "avgGPA": "",
             "credits": "3.000",
             "taken": false,
-            "description": "",
+            "description": "Fundamental concepts and techniques of intelligent systems; representation and interpretation of knowledge on a computer; search strategies and control; active research areas and applications such as notational systems, natural language understanding, vision systems, planning algorithms, intelligent agents and expert systems.",
             "$$hashKey": "object:293"
         },
         {
@@ -2237,7 +2237,7 @@
             "track": "Information and intelligent Systems",
             "capacity": 35,
             "registered": 5,
-            "prequisite": "",
+            "prequisite": "CSCE 315 or approval of instructor",
             "corequisite": "",
             "section": [
                 {
@@ -2264,7 +2264,7 @@
             "avgGPA": "",
             "credits": "3.000",
             "taken": false,
-            "description": "",
+            "description": "Principles of interactive computer graphics; 2-D and 3-D rendering pipelines, including geometric object and view transformations, projections, hidden surface removal, and rasterization; lighting models for local and global illumination; hierarchical models of 3-D objects; systems and libraries supporting display and user interaction.",
             "$$hashKey": "object:294"
         },
         {
@@ -2273,7 +2273,7 @@
             "track": "Information and intelligent Systems",
             "capacity": 35,
             "registered": 5,
-            "prequisite": "",
+            "prequisite": "CSCE 441 or VIST 486 or approval of instructor",
             "corequisite": "",
             "section": [
                 {
@@ -2310,7 +2310,7 @@
             "avgGPA": "",
             "credits": "3.000",
             "taken": false,
-            "description": "",
+            "description": "Aesthetic and technical aspects of computer game development, including game mechanics, story development, content creation and game programming; includes game design, interface design, 3D modeling and animation, graphics algorithms, shader programming and artificial intelligence; group project includes the design and development of a game from start to finish.",
             "$$hashKey": "object:295"
         },
         {
@@ -2319,7 +2319,7 @@
             "track": "Information and intelligent Systems",
             "capacity": 35,
             "registered": 5,
-            "prequisite": "",
+            "prequisite": "CSCE 221 or approval of instructor",
             "corequisite": "",
             "section": [
                 {
@@ -2346,7 +2346,7 @@
             "avgGPA": "",
             "credits": "3.000",
             "taken": false,
-            "description": "",
+            "description": "Potential and realized impact of computers in the design of new media; relationship between authors and readers of interactive material; influence of media design on the content expressed.",
             "$$hashKey": "object:296"
         },
         {
@@ -2355,7 +2355,7 @@
             "track": "Information and intelligent Systems",
             "capacity": 35,
             "registered": 5,
-            "prequisite": "",
+            "prequisite": "CSCE 315 or approval of instructor",
             "corequisite": "",
             "section": [
                 {
@@ -2382,7 +2382,7 @@
             "avgGPA": "",
             "credits": "3.000",
             "taken": false,
-            "description": "",
+            "description": "Algorithms for executing spatial tasks; path planning and obstacle aance in two- and three-dimensional robots--configuration space, potential field, free-space decomposition methods; stable grasping and manipulation; dealing with uncertainty; knowledge representation for planning--geometric and symbolic models of the environment; task-level programming; learning.",
             "$$hashKey": "object:297"
         },
         {
@@ -2391,7 +2391,7 @@
             "track": "Information and intelligent Systems",
             "capacity": 35,
             "registered": 5,
-            "prequisite": "",
+            "prequisite": "CSCE 315 or approval of instructor",
             "corequisite": "",
             "section": [
                 {
@@ -2418,7 +2418,7 @@
             "avgGPA": "",
             "credits": "3.000",
             "taken": false,
-            "description": "",
+            "description": "Representation of, storage of and access to very large multimedia document collections; fundamental data structures and algorithms of current information storage and retrieval systems and relates various techniques to design and evaluation of complete retrieval systems.",
             "$$hashKey": "object:298"
         },
         {
@@ -2427,7 +2427,7 @@
             "track": "MATH & STAT",
             "capacity": 35,
             "registered": 5,
-            "prequisite": "",
+            "prequisite": "MATH 150 or equivalent or acceptable score on TAMU Math Placement Exam",
             "corequisite": "",
             "section": [
                 {
@@ -3634,7 +3634,7 @@
             "avgGPA": "",
             "credits": "4.000",
             "taken": false,
-            "description": "",
+            "description": "(MATH 2413, 2513) Engineering Mathematics I. Rectangular coordinates, vectors, analytic geometry, functions, limits, derivatives of functions, applications, integration, computer algebra. MATH 171 designed to be a more demanding version of this course. No credit will be given for more than one of MATH 131, MATH 142, MATH 147, MATH 151 and MATH 171.",
             "$$hashKey": "object:118"
         },
         {
@@ -3643,7 +3643,7 @@
             "track": "MATH & STAT",
             "capacity": 35,
             "registered": 5,
-            "prequisite": "",
+            "prequisite": "MATH 151 or equivalent",
             "corequisite": "",
             "section": [
                 {
@@ -6250,7 +6250,7 @@
             "avgGPA": "",
             "credits": "4.000",
             "taken": false,
-            "description": "",
+            "description": "(MATH 2414) Engineering Mathematics II. Differentiation and integration techniques and their applications (area, volumes, work), improper integrals, approximate integration, analytic geometry, vectors, infinite series, power series, Taylor series, computer algebra. MATH 172 designed to be a more demanding version of this course. No credit will be given for more than one of MATH 148, MATH 152 and MATH 172.",
             "$$hashKey": "object:119"
         },
         {
@@ -6259,7 +6259,7 @@
             "track": "MATH & STAT",
             "capacity": 35,
             "registered": 5,
-            "prequisite": "",
+            "prequisite": "MATH 148, MATH 152, or MATH 172; junior or senior classification",
             "corequisite": "",
             "section": [
                 {
@@ -6466,7 +6466,7 @@
             "avgGPA": "",
             "credits": "3.000",
             "taken": false,
-            "description": "",
+            "description": "Introductory course in linear algebra covering abstract ideas of vector space and linear transformation as well as models and applications of these concepts, such as systems of linear equations, matrices and determinants. MATH 323 designed to be a more demanding version of this course. No credit will be given for more than one of MATH 304, MATH 309, MATH 311 and MATH 323.",
             "$$hashKey": "object:120"
         },
         {
@@ -6475,7 +6475,7 @@
             "track": "MATH & STAT",
             "capacity": 35,
             "registered": 5,
-            "prequisite": "",
+            "prequisite": "MATH 148, MATH 152, or MATH 172",
             "corequisite": "",
             "section": [
                 {
@@ -6642,7 +6642,7 @@
             "avgGPA": "",
             "credits": "3.000",
             "taken": false,
-            "description": "",
+            "description": "(MATH 2316) Engineering Mathematics III. Vector algebra, calculus of functions of several variables, partial derivatives, directional derivatives, gradient, multiple integration, line and surface integrals, Green's and Stokes' theorems. MATH 221 designed to be a more demanding version of this course. No credit will be given for more than one of MATH 221, MATH 251 and MATH 253.",
             "$$hashKey": "object:121"
         },
         {
@@ -6651,7 +6651,7 @@
             "track": "MATH & STAT",
             "capacity": 35,
             "registered": 5,
-            "prequisite": "",
+            "prequisite": "MATH 148, MATH 152, or MATH 172",
             "corequisite": "",
             "section": [
                 {
@@ -6698,7 +6698,7 @@
             "avgGPA": "",
             "credits": "3.000",
             "taken": false,
-            "description": "",
+            "description": "Formal structures for describing data, algorithms and computing devices; theory and applications of sets, graphs and algebraic structures.",
             "$$hashKey": "object:122"
         },
         {
@@ -6707,7 +6707,7 @@
             "track": "MATH & STAT",
             "capacity": 35,
             "registered": 5,
-            "prequisite": "",
+            "prequisite": "MATH 221, MATH 251, or MATH 253, or concurrent enrollment; knowledge of computer algebra system",
             "corequisite": "",
             "section": [
                 {
@@ -7584,7 +7584,7 @@
             "avgGPA": "",
             "credits": "3.000",
             "taken": false,
-            "description": "",
+            "description": "Ordinary differential equations, solutions in series, solutions using Laplace transforms, systems of differential equations.",
             "$$hashKey": "object:123"
         },
         {
@@ -8080,7 +8080,7 @@
             "avgGPA": "",
             "credits": "3.000",
             "taken": false,
-            "description": "",
+            "description": "(ENGL 1302) Composition and Rhetoric. Focus on referential and persuasive researched essays through the development of analytical reading ability, critical thinking and library research skills; for freshman and sophomore students only.",
             "$$hashKey": "object:166"
         },
         {
@@ -8716,7 +8716,7 @@
             "avgGPA": "",
             "credits": "3.000",
             "taken": false,
-            "description": "",
+            "description": "(ENGL 2311) Technical and Business Writing. Focus on writing for professional settings; correspondence and researched reports fundamental to the technical and business workplace—memoranda, business letters, research proposals and presentations, use of graphical and document design; emphasis on audience awareness, clarity of communication and collaborative team-work.",
             "$$hashKey": "object:167"
         },
         {
@@ -8725,7 +8725,7 @@
             "track": "SCIENCE",
             "capacity": 35,
             "registered": 5,
-            "prequisite": "",
+            "prequisite": "Concurrent enrollment in CHEM 111",
             "corequisite": "",
             "section": [
                 {
@@ -8792,7 +8792,7 @@
             "avgGPA": "",
             "credits": "3.000",
             "taken": false,
-            "description": "",
+            "description": "(CHEM 1311, 1411*) Fundamentals of Chemistry I. Introduction to modern theories of atomic structure and chemical bonding; chemical reactions; stoichiometry; states of matter; solutions; equilibrium; acids and bases; coordination chemistry.",
             "$$hashKey": "object:222"
         },
         {
@@ -8801,7 +8801,7 @@
             "track": "SCIENCE",
             "capacity": 35,
             "registered": 5,
-            "prequisite": "",
+            "prequisite": "CHEM 101 or registration therein",
             "corequisite": "",
             "section": [
                 {
@@ -9408,7 +9408,7 @@
             "avgGPA": "",
             "credits": "1.000",
             "taken": false,
-            "description": "",
+            "description": "(CHEM 1111, 1411*) Fundamentals of Chemistry Laboratory I. Introduction to methods and techniques of chemical experimentation; qualitative and semiquantitative procedures applied to investigative situations.",
             "$$hashKey": "object:223"
         },
         {
@@ -9417,7 +9417,7 @@
             "track": "SCIENCE",
             "capacity": 35,
             "registered": 5,
-            "prequisite": "",
+            "prequisite": "Concurrent enrollment in CHEM 112",
             "corequisite": "",
             "section": [
                 {
@@ -9644,7 +9644,7 @@
             "avgGPA": "",
             "credits": "3.000",
             "taken": false,
-            "description": "",
+            "description": "(CHEM 1312, 1412*) Fundamentals of Chemistry II. Theory and applications of oxidation-reductions systems; thermodynamics and kinetics; complex equilibria and solubility product; nuclear chemistry; descriptive inorganic and organic chemistry.",
             "$$hashKey": "object:224"
         },
         {
@@ -9653,7 +9653,7 @@
             "track": "SCIENCE",
             "capacity": 35,
             "registered": 5,
-            "prequisite": "",
+            "prequisite": "CHEM 101 and 111 or equivalent; CHEM 102 or registration therein",
             "corequisite": "",
             "section": [
                 {
@@ -11800,7 +11800,7 @@
             "avgGPA": "",
             "credits": "1.000",
             "taken": false,
-            "description": "",
+            "description": "(CHEM 1112, 1412*) Fundamentals of Chemistry Laboratory II. Introduction to analytical and synthetic methods and to quantitative techniques to both inorganic and organic compounds with emphasis on an investigative approach.",
             "$$hashKey": "object:225"
         },
         {
@@ -13016,7 +13016,7 @@
             "avgGPA": "",
             "credits": "4.000",
             "taken": false,
-            "description": "",
+            "description": "(BIOL 1306 and 1106, 1406*) Introductory Biology I. First half of an introdutory two-semester survey of contemporary biology that covers the chemical basis of life, structure and biology of the cell, molecular biology and genetics; includes laboratory that reinforces and provides supplemental information related to the lecture topics.",
             "$$hashKey": "object:226"
         },
         {
@@ -13025,7 +13025,7 @@
             "track": "SCIENCE",
             "capacity": 35,
             "registered": 5,
-            "prequisite": "",
+            "prequisite": "BIOL 111",
             "corequisite": "",
             "section": [
                 {
@@ -14652,7 +14652,7 @@
             "avgGPA": "",
             "credits": "4.000",
             "taken": false,
-            "description": "",
+            "description": "(BIOL 1307 and 1107, 1407*) Introductory Biology II. The second half of an introductory two-semester survey of contemporary biology that covers evolution, history of life, diveristy and form and function of organisms; includes laboratory that reinforces and provides supplemental information related to the lecture topics.",
             "$$hashKey": "object:227"
         },
         {
@@ -15748,7 +15748,7 @@
             "avgGPA": "",
             "credits": "4.000",
             "taken": false,
-            "description": "",
+            "description": "(GEOL 1103 and 1303, 1403*) Principles of Geology. Physical and chemical nature of the Earth and dynamic processes that shape it; plate tectonics, Earth's interior, materials it is made of, age and evolution, earthquakes, volcanism, erosion and deposition; introduces physical and chemical principles applied to the Earth. Not open to students who have taken GEOL 103 or GEOL 104.",
             "$$hashKey": "object:228"
         },
         {
@@ -15757,7 +15757,7 @@
             "track": "SCIENCE",
             "capacity": 35,
             "registered": 5,
-            "prequisite": "",
+            "prequisite": "GEOL 101 or equivalent",
             "corequisite": "",
             "section": [
                 {
@@ -16034,7 +16034,7 @@
             "avgGPA": "",
             "credits": "4.000",
             "taken": false,
-            "description": "",
+            "description": "(GEOL 1104 and 1304, 1404*) Historical Geology. Hypotheses of Earth's origin; age dating of geologic materials; development and history of life; plate tectonic reconstructions, geologic history, and paleogeography, with emphasis on the North American plate.",
             "$$hashKey": "object:229"
         },
         {
@@ -16043,7 +16043,7 @@
             "track": "LANG, PHIL & CULT",
             "capacity": 35,
             "registered": 5,
-            "prequisite": "",
+            "prequisite": "Junior classification",
             "corequisite": "",
             "section": [
                 {
@@ -17290,7 +17290,7 @@
             "avgGPA": "",
             "credits": "3.000",
             "taken": false,
-            "description": "",
+            "description": "Development of techniques of moral analysis and their application to ethical problems encountered by engineers, such as professional employee rights and whistle blowing; environmental issues; ethical aspects of safety, risk and liability and conflicts of interest; emphasis on developing the capacity for independent ethical analysis of real and hypothetical cases.",
             "$$hashKey": "object:214"
         },
         {
@@ -17486,7 +17486,7 @@
             "avgGPA": "",
             "credits": "3.000",
             "taken": false,
-            "description": "",
+            "description": "(GOVT 2305) American National Government. Survey of American national government, politics, and constitutional development.",
             "$$hashKey": "object:198"
         },
         {
@@ -17782,7 +17782,7 @@
             "avgGPA": "",
             "credits": "3.000",
             "taken": false,
-            "description": "",
+            "description": "(GOVT 2306) State and Local Government. Survey of state and local government and politics with special reference to the constitution and politics of Texas.",
             "$$hashKey": "object:199"
         },
         {
@@ -18538,7 +18538,7 @@
             "avgGPA": "",
             "credits": "3.000",
             "taken": false,
-            "description": "",
+            "description": "(SPCH 1315) Public Speaking. Training in speeches of social and technical interest designed to teach students to develop and illustrate ideas and information and to inform, stimulate, and persuade their audiences.",
             "$$hashKey": "object:168"
         },
         {
@@ -18694,7 +18694,7 @@
             "avgGPA": "",
             "credits": "3.000",
             "taken": false,
-            "description": "",
+            "description": "Design and presentation of oral reports for technical professions; incorporation of visual and graphic materials into presentation required; written reports required.",
             "$$hashKey": "object:169"
         }
     ]
