@@ -95,7 +95,7 @@
                 name: 'Algorithms and Theory',
             },
             {
-                track: 'Systems',
+                track: 'SYSTEMS',
                 name: 'Systems',
             },
             {
