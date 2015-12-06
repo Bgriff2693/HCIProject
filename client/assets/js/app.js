@@ -40,7 +40,7 @@
             },
             {
                 track: 'COMMUNICATION',
-                name: 'Communitcation',
+                name: 'Communication',
                 hours: 6
             },
             {

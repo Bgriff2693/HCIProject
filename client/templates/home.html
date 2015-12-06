@@ -32,15 +32,13 @@ controller: coreController
 
     <zf-notification-set id="main-notifications" position="top-left"></zf-notification-set>
     <zf-accordion auto-open="false" collapsible="true" multi-open="true">
-        <div class="grid-block large-up-3">
+        <div class="grid-block small-up-3">
             <!-- Repeats for each track -->
-    		<div id="sidebar" class="medium-4 grid-block" ng-repeat="track in coreTracks">
+    		<div id="sidebar" class="small-6 grid-content" ng-repeat="track in coreTracks">
     			<zf-accordion-item title="{{track.name}}">
-                   <section class ="block-list">
-                    <ul>
-    				<li class= "with-chevron" ng-repeat="course in courses | filter: { track: track.track } : true">
+    				<div ng-repeat="course in courses | filter: { track: track.track } : true">
     					<div zf-action-sheet="">
-        					<div zf-as-button="button" title="{{ course.CID }}"></div>
+        					<div zf-as-button="button" href="#" title="{{ course.CID }}"></div>
         					<div zf-as-content="" position="bottom">
         	                    <ul>
         		                    <li><a zf-open="{{course.CID}}_desc">Description</a></li>
@@ -48,13 +46,11 @@ controller: coreController
                                 </ul>
         					</div>
     					</div>
-    				</li>
-                    </ul>
-                   </section>
+    				</div>
     			</zf-accordion-item>
     		</div>
             <!-- "Completed" sections -->
-            <div id="sidebar" class="medium-4 grid-block" ng-repeat="track in completeTracks">
+            <div id="sidebar" class="medium-4 grid-content" ng-repeat="track in completeTracks">
     			<zf-accordion-item title="{{track}}">
                    <section class ="block-list">
     					<i>You've completed all required courses in this section</i>

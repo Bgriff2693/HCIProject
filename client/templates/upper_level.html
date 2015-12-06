@@ -12,9 +12,8 @@ controller: upperController
   <div ng-include src="'Partials/classTimes.html'"></div>
 
   <zf-accordion auto-open="false" collapsible="true" multi-open="true">
-      <div class="grid-block large-up-3">
           <!-- Repeats for each track -->
-          <div id="sidebar" class="medium-4 grid-block" ng-repeat="track in upperTracks">
+          <div id="sidebar" class="grid-content" ng-repeat="track in upperTracks">
               <zf-accordion-item title="{{track.name}}">
                   <div ng-repeat="course in courses | filter: { track: track.track } : true">
                       <div zf-action-sheet="">
@@ -29,7 +28,6 @@ controller: upperController
                   </div>
               </zf-accordion-item>
           </div>
-      </div>
   </zf-accordion>
 
 </div>
