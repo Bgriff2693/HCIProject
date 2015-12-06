@@ -17,6 +17,7 @@
 			  	<th width="150">Time</th>
 			  	<th width="150">Days</th>
 			  	<th width="150">Where</th>
+			  	<th width="150">Capacity</th>
 			  </tr>
 				</thead>
 				<tbody>
@@ -25,10 +26,12 @@
 				<td>{{meeting.time}}</td>
 				<td>{{meeting.days}}</td>
 				<td>{{meeting.location}}</td>
+				<td>{{course.registered}}/{{course.capacity}}</td>
 
-		  </tr>
+ 		 	</tr>
 		</tbody>
 		</table>
-		<a class="button" href="#" title="Registration Successful" content="Successfully Registered for {{course.CID}}" color="success" autoclose="3000" zf-notify="main-notifications">Register</a>
+		<button class="button" href="#" title="Registration Successful" content="Successfully Registered for {{course.CID}}" color="success" autoclose="3000" zf-notify="main-notifications" ng-disabled="full(course.registered, course.capacity)" ng-click="register(course)">Register</button>
+		<a class="button" href="#" title="Registration Successful" content="Now Tracking {{course.CID}}" color="success" autoclose="3000" zf-notify="main-notifications">Track</a>
 	</div>
 </div>

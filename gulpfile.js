@@ -11,6 +11,8 @@ var gulp     = require('gulp');
 var rimraf   = require('rimraf');
 var router   = require('front-router');
 var sequence = require('run-sequence');
+var jsonfile = require('jsonfile');
+var bodyParser = require('body-parser');
 
 // Check for --production flag
 var isProduction = !!(argv.production);
@@ -22,6 +24,17 @@ var app         = express();
 var nodemailer 	= require('nodemailer');
 //var routerzz = express.Router();
 var port = process.env.PORT || 9000;
+
+app.use(function(req, res, next) {
+  res.header("Access-Control-Allow-Origin", "*");
+  res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+  next();
+});
+
+app.use(bodyParser.urlencoded({limit: '50mb'}));
+app.use(bodyParser.json({limit: '50mb'}));
+
+app.use(bodyParser.json());
 
 
 var transporter = nodemailer.createTransport({
@@ -57,6 +70,18 @@ app.get('/email/:course', function(req, res) {
     }
   });
   res.json({ message:  course+' is now available' });
+});
+
+app.post('/save', function(req, res) {
+  res.json({message: 'success'});
+  console.log('WHOOOOOOOOOOOOOOOOOOOOOP THERE IT IS!?');
+  jsonfile.writeFile('client/assets/json/degree_plan.json', req.body);
+});
+
+app.post('/save2', function(req, res) {
+  res.json({message: 'success'});
+  console.log('WHOP THERE IT IS!?');
+  jsonfile.writeFile('client/assets/database/scheduled.json', req.body);
 });
 
 app.listen(port);
@@ -194,7 +219,7 @@ gulp.task('server', ['build'], function() {
       port: 8079,
       host: 'localhost',
       //fallback: 'index.html',
-      livereload: true,
+      livereload: false,
       open: true
     }))
   ;

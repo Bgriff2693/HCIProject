@@ -1,10 +1,10 @@
 <!-- Repeated for each course -->
 <div zf-modal id="{{course.CID}}_desc" animation-in="slideInUp" animation-out="hingeOutFromMiddleY" ng-repeat="course in courses">
-  <a zf-close class="close-button">&times;</a>
+  <a zf-close="{{course.CID}}_desc" class="close-button">&times;</a>
     <p><strong>{{course.CID}} {{course.name}}</strong><p>
     <p><strong>Credit: {{course.credits}} credit hour(s)</strong></p>
     <p>
     <!-- Introduction to the broad field of computing; presentations from industry and academia about how computer science concepts are used in research and end products; includes a major writing component. -->
-    This is where the info for the class would go!
+    {{course.description}}
     </p>
 </div>

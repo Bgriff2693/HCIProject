@@ -24,6 +24,31 @@
             .error(function(data, status, headers, config) {
                 console.log('Error');
             });
+
+        $scope.register = function(course) {
+            ++course.registered;
+
+          $http.get('assets/json/scheduled.json')
+            .success(function(data) {
+              var schedule = data;
+              schedule.courses[0].push(course)
+              console.log(schedule);
+              $http.post('http://localhost:9000/save', JSON.stringify({"courses": $scope.courses}));
+            })
+            .error(function(data, status, headers, config) {
+              console.log('Error');
+            });
+
+            $scope.save();
+        }
+
+        $scope.save = function() {
+            $http.post('http://localhost:9000/save', JSON.stringify({"courses": $scope.courses}));
+        }
+
+        $scope.full = function(registered, capacity) {
+            return registered >= capacity;
+        }
     }])
     .controller('coreController', ['$scope', function($scope) {
 

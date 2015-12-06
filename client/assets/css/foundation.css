@@ -257,7 +257,8 @@ input[type="submit"] {
    */
 button[disabled],
 html input[disabled] {
-  cursor: default; }
+  cursor: default;
+  background-color: gray; }
 
 /**
    * Remove inner padding and border in Firefox 4+.
@@ -1515,7 +1516,11 @@ kbd {
   .button.disabled {
     opacity: 0.25;
     cursor: not-allowed;
-    pointer-events: none; }
+    pointer-events: none;
+    background-color: gray;
+
+
+     }
   .button.dropdown::after {
     content: '';
     display: block;
