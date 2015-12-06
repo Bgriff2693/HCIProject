@@ -26,8 +26,12 @@
             });
 
         $scope.register = function(course) {
-            //console.log(course);
             ++course.registered;
+            $scope.save();
+        }
+
+        $scope.save = function() {
+            $http.post('http://localhost:9000/save', JSON.stringify($scope.courses));
         }
 
         $scope.full = function(registered, capacity) {
