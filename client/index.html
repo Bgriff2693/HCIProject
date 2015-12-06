@@ -14,30 +14,37 @@
     <script src="./assets/schedule/dhtmlxscheduler.js" type="text/javascript" charset="utf-8"></script>
     <link rel="stylesheet" href="./assets/schedule/dhtmlxscheduler.css" type="text/css" media="screen" title="no title"
           charset="utf-8">
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
     <script type="text/javascript" charset="utf-8">
 
-        var hide = true;
+        var hidden = true;
+        //Start closed
+        $(document).ready(function(){
+                $("iframe").animate({
+                    height: 'toggle'
+                });
 
-        function doHide() {
-            if (hide) {
-                DoViewIFRAME('viewiframe', 'hideiframe', 'aniframeupstart');
-            }
-            else {
-                DoHideIFRAME('hideiframe', 'aniframeupstart', 'viewiframe');
-            }
-        }
-        function DoViewIFRAME(tid1, tid2, tid3) {
-            document.getElementById(tid1).style.display = "none";
-            document.getElementById(tid2).style.display = "";
-            document.getElementById(tid3).style.display = "";
-        }
-        function DoHideIFRAME(tid1, tid2, tid3) {
-            document.getElementById(tid1).style.display = "none";
-            document.getElementById(tid2).style.display = "none";
-            document.getElementById(tid3).style.display = "";
-        }
+            });
+        // Calendar animation
+        $(document).ready(function(){
+            $("#calendar").click(function(){
+
+                if(hidden){
+                    $("#calendar").html("<strong>Close</strong>");
+                }
+                else{
+                    $("#calendar").html("<strong>Schedule</strong>");
+                }
+//                console.log("Test");
+//                console.log($("#calendar").html());
+                $("iframe").animate({
+                    height: 'toggle'
+                });
+                hidden = !hidden;
+            });
+        });
+
 
 
     </script>
@@ -52,11 +59,9 @@
             <!--</li>-->
 
             <li>
-                <div
-                        id="aniframeupstart"
-                        align="center"
-                        style="display: none;">
+                <div align="center" id="calendar_div">
                     <iframe
+                            id="ifrm"
                             src="http://localhost:8080/class_views/schedule.html"
                             margin="10"
                             border="1"
@@ -65,16 +70,8 @@
                             height="300">
                     </iframe>
                 </div>
-                <a
-                        id="viewiframe"
-                        onclick="DoViewIFRAME('viewiframe','hideiframe','aniframeupstart');"">
+                <a id="calendar">
                 <strong>Schedule</strong>
-                </a>
-                <a
-                        id="hideiframe"
-                        onclick="DoHideIFRAME('hideiframe','aniframeupstart','viewiframe');"
-                        style="display: none;">
-                    <nobr>Close</nobr>
                 </a>
             </li>
 
