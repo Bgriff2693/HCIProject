@@ -39,15 +39,15 @@ controller: coreController
                    <section class ="block-list">
                     <ul>
     				<li class= "with-chevron" ng-repeat="course in courses | filter: { track: track.track } : true">
-    					<div zf-action-sheet="">
+    					<zf-action-sheet>
         					<div zf-as-button="button" title="{{ course.CID }}"></div>
         					<div zf-as-content="" position="bottom">
         	                    <ul>
-        		                    <li><a zf-open="{{course.CID}}_desc">Description</a></li>
+        		                    <li><a zf-toggle="{{course.CID}}_desc">Description</a></li>
         	                        <li><a zf-toggle="{{course.CID}}_panel">Registration times</a></li>
                                 </ul>
         					</div>
-    					</div>
+    					</zf-action-sheet>
     				</li>
                     </ul>
                    </section>
