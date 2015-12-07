@@ -13,7 +13,7 @@ controller: upperController
 
   <zf-accordion auto-open="false" collapsible="true" multi-open="true">
           <!-- Repeats for each track -->
-          <div id="sidebar" class="grid-content" ng-repeat="track in upperTracks">
+          <div id="sidebar" class="grid-content" style="overflow-y: hidden" ng-repeat="track in upperTracks">
               <zf-accordion-item title="{{track.name}}">
                   <div ng-repeat="course in courses | filter: { track: track.track } : true">
                       <div zf-action-sheet="">
