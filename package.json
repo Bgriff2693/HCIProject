@@ -21,9 +21,6 @@
   },
   "private": true,
   "dependencies": {
-    "body-parser": "^1.14.1",
-    "express": "^4.13.3",
-    "jsonfile": "^2.2.3",
-    "nodemailer": "^1.10.0"
+    "foundation-apps": "^1.2.0"
   }
 }

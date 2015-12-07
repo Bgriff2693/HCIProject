@@ -42,7 +42,7 @@
 //   block-list: true,
    button: true,
 //   button-group: true,
-//   card: true,
+   card: true,
 //   coloring: true,
 //   extras: true,
 //   forms: true,
@@ -52,7 +52,7 @@
 //   badge: true,
 //   list: true,
 //   menu-bar: true,
-//   modal: true,
+  modal: true,
 //   motion: true,
 //   notification: true,
 //   off-canvas: true,
@@ -243,8 +243,8 @@ $block-grid-max-size: 6;
 // 6. Button
 // - - - - - - - - - - - - - - -
 
-$button-padding: 0.85em 1em;
-$button-margin: 0 $global-padding $global-padding 0;
+$button-padding: 5px 160px 5px 30px;
+$button-margin: 10px 5px 5px 5px;
 $button-style: solid;
 $button-background: $maroon;
 $button-color: auto;
@@ -263,7 +263,7 @@ $button-disabled-background: $grey;
 // 7. Accordion
 // - - - - - - - - - - - - - - -
 
-$accordion-border: 5% solid $black;
+$accordion-border: 0px solid $black;
 
 $accordion-title-background: $grey;
 $accordion-title-background-hover: smartscale($accordion-title-background, 5%);
@@ -271,8 +271,8 @@ $accordion-title-background-active: smartscale($accordion-title-background, 3%);
 $accordion-title-color: isitlight($accordion-title-background);
 $accordion-title-color-active: isitlight($accordion-title-background);
 
-//$accordion-title-padding: 5%;
-//$accordion-content-padding: 15%;
+$accordion-title-padding: 40px 30px 40px 30px;
+$accordion-content-padding: 5%;
 
 // 8. Action Sheet
 // - - - - - - - - - - - - - - -

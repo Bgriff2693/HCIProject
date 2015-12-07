@@ -4,6 +4,13 @@
 	  <h1><strong>{{course.CID}}</strong></h1>
 	  </br>
 	  <h2><strong>{{course.name}}</strong></h2>
+
+	  <!-- If there are no sections -->
+	  <div ng-if="!course.section[0]">
+		  <p><i>There are no classes being offered this semester</i></p>
+	  </div>
+
+	  <!-- List all sections -->
 	  <div ng-repeat="section in course.section">
 		  <br></br>
 		  <br></br>
@@ -26,12 +33,14 @@
 				<td>{{meeting.time}}</td>
 				<td>{{meeting.days}}</td>
 				<td>{{meeting.location}}</td>
-				<td>{{course.registered}}/{{course.capacity}}</td>
+				<td>{{section.current_capacity}}/{{section.max_capacity}}</td>
 
  		 	</tr>
 		</tbody>
 		</table>
-		<button class="button" href="#" title="Registration Successful" content="Successfully Registered for {{course.CID}}" color="success" autoclose="3000" zf-notify="main-notifications" ng-disabled="full(course.registered, course.capacity)" ng-click="register(course, section.CRN)">Register</button>
-		<a class="button" href="#" title="Registration Successful" content="Now Tracking {{course.CID}}" color="success" autoclose="3000" zf-notify="main-notifications">Track</a>
+		<div ng-show="!registered(course)">
+			<button class="button" href="#" title="Registration Successful" content="Successfully Registered for {{course.CID}}" color="success" autoclose="3000" zf-notify="main-notifications" ng-disabled="full(section.current_capacity, section.max_capacity)" ng-click="register(section)">Register</button>
+			<a class="button" href="#" title="Registration Successful" content="Now Tracking {{course.CID}}" color="success" autoclose="3000" zf-notify="main-notifications">Track</a>
+		</div>
 	</div>
 </div>

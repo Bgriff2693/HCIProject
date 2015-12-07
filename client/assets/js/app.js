@@ -33,6 +33,9 @@
             console.log('Error');
           });
 
+        $scope.register = function(section) {
+            ++section.current_capacity;
+            section.registered = true;
       $scope.addClass = function(course, crn){
         for(var i = 0; i < course.section.length; i++){
           //console.log("Looking");
@@ -56,6 +59,16 @@
           $http.post('http://localhost:9000/save', JSON.stringify({"courses": $scope.courses}));
           $scope.save();
 
+        //   $http.get('assets/json/scheduled.json')
+        //     .success(function(data) {
+        //       var schedule = data;
+        //       schedule.courses[0].push(course)
+        //       console.log(schedule);
+        //       $http.post('http://localhost:9000/save', JSON.stringify({"courses": $scope.courses}));
+        //     })
+        //     .error(function(data, status, headers, config) {
+        //       console.log('Error');
+        //     });
 
           $scope.addClass(course, crn);
 
@@ -67,6 +80,17 @@
 
         $scope.full = function(registered, capacity) {
             return registered >= capacity;
+        }
+
+        $scope.registered = function(course) {
+            for(var i = 0; i < course.section.length; i++) {
+                if(course.section[i].registered) {
+                    // console.log("Found a registered section");
+                    return true;
+                }
+            }
+            // console.log("Did not find a registered section");
+            return false;
         }
     }])
     .controller('coreController', ['$scope', function($scope) {
@@ -84,7 +108,7 @@
             },
             {
                 track: 'COMMUNICATION',
-                name: 'Communitcation',
+                name: 'Communication',
                 hours: 6
             },
             {
@@ -114,7 +138,7 @@
                 name: 'Algorithms and Theory',
             },
             {
-                track: 'Systems',
+                track: 'SYSTEMS',
                 name: 'Systems',
             },
             {
