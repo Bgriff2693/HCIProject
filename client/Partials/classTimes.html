@@ -4,6 +4,11 @@
 	  <h1><strong>{{course.CID}}</strong></h1>
 	  </br>
 	  <h2><strong>{{course.name}}</strong></h2>
+	  <!-- If there are no sections -->
+	  <div ng-if="!course.section[0]">
+		  <p><i>There are no classes being offered this semester</i></p>
+	  </div>
+	  <!-- List all sections -->
 	  <div ng-repeat="section in course.section">
 		  <br></br>
 		  <br></br>

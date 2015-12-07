@@ -1922,6 +1922,62 @@
             "$$hashKey": "object:288"
         },
         {
+            "name": "Quantum Algorithms",
+            "CID": "CSCE 440",
+            "track": "Algorithms and Theory",
+            "capacity": 0,
+            "registered": 0,
+            "prequisite": "CSCE 315 or approval of instructor",
+            "corequisite": "",
+            "section": [],
+            "avgGPA": "",
+            "credits": "3.000",
+            "taken": false,
+            "description": "Introduction to the design and analysis of quantum algorithms; basic principles of the quantum circuit model; gives a gentle introduction to basic quantum algorithms; reviews recent results in quantum information processing."
+        },
+        {
+            "name": "Scientific Programming",
+            "CID": "CSCE 442",
+            "track": "Algorithms and Theory",
+            "capacity": 0,
+            "registered": 0,
+            "prequisite": "CSCE 221 with a grade of C or better; MATH 304 or MATH 308 or concurrent enrollment",
+            "corequisite": "",
+            "section": [],
+            "avgGPA": "",
+            "credits": "3.000",
+            "taken": false,
+            "description": "Introduction to numerical algorithms fundamental to scientific and engineering applications of computers; elementary discussion of error; algorithms, efficiency; polynomial approximations, quadrature and systems of algebraic and differential equations."
+        },
+        {
+            "name": "Operating Systems",
+            "CID": "CSCE 410",
+            "track": "SYSTEMS",
+            "capacity": 0,
+            "registered": 0,
+            "prequisite": "CSCE 313 and CSCE 315",
+            "corequisite": "",
+            "section": [],
+            "avgGPA": "",
+            "credits": "3.000",
+            "taken": false,
+            "description": "Hardware/software evolution leading to contemporary operating systems; basic operating systems concepts; methods of operating systems design and construction: algorithms for CPU scheduling, memory and general resource allocation, process coordination and management; case studies of several operating systems."
+        },
+        {
+            "name": "Real-Time Computing",
+            "CID": "CSCE 456",
+            "track": "SYSTEMS",
+            "capacity": 0,
+            "registered": 0,
+            "prequisite": "CSCE 313 and MATH 152",
+            "corequisite": "",
+            "section": [],
+            "avgGPA": "",
+            "credits": "3.000",
+            "taken": false,
+            "description": "Introduction to principles and applications of real-time computing; system architecture; D/A and A/D conversion; synchronous data acquisition and analysis; computers in real-time control; asynchronous monitoring and control; resource scheduling; interfacing issues; lectures and laboratory."
+        },
+        {
             "name": "MICROCOMPUTER SYSTEMS",
             "CID": "CSCE 462",
             "track": "SYSTEMS",
@@ -2064,6 +2120,20 @@
             "$$hashKey": "object:290"
         },
         {
+            "name": "Wireless and Mobile Systems",
+            "CID": "CSCE 464",
+            "track": "SYSTEMS",
+            "capacity": 0,
+            "registered": 0,
+            "prequisite": "CSCE 313; junior or senior classification or approval of instructor",
+            "corequisite": "",
+            "section": [],
+            "avgGPA": "",
+            "credits": "3.000",
+            "taken": false,
+            "description": "Introduction to wireless and mobile systems; wireless communication fundamentals; wireless medium access control design; transmission scheduling, network and transport protocols over wireless design, simulation and evaluation; wireless capacity; telecommunication systems; vehicular, adhoc, and sensor network systems; wireless security; mobile applications."
+        },
+        {
             "name": "COMP & NET SECURITY",
             "CID": "CSCE 465",
             "track": "SYSTEMS",
@@ -2098,6 +2168,20 @@
             "taken": false,
             "description": "Fundamental concepts and principles of computer security, operating system and network security, secret key and public key cryptographic algorithms, hash functions, authentication, firewalls and intrusion detection systems, IPSec and VPN, wireless and web security.",
             "$$hashKey": "object:291"
+        },
+        {
+            "name": "Advanced Computer Architecture",
+            "CID": "CSCE 469",
+            "track": "SYSTEMS",
+            "capacity": 0,
+            "registered": 0,
+            "prequisite": "ECEN 350/CSCE 350",
+            "corequisite": "",
+            "section": [],
+            "avgGPA": "",
+            "credits": "3.000",
+            "taken": false,
+            "description": "Introduction to advanced computer architectures including memory designs, pipeline techniques, and parallel structures such as vector computers and multiprocessors."
         },
         {
             "name": "SOFTWARE ENGINEERING",
@@ -2176,6 +2260,76 @@
             "$$hashKey": "object:292"
         },
         {
+            "name": "Programming Language Design",
+            "CID": "CSCE 432",
+            "track": "Software",
+            "capacity": 0,
+            "registered": 0,
+            "prequisite": "",
+            "corequisite": "",
+            "section": [],
+            "avgGPA": "",
+            "credits": "3.000",
+            "taken": false,
+            "description": "This course number is not yet finalized and may change. See the advising office."
+        },
+        {
+            "name": "Compiler Design",
+            "CID": "CSCE 434",
+            "track": "Software",
+            "capacity": 0,
+            "registered": 0,
+            "prequisite": "CSCE 315 or approval of instructor",
+            "corequisite": "",
+            "section": [],
+            "avgGPA": "",
+            "credits": "3.000",
+            "taken": false,
+            "description": "Programming language translation: functions and general organization of compiler design and interpreters; theoretical and implementation aspects of lexical scanners; parsing of context free languages; code generation and optimization; error recovery."
+        },
+        {
+            "name": "Parallel Computing",
+            "CID": "CSCE 435",
+            "track": "Software",
+            "capacity": 0,
+            "registered": 0,
+            "prequisite": "CSCE 315 and junior or senior classification or approval of instructor",
+            "corequisite": "",
+            "section": [],
+            "avgGPA": "",
+            "credits": "3.000",
+            "taken": false,
+            "description": "Overview of parallel computing technology and programming methods; includes multiprocessor architectures, programming tools, parallel performance, parallel algorithms, and applications of parallel computing."
+        },
+        {
+            "name": "Distributed Objects Programming",
+            "CID": "CSCE 438",
+            "track": "Software",
+            "capacity": 0,
+            "registered": 0,
+            "prequisite": "CSCE 315 or approval of instructor",
+            "corequisite": "",
+            "section": [],
+            "avgGPA": "",
+            "credits": "3.000",
+            "taken": false,
+            "description": "Principles of distributed computing and programming with current paradigms, protocols, and application programming interfaces including Sockets, RMI, CORBA, IDL, Servlets, Web Services; security issues with public/private keys, digital signatures, forms and GUI based applications with multi-tier components, database connectivity and storing/streaming data structured using XML."
+        },
+        {
+            "name": "Database Systems",
+            "CID": "CSCE 310",
+            "track": "Information and intelligent Systems",
+            "capacity": 0,
+            "registered": 0,
+            "prequisite": "CSCE 221 with a grade of C or better; junior or senior classification",
+            "corequisite": "",
+            "section": [],
+            "avgGPA": "",
+            "credits": "3.000",
+            "taken": false,
+            "description": "File structures and access methods; database modeling, design and user interface; components of database management systems; information storage and retrieval, query languages, high-level language interface with database systems."
+        },
+        {
             "name": "ARTIFICIAL INTELLIGENCE",
             "CID": "CSCE 420",
             "track": "Information and intelligent Systems",
@@ -2230,6 +2384,20 @@
             "taken": false,
             "description": "Fundamental concepts and techniques of intelligent systems; representation and interpretation of knowledge on a computer; search strategies and control; active research areas and applications such as notational systems, natural language understanding, vision systems, planning algorithms, intelligent agents and expert systems.",
             "$$hashKey": "object:293"
+        },
+        {
+            "name": "Computer-Human Interaction",
+            "CID": "CSCE 436",
+            "track": "Information and intelligent Systems",
+            "capacity": 0,
+            "registered": 0,
+            "prequisite": "CSCE 315 or approval of instructor",
+            "corequisite": "",
+            "section": [],
+            "avgGPA": "",
+            "credits": "3.000",
+            "taken": false,
+            "description": "Comprehensive study of the Computer-Human Interaction (CHI) area; includes history and importance of CHI; CHI design theories; modeling of computer users and interfaces; empirical techniques for task analysis and interface design; styles of interaction and future directions of CHI including hypermedia and computer-supported collaborative work."
         },
         {
             "name": "COMPUTER GRAPHICS",
@@ -2312,6 +2480,20 @@
             "taken": false,
             "description": "Aesthetic and technical aspects of computer game development, including game mechanics, story development, content creation and game programming; includes game design, interface design, 3D modeling and animation, graphics algorithms, shader programming and artificial intelligence; group project includes the design and development of a game from start to finish.",
             "$$hashKey": "object:295"
+        },
+        {
+            "name": "Structures of Interactive Information",
+            "CID": "CSCE 444",
+            "track": "Information and intelligent Systems",
+            "capacity": 0,
+            "registered": 0,
+            "prequisite": "CSCE 315 or approval of instructor",
+            "corequisite": "",
+            "section": [],
+            "avgGPA": "",
+            "credits": "3.000",
+            "taken": false,
+            "description": "A systems approach to the programming, design, authoring and theory of hypermedia; object-oriented visual and interactive programming; visual design, including color, space, text and layering; the reference as a metadisciplinary structure; collecting and sampling; ontologies, maps and navigation as means of structuring information; create dynamic hypermedia that is expressive and interpretive."
         },
         {
             "name": "COMPUTERS AND NEW MEDIA",
