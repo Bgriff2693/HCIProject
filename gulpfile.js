@@ -95,6 +95,19 @@ app.post('/save2', function(req, res) {
   jsonfile.writeFile('client/assets/json/scheduled.json', req.body);
 });
 
+app.post('/save3/:cid', function(req, res) {
+  var cid = req.params.cid;
+  res.json({message: 'success'});
+  console.log('asdfghjkl!?');
+  jsonfile.readFile('client/assets/json/scheduled.json', function(err, obj) {
+    for(var i = 0; i < obj.length; i++) {
+        if(obj[i].CID == cid) {
+            delete obj[i];
+            console.log('deleted class');
+        }
+    }
+});
+});
 
 app.listen(port);
 

@@ -58,6 +58,16 @@
             //$http.post('http://localhost:9000/save2', JSON.stringify($scope.schedule));
         }
 
+        // $scope.removeClass = function(CRN){
+        //     // console.log("Course: "+JSON.stringify(course));
+        //     delete $scope.schedule.courses.section.
+        //     $http.post('http://localhost:9000/save3/' + CRN);
+        //     //}
+        //     //}
+        //     console.log($scope.schedule);
+        //     //$http.post('http://localhost:9000/save2', JSON.stringify($scope.schedule));
+        // }
+
         $scope.track = function(section) {
             section.tracking = true;
             $scope.save();
@@ -80,6 +90,7 @@
                     console.log('Error: ' + data);
                 });
             }
+            // $scope.removeClass(section.CRN);
             $scope.save();
         }
 
