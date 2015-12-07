@@ -4,10 +4,12 @@
 	  <h1><strong>{{course.CID}}</strong></h1>
 	  </br>
 	  <h2><strong>{{course.name}}</strong></h2>
+
 	  <!-- If there are no sections -->
 	  <div ng-if="!course.section[0]">
 		  <p><i>There are no classes being offered this semester</i></p>
 	  </div>
+
 	  <!-- List all sections -->
 	  <div ng-repeat="section in course.section">
 		  <br></br>
@@ -15,7 +17,7 @@
 		  <p><strong>Section:</strong> {{section.section_number}}</p>
 		  <p><Strong>Instructors: </Strong><a href="{{section.website}}">{{section.professor}}</a></p>
 		  <p ng-if="section.honors"><Strong>Attributes:</Strong> Honors</p>
-		  <table border="2" cellpadding="10" cellspacing="20">
+		  <table class="table" border="2" cellpadding="10" cellspacing="20">
 			  <thead>
 			  <tr>
 			  	<th width="150">Type</th>
@@ -36,7 +38,6 @@
  		 	</tr>
 		</tbody>
 		</table>
-          <br/>
 		<button class="button" href="#" title="Registration Successful" content="Successfully Registered for {{course.CID}}" color="success" autoclose="3000" zf-notify="main-notifications" ng-disabled="full(course.registered, course.capacity)" ng-click="register(course)">Register</button>
 		<a class="button" href="#" title="Registration Successful" content="Now Tracking {{course.CID}}" color="success" autoclose="3000" zf-notify="main-notifications">Track</a>
 	</div>
