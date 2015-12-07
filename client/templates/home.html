@@ -22,41 +22,44 @@ controller: coreController
         z-index: 100;
     }
 </style>
+
 <div class="grid-container">
     <h1>Welcome {{user.name}}!</h1>
     <p class="lead"></p>
 
-    <!-- Modals -->
-    <div ng-include src="'Partials/classDescriptions.html'"></div>
-    <div ng-include src="'Partials/classTimes.html'"></div>
 
-    <zf-notification-set id="main-notifications" position="top-left"></zf-notification-set>
-    <zf-accordion auto-open="false" collapsible="true" multi-open="true">
-        <div class="grid-block small-up-3">
-            <!-- Repeats for each track -->
-    		<div id="sidebar" class="small-6 grid-content" ng-repeat="track in coreTracks">
-    			<zf-accordion-item title="{{track.name}}">
-    				<div ng-repeat="course in courses | filter: { track: track.track } : true">
-    					<div zf-action-sheet="">
-        					<div zf-as-button="button" href="#" title="{{ course.CID }}"></div>
-        					<div zf-as-content="" position="bottom">
-        	                    <ul>
-        		                    <li><a zf-toggle="{{course.CID}}_desc">Description</a></li>
-        	                        <li><a zf-toggle="{{course.CID}}_panel">Registration times</a></li>
-                                </ul>
+        <zf-notification-set id="main-notifications" position="top-left"></zf-notification-set>
+        <zf-accordion auto-open="false" collapsible="true" multi-open="true">
+            <div class="grid-block small-up-3">
+                <!-- Repeats for each track -->
+        		<div id="sidebar" class="small-6 grid-content" ng-repeat="track in coreTracks">
+        			<zf-accordion-item title="{{track.name}}">
+        				<div ng-repeat="course in courses | filter: { track: track.track } : true">
+        					<div zf-action-sheet="">
+            					<div zf-as-button="button" href="#" title="{{ course.CID }}"></div>
+            					<div zf-as-content="" position="bottom">
+            	                    <ul>
+            		                    <li><a zf-toggle="{{course.CID}}_desc">Description</a></li>
+            	                        <li><a zf-toggle="{{course.CID}}_panel">Registration times</a></li>
+                                    </ul>
+            					</div>
         					</div>
-    					</div>
-    				</div>
-    			</zf-accordion-item>
-    		</div>
-            <!-- "Completed" sections -->
-            <div id="sidebar" class="medium-4 grid-content" ng-repeat="track in completeTracks">
-    			<zf-accordion-item title="{{track}}">
-                   <section class ="block-list">
-    					<i>You've completed all required courses in this section</i>
-                   </section>
-    			</zf-accordion-item>
-    		</div>
-        </div>
-    </zf-accordion>
+        				</div>
+        			</zf-accordion-item>
+        		</div>
+                <!-- "Completed" sections -->
+                <div id="sidebar" class="medium-4 grid-content" ng-repeat="track in completeTracks">
+        			<zf-accordion-item title="{{track}}">
+                       <section class ="block-list">
+        					<i>You've completed all required courses in this section</i>
+                       </section>
+        			</zf-accordion-item>
+        		</div>
+            </div>
+        </zf-accordion>
+
+        <!-- Modals -->
+        <div ng-include src="'Partials/classDescriptions.html'"></div>
+        <div ng-include src="'Partials/classTimes.html'"></div>
+
 </div>
