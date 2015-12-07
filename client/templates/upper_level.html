@@ -7,10 +7,6 @@ controller: upperController
   <h1>Welcome {{user.name}}!</h1>
   <p class="lead"></p>
 
-  <!-- Modals -->
-  <div ng-include src="'Partials/classDescriptions.html'"></div>
-  <div ng-include src="'Partials/classTimes.html'"></div>
-
   <zf-accordion auto-open="false" collapsible="true" multi-open="true">
           <!-- Repeats for each track -->
           <div id="sidebar" class="grid-content" style="overflow-y: hidden" ng-repeat="track in upperTracks">
@@ -29,5 +25,9 @@ controller: upperController
               </zf-accordion-item>
           </div>
   </zf-accordion>
+
+  <!-- Modals -->
+  <div ng-include src="'Partials/classDescriptions.html'"></div>
+  <div ng-include src="'Partials/classTimes.html'"></div>
 
 </div>
