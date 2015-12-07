@@ -39,7 +39,8 @@
 		</tbody>
 		</table>
 		<div ng-show="!registered(course)">
-			<button class="button" href="#" title="Registration Successful" content="Successfully Registered for {{course.CID}}" color="success" autoclose="3000" zf-notify="main-notifications" ng-disabled="full(section.current_capacity, section.max_capacity)" ng-click="register(section)">Register</button>
+
+			<button class="button" href="#" title="Registration Successful" content="Successfully Registered for {{course.CID}}" color="success" autoclose="3000" zf-notify="main-notifications" ng-disabled="full(section.current_capacity, section.max_capacity)" ng-click="register(section, course)">Register</button>
 			<button class="button" href="#" title="TRACK DAT ALL ON DA FLOOR" content="Now Tracking {{course.CID}}" color="success" autoclose="3000" zf-notify="main-notifications" ng-hide="section.tracking" ng-click="track(section)">Track</button>
 			<button class="button" href="#" title="No longer tracking {{course.CID}} - {{section.section_number}}" content="No Longer Tracking {{course.CID}}" color="failure" autoclose="3000" zf-notify="main-notifications" ng-hide="!section.tracking" ng-click="untrack(section)">Untrack</button>
 		</div>

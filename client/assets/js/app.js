@@ -34,27 +34,26 @@
             console.log('Error');
           });
 
-        $scope.register = function(section) {
+        $scope.register = function(section, course) {
             ++section.current_capacity;
             section.registered = true;
             $scope.save();
-            // $scope.addClass(course)
+            $scope.addClass(section, course)
         }
 
-        $scope.addClass = function(course, crn){
-            for(var i = 0; i < course.section.length; i++){
-              //console.log("Looking");
-              if(course.section[i].CRN == crn){
-                var newCourse = course.section[i];
-                newCourse.subject = course.name;
-                newCourse.CID = course.CID;
-                console.log("Section found: "+JSON.stringify(course.section[i]));
-
-                $scope.schedule.courses.push(newCourse);
-                $http.post('http://localhost:9000/save2', JSON.stringify($scope.schedule));
-              }
-            }
-
+        $scope.addClass = function(section, course){
+            console.log("Course: "+JSON.stringify(course));
+            //for(var i = 0; i < course.length; i++){
+            //console.log("Looking");
+            //if(course.section[i].CRN == crn){
+            var newCourse = section;
+            newCourse.subject = course.name;
+            newCourse.CID = course.CID;
+            //  console.log("Section found: "+JSON.stringify(course.section[i]));
+            $scope.schedule.courses.push(newCourse);
+            $http.post('http://localhost:9000/save2', JSON.stringify($scope.schedule));
+            //}
+            //}
             console.log($scope.schedule);
             //$http.post('http://localhost:9000/save2', JSON.stringify($scope.schedule));
         }
