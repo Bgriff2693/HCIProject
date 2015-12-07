@@ -24,22 +24,41 @@
             .error(function(data, status, headers, config) {
                 console.log('Error');
             });
+        $http.get('assets/json/scheduled.json')
+          .success(function(data) {
+            $scope.schedule = data;
+            console.log($scope.schedule);
+          })
+          .error(function(data, status, headers, config) {
+            console.log('Error');
+          });
 
-        $scope.register = function(course) {
+      $scope.addClass = function(course, crn){
+        for(var i = 0; i < course.section.length; i++){
+          //console.log("Looking");
+          if(course.section[i].CRN == crn){
+            var newCourse = course.section[i];
+            newCourse.subject = course.name;
+            newCourse.CID = course.CID;
+            console.log("Section found: "+JSON.stringify(course.section[i]));
+
+            $scope.schedule.courses.push(newCourse);
+            $http.post('http://localhost:9000/save2', JSON.stringify($scope.schedule));
+          }
+        }
+
+        console.log($scope.schedule);
+        //$http.post('http://localhost:9000/save2', JSON.stringify($scope.schedule));
+      }
+
+        $scope.register = function(course, crn) {
             ++course.registered;
+          $http.post('http://localhost:9000/save', JSON.stringify({"courses": $scope.courses}));
+          $scope.save();
 
-          $http.get('assets/json/scheduled.json')
-            .success(function(data) {
-              var schedule = data;
-              schedule.courses[0].push(course)
-              console.log(schedule);
-              $http.post('http://localhost:9000/save', JSON.stringify({"courses": $scope.courses}));
-            })
-            .error(function(data, status, headers, config) {
-              console.log('Error');
-            });
 
-            $scope.save();
+          $scope.addClass(course, crn);
+
         }
 
         $scope.save = function() {

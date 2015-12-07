@@ -72,6 +72,17 @@ app.get('/email/:course', function(req, res) {
   res.json({ message:  course+' is now available' });
 });
 
+app.get('/schedule', function(req, res) {
+  var json;
+  jsonfile.readFile('client/assets/json/scheduled.json', function(err, obj) {
+    console.log("Success");
+    json = obj;
+    res.json(json);
+  });
+
+
+});
+
 app.post('/save', function(req, res) {
   res.json({message: 'success'});
   console.log('WHOOOOOOOOOOOOOOOOOOOOOP THERE IT IS!?');
@@ -81,8 +92,9 @@ app.post('/save', function(req, res) {
 app.post('/save2', function(req, res) {
   res.json({message: 'success'});
   console.log('WHOP THERE IT IS!?');
-  jsonfile.writeFile('client/assets/database/scheduled.json', req.body);
+  jsonfile.writeFile('client/assets/json/scheduled.json', req.body);
 });
+
 
 app.listen(port);
 

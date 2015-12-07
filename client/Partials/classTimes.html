@@ -31,7 +31,7 @@
  		 	</tr>
 		</tbody>
 		</table>
-		<button class="button" href="#" title="Registration Successful" content="Successfully Registered for {{course.CID}}" color="success" autoclose="3000" zf-notify="main-notifications" ng-disabled="full(course.registered, course.capacity)" ng-click="register(course)">Register</button>
+		<button class="button" href="#" title="Registration Successful" content="Successfully Registered for {{course.CID}}" color="success" autoclose="3000" zf-notify="main-notifications" ng-disabled="full(course.registered, course.capacity)" ng-click="register(course, section.CRN)">Register</button>
 		<a class="button" href="#" title="Registration Successful" content="Now Tracking {{course.CID}}" color="success" autoclose="3000" zf-notify="main-notifications">Track</a>
 	</div>
 </div>
