@@ -36,7 +36,7 @@ controller: coreController
         			<zf-accordion-item title="{{track.name}}">
         				<div ng-repeat="course in courses | filter: { track: track.track } : true">
         					<div zf-action-sheet="">
-            					<div zf-as-button="button" href="#" title="{{ course.CID }}"></div>
+            					<div zf-as-button="large button" href="#" title="{{ course.CID }}"></div>
             					<div zf-as-content="" position="bottom">
             	                    <ul>
             		                    <li><a zf-toggle="{{course.CID}}_desc">Description</a></li>

@@ -94,7 +94,7 @@
         $scope.registered = function(course) {
             for(var i = 0; i < course.section.length; i++) {
                 if(course.section[i].registered) {
-                    console.log("Found a registered section");
+                    // console.log("Found a registered section");
                     return true;
                 }
             }
