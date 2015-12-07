@@ -243,8 +243,8 @@ $block-grid-max-size: 6;
 // 6. Button
 // - - - - - - - - - - - - - - -
 
-$button-padding: 10px 100px;
-$button-margin: 0 $global-padding/2 $global-padding/2 0;
+$button-padding: 5px 160px 5px 30px;
+$button-margin: 10px 5px 5px 5px;
 $button-style: solid;
 $button-background: $maroon;
 $button-color: auto;
@@ -271,7 +271,7 @@ $accordion-title-background-active: smartscale($accordion-title-background, 3%);
 $accordion-title-color: isitlight($accordion-title-background);
 $accordion-title-color-active: isitlight($accordion-title-background);
 
-$accordion-title-padding: 10px 30px 10px 30px;
+$accordion-title-padding: 40px 30px 40px 30px;
 $accordion-content-padding: 5%;
 
 // 8. Action Sheet
