@@ -25,19 +25,20 @@
                 console.log('Error');
             });
 
-        $scope.register = function(course) {
-            ++course.registered;
+        $scope.register = function(section) {
+            ++section.current_capacity;
+            section.registered = true;
 
-          $http.get('assets/json/scheduled.json')
-            .success(function(data) {
-              var schedule = data;
-              schedule.courses[0].push(course)
-              console.log(schedule);
-              $http.post('http://localhost:9000/save', JSON.stringify({"courses": $scope.courses}));
-            })
-            .error(function(data, status, headers, config) {
-              console.log('Error');
-            });
+        //   $http.get('assets/json/scheduled.json')
+        //     .success(function(data) {
+        //       var schedule = data;
+        //       schedule.courses[0].push(course)
+        //       console.log(schedule);
+        //       $http.post('http://localhost:9000/save', JSON.stringify({"courses": $scope.courses}));
+        //     })
+        //     .error(function(data, status, headers, config) {
+        //       console.log('Error');
+        //     });
 
             $scope.save();
         }
@@ -48,6 +49,17 @@
 
         $scope.full = function(registered, capacity) {
             return registered >= capacity;
+        }
+
+        $scope.registered = function(course) {
+            for(var i = 0; i < course.section.length; i++) {
+                if(course.section[i].registered) {
+                    // console.log("Found a registered section");
+                    return true;
+                }
+            }
+            // console.log("Did not find a registered section");
+            return false;
         }
     }])
     .controller('coreController', ['$scope', function($scope) {
