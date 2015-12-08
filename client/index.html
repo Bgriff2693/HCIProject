@@ -36,9 +36,12 @@
                 }
 //                console.log("Test");
 //                console.log($("#calendar").html());
+                document.getElementById('ifrm').src = document.getElementById('ifrm').src;
                 $("iframe").animate({
                     height: 'toggle'
                 });
+
+
                 hidden = !hidden;
             });
         });

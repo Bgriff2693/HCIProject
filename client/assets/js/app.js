@@ -79,6 +79,27 @@
         }
 
         $scope.drop = function(section, CID) {
+
+          //var newSchedule = $scope.schedule;
+         console.log("Removing: "+section.CID);
+          var newSchedule = new Array();
+          for(var i = 0; i < $scope.schedule.courses.length; i++){
+
+            //newSchedule.courses = [];
+
+            if($scope.schedule.courses[i].CID != section.CID){
+              console.log("Pushing "+JSON.stringify($scope.schedule.courses[i]));
+              //$scope.schedule.courses.splice(i, 1);
+              newSchedule.push($scope.schedule.courses[i]);
+              console.log("Pushing "+JSON.stringify(newSchedule));
+
+            }
+
+          }
+          $scope.schedule.courses = newSchedule;
+          console.log("New: "+JSON.stringify(newSchedule));
+          console.log("Removed: "+JSON.stringify($scope.schedule));
+          $http.post('http://localhost:9000/save2', JSON.stringify($scope.schedule));
             --section.current_capacity;
             section.registered = false;
             if(section.tracking) {
@@ -90,6 +111,7 @@
                     console.log('Error: ' + data);
                 });
             }
+
             // $scope.removeClass(section.CRN);
             $scope.save();
         }

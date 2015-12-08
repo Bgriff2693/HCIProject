@@ -244,7 +244,7 @@ gulp.task('server', ['build'], function() {
       port: 8079,
       host: 'localhost',
       //fallback: 'index.html',
-      livereload: true,
+      livereload: false,
       open: true
     }))
   ;
